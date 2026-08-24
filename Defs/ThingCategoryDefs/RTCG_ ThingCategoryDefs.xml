@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Base -->
+	<ThingCategoryDef>
+		<defName>RTCG</defName>
+		<label>Rimworld TCG</label>
+		<parent>Root</parent>
+	</ThingCategoryDef>
+	
+		<ThingCategoryDef>
+		<defName>RTCGBaseSet</defName>
+		<label>Base Set</label>
+		<parent>RTCG</parent>
+	</ThingCategoryDef>
+	
+		<ThingCategoryDef>
+		<defName>NormalRWCards</defName>
+		<label>Normal Rimworld Cards</label>
+		<parent>RTCGBaseSet</parent>
+	</ThingCategoryDef>
+	
+	<!-- Rarities -->
+	
+	<ThingCategoryDef>
+		<defName>CommonTC</defName>
+		<label>Common Rimcards</label>
+		<parent>NormalRWCards</parent>
+	</ThingCategoryDef>
+	
+	<ThingCategoryDef>
+		<defName>UncommonTC</defName>
+		<label>Uncommon Cards</label>
+		<parent>NormalRWCards</parent>
+	</ThingCategoryDef>
+	
+	<ThingCategoryDef>
+		<defName>RareTC</defName>
+		<label>Rare Cards</label>
+		<parent>NormalRWCards</parent>
+	</ThingCategoryDef>
+	
+	<ThingCategoryDef>
+		<defName>UnheardTC</defName>
+		<label>Unheard Cards</label>
+		<parent>NormalRWCards</parent>
+	</ThingCategoryDef>
+	
+	<!-- Stars -->
+	<ThingCategoryDef>
+		<defName>Star RWCards</defName>
+		<label>Starred Cards</label>
+		<parent>RTCGBaseSet</parent>
+	</ThingCategoryDef>
+	
+		
+	<ThingCategoryDef>
+		<defName>ICommonTC</defName>
+		<label>Copper Star Common Rimworld Cards</label>
+		<parent>Star RWCards</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>IICommonTC</defName>
+		<label>Silver Star Common Rimworld Cards</label>
+		<parent>Star RWCards</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>IIICommonTC</defName>
+		<label>Gold Star Common Rimworld Cards</label>
+		<parent>Star RWCards</parent>
+	</ThingCategoryDef>
+	
+	<ThingCategoryDef>
+		<defName>IUncommonTC</defName>
+		<label>Copper Star Uncommon Rimworld Cards</label>
+		<parent>Star RWCards</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>IIUncommonTC</defName>
+		<label>Silver Star Uncommon Rimworld Cards</label>
+		<parent>Star RWCards</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>IIIUncommonTC</defName>
+		<label>Gold Star Uncommon Rimworld Cards</label>
+		<parent>Star RWCards</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>IRareTC</defName>
+		<label>Copper Star Rare Rimworld Cards</label>
+		<parent>Star RWCards</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>IIRareTC</defName>
+		<label>Silver Star Rare Rimworld Cards</label>
+		<parent>Star RWCards</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>IIIRareTC</defName>
+		<label>Gold Star Rare Rimworld Cards</label>
+		<parent>Star RWCards</parent>
+	</ThingCategoryDef>
+	
+	<ThingCategoryDef>
+		<defName>IUnheardTC</defName>
+		<label>Copper Star Unheard Rimworld Cards</label>
+		<parent>Star RWCards</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>IIUnheardTC</defName>
+		<label>Silver Star Unheard Rimworld Cards</label>
+		<parent>Star RWCards</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>IIIUnheardTC</defName>
+		<label>Gold Star Unheard Rimworld Cards</label>
+		<parent>Star RWCards</parent>
+	</ThingCategoryDef>
+	
+	<!-- Expansion categorys -->
+
+	<ThingCategoryDef>
+		<defName>Ores_SubSet</defName>
+		<label></label>
+		<parent>RTCG</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>Animals_SubSet</defName>
+		<label></label>
+		<parent>RTCG</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>Weather_SubSet</defName>
+		<label></label>
+		<parent>RTCG</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>Weapons_SubSet</defName>
+		<label></label>
+		<parent>RTCG</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>Mental_SubSet</defName>
+		<label></label>
+		<parent>RTCG</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>Insectoids_SubSet</defName>
+		<label></label>
+		<parent>RTCG</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>Mechanoids_SubSet</defName>
+		<label></label>
+		<parent>RTCG</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>Foods_SubSet</defName>
+		<label></label>
+		<parent>RTCG</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>Gear_SubSet</defName>
+		<label></label>
+		<parent>RTCG</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>Skills_SubSet</defName>
+		<label></label>
+		<parent>RTCG</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>Full_Collection</defName>
+		<label></label>
+		<parent>RTCG</parent>
+	</ThingCategoryDef>
+
+</Defs>
