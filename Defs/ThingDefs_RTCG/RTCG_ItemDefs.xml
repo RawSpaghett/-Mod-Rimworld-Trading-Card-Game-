@@ -1231,3059 +1231,3231 @@
     </ThingDef>
 
 <!-- Foods +++++++++++++++++++++++++++++++++++++ -->
-<!-- Insect Jelly -->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!-- Berries -->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!-- Nutrient Paste -->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!-- Raw Meat -->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!-- rice -->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!-- Simple Meal -->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!-- Nutrient Paste-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!-- Pemmican -->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!-- Chocalate-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!-- Fine meal-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!-- Lavish meal -->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!-- Food Collection -->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
+    <!-- Insect Jelly -->
+        <ThingDef ParentName="RTCG_Base">
+        <defName>RTCG_InsectJellyCard</defName>
+        <label>Insect Jelly - Common</label>
+        <description>Foods, Common</description>
+        <thingCategories>
+        <li>Foods_SubSet</li>
+        <li>CommonTC<li>
+        </thingCategories>
+        <statBases>
+            <marketValue>15</marketValue>
+            <Beauty>-0.1</Beauty>
+        </statBases>
+        <techLevel>Neolithic</techLevel>
+        <graphicData>
+            <texPath>TEXTUREHERE</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <generateCommonality> 2 </generateCommonality>
+        <apparel>
+            <tags>
+            <li>Neolithic</li>
+            <li>Medieval</li>
+            </tags>
+        </apparel>
+        </ThingDef>
+    <!-- Berries -->
+        <ThingDef ParentName="RTCG_Base">
+        <defName>RTCG_BerriesCard</defName>
+        <label>Berries - Common</label>
+        <description>Foods, Common</description>
+        <thingCategories>
+        <li>Foods_SubSet</li>
+        <li>CommonTC<li>
+        </thingCategories>
+        <statBases>
+            <marketValue>15</marketValue>
+            <Beauty>-0.1</Beauty>
+        </statBases>
+        <techLevel>Neolithic</techLevel>
+        <graphicData>
+            <texPath>TEXTUREHERE</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <generateCommonality> 2 </generateCommonality>
+        <apparel>
+            <tags>
+            <li>Neolithic</li>
+            <li>Medieval</li>
+            </tags>
+        </apparel>
+        </ThingDef>
+    <!-- Raw Meat -->
+        <ThingDef ParentName="RTCG_Base">
+        <defName>RTCG_RawMeatCard</defName>
+        <label>Raw Meat - Common</label>
+        <description>Foods, Common</description>
+        <thingCategories>
+        <li>Foods_SubSet</li>
+        <li>CommonTC<li>
+        </thingCategories>
+        <statBases>
+            <marketValue>15</marketValue>
+            <Beauty>-0.1</Beauty>
+        </statBases>
+        <techLevel>Neolithic</techLevel>
+        <graphicData>
+            <texPath>TEXTUREHERE</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <generateCommonality> 2 </generateCommonality>
+        <apparel>
+            <tags>
+            <li>Neolithic</li>
+            <li>Medieval</li>
+            </tags>
+        </apparel>
+        </ThingDef>
+    <!-- rice -->
+        <ThingDef ParentName="RTCG_Base">
+        <defName>RTCG_RiceCard</defName>
+        <label>Rice - Common</label>
+        <description>Foods, Common</description>
+        <thingCategories>
+        <li>Foods_SubSet</li>
+        <li>CommonTC<li>
+        </thingCategories>
+        <statBases>
+            <marketValue>15</marketValue>
+            <Beauty>-0.1</Beauty>
+        </statBases>
+        <techLevel>Neolithic</techLevel>
+        <graphicData>
+            <texPath>TEXTUREHERE</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <generateCommonality> 2 </generateCommonality>
+        <apparel>
+            <tags>
+            <li>Neolithic</li>
+            <li>Medieval</li>
+            </tags>
+        </apparel>
+        </ThingDef>
+    <!-- Simple Meal -->
+        <ThingDef ParentName="RTCG_Base">
+        <defName>RTCG_SimpleMealCard</defName>
+        <label>Simple Meal - Uncommon</label>
+        <description> Foods, Uncommon</description>
+        <thingCategories>
+            <li>Foods_SubSet</li>
+            <li>UncommonTC</li>
+        </thingCategories>
+        <equippedStatOffsets>
+        <li> <HungerRateMultiplier>-0.1</HungerRateMultiplier></li>
+        </equippedStatOffsets>
+        <statBases>
+            <marketValue>50</marketValue>
+            <Beauty>0</Beauty>
+        </statBases>
+        <techLevel>Neolithic</techLevel>
+        <graphicData>
+            <texPath>TEXTUREHERE</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <generateCommonality> 1 </generateCommonality>
+        <apparel>
+            <tags>
+            <li>Neolithic</li>
+            <li>Medieval</li>
+            </tags>
+        </apparel>
+        </ThingDef>
+    <!-- Nutrient Paste-->
+        <ThingDef ParentName="RTCG_Base">
+        <defName>RTCG_NutrientPasteCard</defName>
+        <label>Nutrient Paste - Uncommon</label>
+        <description> Foods, Uncommon</description>
+        <thingCategories>
+            <li>Foods_SubSet</li>
+            <li>UncommonTC</li>
+        </thingCategories>
+        <equippedStatOffsets>
+        <li> <HungerRateMultiplier>0.2</HungerRateMultiplier></li>
+        <li> <EatingSpeed>0.2</EatingSpeed></li>
+        </equippedStatOffsets>
+        <statBases>
+            <marketValue>50</marketValue>
+            <Beauty>0</Beauty>
+        </statBases>
+        <techLevel>Neolithic</techLevel>
+        <graphicData>
+            <texPath>TEXTUREHERE</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <generateCommonality> 1 </generateCommonality>
+        <apparel>
+            <tags>
+            <li>Neolithic</li>
+            <li>Medieval</li>
+            </tags>
+        </apparel>
+        </ThingDef>
+    <!-- Pemmican -->
+        <ThingDef ParentName="RTCG_Base">
+        <defName>RTCG_PemmicanCard</defName>
+        <label>Pemmican - Uncommon</label>
+        <description> Foods, Uncommon</description>
+        <thingCategories>
+            <li>Foods_SubSet</li>
+            <li>UncommonTC</li>
+        </thingCategories>
+        <equippedStatOffsets>
+        <li> <HungerRateMultiplier>-0.2</HungerRateMultiplier></li>
+        <li> <EatingSpeed>-0.4</EatingSpeed></li>
+        </equippedStatOffsets>
+        <statBases>
+            <marketValue>50</marketValue>
+            <Beauty>0</Beauty>
+        </statBases>
+        <techLevel>Neolithic</techLevel>
+        <graphicData>
+            <texPath>TEXTUREHERE</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <generateCommonality> 1 </generateCommonality>
+        <apparel>
+            <tags>
+            <li>Neolithic</li>
+            <li>Medieval</li>
+            </tags>
+        </apparel>
+        </ThingDef>
+    <!-- Chocalate-->
+        <ThingDef ParentName="RTCG_Base">
+        <defName>RTCG_ChocolateCard</defName>
+        <label>Chocolate - Rare</label>
+        <description> Foods, Rare</description>
+        <thingCategories>
+            <li>Foods_SubSet</li>
+            <li>RareTC</li>
+        </thingCategories>
+        <equippedStatOffsets>
+            <li><MentalBreakThreshold>-0.02</MentalBreakThreshold></li>
+        </equippedStatOffsets>
+        <statBases>
+            <marketValue>125</marketValue>
+            <Beauty>1</Beauty>
+        </statBases>
+        <techLevel>Medieval</techLevel>
+        <graphicData>
+            <texPath>TEXTUREHERE</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <generateCommonality> 0.20 </generateCommonality>
+        <apparel>
+            <tags>
+            <li>Medieval</li>
+            <li>IndustrialBasic</li>
+            </tags>
+        </apparel>
+        </ThingDef>
+    <!-- Fine meal-->
+        <ThingDef ParentName="RTCG_Base">
+        <defName>RTCG_FineMealCard</defName>
+        <label>Fine Meal - Rare</label>
+        <description> Foods, Rare</description>
+        <thingCategories>
+            <li>Foods_SubSet</li>
+            <li>RareTC</li>
+        </thingCategories>
+        <equippedStatOffsets>
+            <li><MentalBreakThreshold>-0.01</MentalBreakThreshold></li>
+            <li><EatingSpeed>0.1</EatingSpeed></li>
+        </equippedStatOffsets>
+        <statBases>
+            <marketValue>150</marketValue>
+            <Beauty>1</Beauty>
+        </statBases>
+        <techLevel>Medieval</techLevel>
+        <graphicData>
+            <texPath>TEXTUREHERE</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <generateCommonality> 0.20 </generateCommonality>
+        <apparel>
+            <tags>
+            <li>Medieval</li>
+            <li>IndustrialBasic</li>
+            </tags>
+        </apparel>
+        </ThingDef>
+    <!-- Lavish meal -->
+        <ThingDef ParentName="RTCG_Base">
+        <defName>RTCG_LavishMealCard</defName>
+        <label>Lavish Meal - unheard</label>
+        <description>Foods, Unheard</description>
+        <thingCategories>
+        <li>Foods_SubSet</li>
+        <li>UnheardTC</li>
+        </thingCategories>
+        <equippedStatOffsets>
+                <li><MentalBreakThreshold>-0.1</MentalBreakThreshold></li>
+                <li><EatingSpeed>0.3</EatingSpeed></li>
+                <li> <HungerRateMultiplier>-0.3</HungerRateMultiplier></li>
+        </equippedStatOffsets>
+        <statBases>
+            <marketValue>500</marketValue>
+            <Beauty>10</Beauty>
+        </statBases>
+        <techLevel>IndustrialAdvanced</techLevel>
+        <graphicData>
+            <texPath>TEXTUREHERE</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <generateCommonality> 0.05 </generateCommonality>
+        <apparel>
+            <tags>
+            <li>IndustrialBasic</li>
+            <li>IndustrialAdvanced</li>
+            </tags>
+        </apparel>
+        </ThingDef>
+    <!-- Food Collection -->
+    <ThingDef ParentName="RTCG_Base">
+        <defName>RTCG_FoodCollection</defName>
+        <label>Food Collection</label>
+        <description>Foods, Collection</description>
+        <thingCategories>
+            <li>Foods_SubSet</li>
+            <li>Full_Collection</li>
+        </thingCategories>
+        <equippedStatOffsets>
+            <li></li>
+        </equippedStatOffsets>
+        <statBases>
+            <marketValue>10000</marketValue>
+            <Beauty>50</Beauty>
+        </statBases>
+        <techLevel>Spacer</techLevel>
+        <graphicData>
+            <texPath>TEXTUREHERE</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <generateCommonality>0.01</generateCommonality>
+        <apparel>
+            <tags>
+                <li>Spacer</li>
+            </tags>
+        </apparel>
+    </ThingDef>
 
 <!-- Insectoids +++++++++++++++++++++++++++++++++++++ -->
-<!-- Hive -->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!-- Megascarab-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!-- Speleopede-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!-- Megaspider -->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!-- Infestation -->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!-- Insectoid Collection -->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
+    <!-- Hive -->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_HiveCard</defName>
+            <label>Hive - Common</label>
+            <description>Insectoids, Common</description>
+            <thingCategories>
+                <li>Insectoids_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!-- Megascarab-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_MegascarabCard</defName>
+            <label>Megascarab - Common</label>
+            <description>Insectoids, Common</description>
+            <thingCategories>
+                <li>Insectoids_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!-- Speleopede-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_SpeleopedeCard</defName>
+            <label>Speleopede - Uncommon</label>
+            <description>Insectoids, Uncommon</description>
+            <thingCategories>
+                <li>Insectoids_SubSet</li>
+                <li>UncommonTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>50</marketValue>
+                <Beauty>0</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>1</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!-- Megaspider -->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_MegaspiderCard</defName>
+            <label>Megaspider - Rare</label>
+            <description>Insectoids, Rare</description>
+            <thingCategories>
+                <li>Insectoids_SubSet</li>
+                <li>RareTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>150</marketValue>
+                <Beauty>1</Beauty>
+            </statBases>
+            <techLevel>Medieval</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>0.25</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Medieval</li>
+                    <li>IndustrialBasic</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!-- Infestation -->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_InfestationCard</defName>
+            <label>Infestation - unheard</label>
+            <description>Insectoids, Unheard</description>
+            <thingCategories>
+                <li>Insectoids_SubSet</li>
+                <li>UnheardTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>500</marketValue>
+                <Beauty>10</Beauty>
+            </statBases>
+            <techLevel>IndustrialAdvanced</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>0.05</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>IndustrialBasic</li>
+                    <li>IndustrialAdvanced</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!-- Insectoid Collection -->
+    <ThingDef ParentName="RTCG_Base">
+        <defName>RTCG_InsectoidCollection</defName>
+        <label>Insectoid Collection</label>
+        <description>Insectoids, Collection</description>
+        <thingCategories>
+            <li>Insectoids_SubSet</li>
+            <li>Full_Collection</li>
+        </thingCategories>
+        <equippedStatOffsets>
+            <li></li>
+        </equippedStatOffsets>
+        <statBases>
+            <marketValue>10000</marketValue>
+            <Beauty>50</Beauty>
+        </statBases>
+        <techLevel>Spacer</techLevel>
+        <graphicData>
+            <texPath>TEXTUREHERE</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <generateCommonality>0.01</generateCommonality>
+        <apparel>
+            <tags>
+                <li>Spacer</li>
+            </tags>
+        </apparel>
+    </ThingDef>
 
 <!-- Mechanoids +++++++++++++++++++++++++++++++++++++ -->
-<!--Lancer-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Scyther-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Mech Cluster-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Psychic Drone-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Termite-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Pikeman-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Cent. Burner-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Cent. Gunner -->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Cent. Blaster-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Mechanoid Collection-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
+    <!--Lancer-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_LancerCard</defName>
+            <label>Lancer - Common</label>
+            <description>Mechanoids, Common</description>
+            <thingCategories>
+                <li>Mechanoids_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Scyther-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_ScytherCard</defName>
+            <label>Scyther - Common</label>
+            <description>Mechanoids, Common</description>
+            <thingCategories>
+                <li>Mechanoids_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Mech Cluster-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_MechClusterCard</defName>
+            <label>Mech Cluster - Common</label>
+            <description>Mechanoids, Common</description>
+            <thingCategories>
+                <li>Mechanoids_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Psychic Drone-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_PsychicDroneCard</defName>
+            <label>Psychic Drone - Common</label>
+            <description>Mechanoids, Common</description>
+            <thingCategories>
+                <li>Mechanoids_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Termite-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_TermiteCard</defName>
+            <label>Termite - Uncommon</label>
+            <description>Mechanoids, Uncommon</description>
+            <thingCategories>
+                <li>Mechanoids_SubSet</li>
+                <li>UncommonTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>50</marketValue>
+                <Beauty>0</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>1</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Pikeman-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_PikemanCard</defName>
+            <label>Pikeman - Uncommon</label>
+            <description>Mechanoids, Uncommon</description>
+            <thingCategories>
+                <li>Mechanoids_SubSet</li>
+                <li>UncommonTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>50</marketValue>
+                <Beauty>0</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>1</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Cent. Burner-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_CentBurnerCard</defName>
+            <label>Cent. Burner - Rare</label>
+            <description>Mechanoids, Rare</description>
+            <thingCategories>
+                <li>Mechanoids_SubSet</li>
+                <li>RareTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>150</marketValue>
+                <Beauty>1</Beauty>
+            </statBases>
+            <techLevel>Medieval</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>0.25</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Medieval</li>
+                    <li>IndustrialBasic</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Cent. Gunner -->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_CentGunnerCard</defName>
+            <label>Cent. Gunner - Rare</label>
+            <description>Mechanoids, Rare</description>
+            <thingCategories>
+                <li>Mechanoids_SubSet</li>
+                <li>RareTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>150</marketValue>
+                <Beauty>1</Beauty>
+            </statBases>
+            <techLevel>Medieval</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>0.25</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Medieval</li>
+                    <li>IndustrialBasic</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Cent. Blaster-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_CentBlasterCard</defName>
+            <label>Cent. Blaster - unheard</label>
+            <description>Mechanoids, Unheard</description>
+            <thingCategories>
+                <li>Mechanoids_SubSet</li>
+                <li>UnheardTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>500</marketValue>
+                <Beauty>10</Beauty>
+            </statBases>
+            <techLevel>IndustrialAdvanced</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>0.05</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>IndustrialBasic</li>
+                    <li>IndustrialAdvanced</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Mechanoid Collection-->
+    <ThingDef ParentName="RTCG_Base">
+        <defName>RTCG_MechanoidCollection</defName>
+        <label>Mechanoid Collection</label>
+        <description>Mechanoids, Collection</description>
+        <thingCategories>
+            <li>Mechanoids_SubSet</li>
+            <li>Full_Collection</li>
+        </thingCategories>
+        <equippedStatOffsets>
+            <li></li>
+        </equippedStatOffsets>
+        <statBases>
+            <marketValue>10000</marketValue>
+            <Beauty>50</Beauty>
+        </statBases>
+        <techLevel>Spacer</techLevel>
+        <graphicData>
+            <texPath>TEXTUREHERE</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <generateCommonality>0.01</generateCommonality>
+        <apparel>
+            <tags>
+                <li>Spacer</li>
+            </tags>
+        </apparel>
+    </ThingDef>
 
-<!-- ores +++++++++++++++++++++++++++++++++++++ -->
-<!--Marble-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Sandstone-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Granite-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Limestone-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Slate-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Compacted Machinery-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Uranium-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Steel-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Silver-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Gold-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Jade-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Plasteel-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Ores Collection-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
+<!-- Ores +++++++++++++++++++++++++++++++++++++ -->
+    <!--Marble-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_MarbleCard</defName>
+            <label>Marble - Common</label>
+            <description>Ores, Common</description>
+            <thingCategories>
+                <li>Ores_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Sandstone-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_SandstoneCard</defName>
+            <label>Sandstone - Common</label>
+            <description>Ores, Common</description>
+            <thingCategories>
+                <li>Ores_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Granite-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_GraniteCard</defName>
+            <label>Granite - Common</label>
+            <description>Ores, Common</description>
+            <thingCategories>
+                <li>Ores_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Limestone-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_LimestoneCard</defName>
+            <label>Limestone - Common</label>
+            <description>Ores, Common</description>
+            <thingCategories>
+                <li>Ores_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Slate-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_SlateCard</defName>
+            <label>Slate - Common</label>
+            <description>Ores, Common</description>
+            <thingCategories>
+                <li>Ores_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Compacted Machinery-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_CompactedMachineryCard</defName>
+            <label>Compacted Machinery - Uncommon</label>
+            <description>Ores, Uncommon</description>
+            <thingCategories>
+                <li>Ores_SubSet</li>
+                <li>UncommonTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>50</marketValue>
+                <Beauty>0</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>1</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Uranium-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_UraniumCard</defName>
+            <label>Uranium - Uncommon</label>
+            <description>Ores, Uncommon</description>
+            <thingCategories>
+                <li>Ores_SubSet</li>
+                <li>UncommonTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>50</marketValue>
+                <Beauty>0</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>1</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Steel-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_SteelCard</defName>
+            <label>Steel - Uncommon</label>
+            <description>Ores, Uncommon</description>
+            <thingCategories>
+                <li>Ores_SubSet</li>
+                <li>UncommonTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>50</marketValue>
+                <Beauty>0</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>1</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Silver-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_SilverCard</defName>
+            <label>Silver - Uncommon</label>
+            <description>Ores, Uncommon</description>
+            <thingCategories>
+                <li>Ores_SubSet</li>
+                <li>UncommonTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>50</marketValue>
+                <Beauty>0</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>1</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Gold-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_GoldCard</defName>
+            <label>Gold - Rare</label>
+            <description>Ores, Rare</description>
+            <thingCategories>
+                <li>Ores_SubSet</li>
+                <li>RareTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>150</marketValue>
+                <Beauty>1</Beauty>
+            </statBases>
+            <techLevel>Medieval</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>0.25</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Medieval</li>
+                    <li>IndustrialBasic</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Jade-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_JadeCard</defName>
+            <label>Jade - Rare</label>
+            <description>Ores, Rare</description>
+            <thingCategories>
+                <li>Ores_SubSet</li>
+                <li>RareTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>150</marketValue>
+                <Beauty>1</Beauty>
+            </statBases>
+            <techLevel>Medieval</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>0.25</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Medieval</li>
+                    <li>IndustrialBasic</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Plasteel-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_PlasteelCard</defName>
+            <label>Plasteel - unheard</label>
+            <description>Ores, Unheard</description>
+            <thingCategories>
+                <li>Ores_SubSet</li>
+                <li>UnheardTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>500</marketValue>
+                <Beauty>10</Beauty>
+            </statBases>
+            <techLevel>IndustrialAdvanced</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>0.05</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>IndustrialBasic</li>
+                    <li>IndustrialAdvanced</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Ores Collection-->
+    <ThingDef ParentName="RTCG_Base">
+        <defName>RTCG_OresCollection</defName>
+        <label>Ores Collection</label>
+        <description>Ores, Collection</description>
+        <thingCategories>
+            <li>Ores_SubSet</li>
+            <li>Full_Collection</li>
+        </thingCategories>
+        <equippedStatOffsets>
+            <li></li>
+        </equippedStatOffsets>
+        <statBases>
+            <marketValue>10000</marketValue>
+            <Beauty>50</Beauty>
+        </statBases>
+        <techLevel>Spacer</techLevel>
+        <graphicData>
+            <texPath>TEXTUREHERE</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <generateCommonality>0.01</generateCommonality>
+        <apparel>
+            <tags>
+                <li>Spacer</li>
+            </tags>
+        </apparel>
+    </ThingDef>
 
 <!-- Weapons +++++++++++++++++++++++++++++++++++++ -->
-<!--Frag grenades-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--smoke launcher-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--EMP Grenades-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--recurve bow-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Greatbow-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--revolver-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Bolt-Action rifle-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--pila-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--short bow-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Assault Rifle-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--pump shotgun-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--AutoPistol-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Incendiary Launcher-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Charge Rifle-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Molotovs-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--EMP Launcher-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Machine Pistol-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Chain Shotgun-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Heavy SMG-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--MiniGun-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--LMG-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Charge Lance-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Sniper Rifle-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Doomsday Rocket Launcher-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Triple Rocket Launcher-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Weapons Collection-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
+    <!--Frag grenades-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_FragGrenadesCard</defName>
+            <label>Frag grenades - Common</label>
+            <description>Weapons, Common</description>
+            <thingCategories>
+                <li>Weapons_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--smoke launcher-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_SmokeLauncherCard</defName>
+            <label>smoke launcher - Common</label>
+            <description>Weapons, Common</description>
+            <thingCategories>
+                <li>Weapons_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--EMP Grenades-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_EMPGrenadesCard</defName>
+            <label>EMP Grenades - Common</label>
+            <description>Weapons, Common</description>
+            <thingCategories>
+                <li>Weapons_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--recurve bow-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_RecurveBowCard</defName>
+            <label>recurve bow - Common</label>
+            <description>Weapons, Common</description>
+            <thingCategories>
+                <li>Weapons_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Greatbow-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_GreatbowCard</defName>
+            <label>Greatbow - Common</label>
+            <description>Weapons, Common</description>
+            <thingCategories>
+                <li>Weapons_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--revolver-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_RevolverCard</defName>
+            <label>revolver - Common</label>
+            <description>Weapons, Common</description>
+            <thingCategories>
+                <li>Weapons_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Bolt-Action rifle-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_BoltActionRifleCard</defName>
+            <label>Bolt-Action rifle - Common</label>
+            <description>Weapons, Common</description>
+            <thingCategories>
+                <li>Weapons_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--pila-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_PilaCard</defName>
+            <label>pila - Common</label>
+            <description>Weapons, Common</description>
+            <thingCategories>
+                <li>Weapons_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--short bow-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_ShortBowCard</defName>
+            <label>short bow - Common</label>
+            <description>Weapons, Common</description>
+            <thingCategories>
+                <li>Weapons_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Assault Rifle-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_AssaultRifleCard</defName>
+            <label>Assault Rifle - Uncommon</label>
+            <description>Weapons, Uncommon</description>
+            <thingCategories>
+                <li>Weapons_SubSet</li>
+                <li>UncommonTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>50</marketValue>
+                <Beauty>0</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>1</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--pump shotgun-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_PumpShotgunCard</defName>
+            <label>pump shotgun - Uncommon</label>
+            <description>Weapons, Uncommon</description>
+            <thingCategories>
+                <li>Weapons_SubSet</li>
+                <li>UncommonTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>50</marketValue>
+                <Beauty>0</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>1</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--AutoPistol-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_AutoPistolCard</defName>
+            <label>AutoPistol - Uncommon</label>
+            <description>Weapons, Uncommon</description>
+            <thingCategories>
+                <li>Weapons_SubSet</li>
+                <li>UncommonTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>50</marketValue>
+                <Beauty>0</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>1</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Incendiary Launcher-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_IncendiaryLauncherCard</defName>
+            <label>Incendiary Launcher - Uncommon</label>
+            <description>Weapons, Uncommon</description>
+            <thingCategories>
+                <li>Weapons_SubSet</li>
+                <li>UncommonTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>50</marketValue>
+                <Beauty>0</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>1</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Charge Rifle-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_ChargeRifleCard</defName>
+            <label>Charge Rifle - Uncommon</label>
+            <description>Weapons, Uncommon</description>
+            <thingCategories>
+                <li>Weapons_SubSet</li>
+                <li>UncommonTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>50</marketValue>
+                <Beauty>0</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>1</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Molotovs-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_MolotovsCard</defName>
+            <label>Molotovs - Uncommon</label>
+            <description>Weapons, Uncommon</description>
+            <thingCategories>
+                <li>Weapons_SubSet</li>
+                <li>UncommonTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>50</marketValue>
+                <Beauty>0</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>1</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--EMP Launcher-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_EMPLauncherCard</defName>
+            <label>EMP Launcher - Uncommon</label>
+            <description>Weapons, Uncommon</description>
+            <thingCategories>
+                <li>Weapons_SubSet</li>
+                <li>UncommonTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>50</marketValue>
+                <Beauty>0</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>1</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Machine Pistol-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_MachinePistolCard</defName>
+            <label>Machine Pistol - Uncommon</label>
+            <description>Weapons, Uncommon</description>
+            <thingCategories>
+                <li>Weapons_SubSet</li>
+                <li>UncommonTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>50</marketValue>
+                <Beauty>0</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>1</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Chain Shotgun-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_ChainShotgunCard</defName>
+            <label>Chain Shotgun - Uncommon</label>
+            <description>Weapons, Uncommon</description>
+            <thingCategories>
+                <li>Weapons_SubSet</li>
+                <li>UncommonTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>50</marketValue>
+                <Beauty>0</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>1</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Heavy SMG-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_HeavySMGCard</defName>
+            <label>Heavy SMG - Rare</label>
+            <description>Weapons, Rare</description>
+            <thingCategories>
+                <li>Weapons_SubSet</li>
+                <li>RareTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>150</marketValue>
+                <Beauty>1</Beauty>
+            </statBases>
+            <techLevel>Medieval</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>0.25</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Medieval</li>
+                    <li>IndustrialBasic</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--MiniGun-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_MiniGunCard</defName>
+            <label>MiniGun - Rare</label>
+            <description>Weapons, Rare</description>
+            <thingCategories>
+                <li>Weapons_SubSet</li>
+                <li>RareTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>150</marketValue>
+                <Beauty>1</Beauty>
+            </statBases>
+            <techLevel>Medieval</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>0.25</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Medieval</li>
+                    <li>IndustrialBasic</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--LMG-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_LMGCard</defName>
+            <label>LMG - Rare</label>
+            <description>Weapons, Rare</description>
+            <thingCategories>
+                <li>Weapons_SubSet</li>
+                <li>RareTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>150</marketValue>
+                <Beauty>1</Beauty>
+            </statBases>
+            <techLevel>Medieval</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>0.25</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Medieval</li>
+                    <li>IndustrialBasic</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Charge Lance-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_ChargeLanceCard</defName>
+            <label>Charge Lance - Rare</label>
+            <description>Weapons, Rare</description>
+            <thingCategories>
+                <li>Weapons_SubSet</li>
+                <li>RareTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>150</marketValue>
+                <Beauty>1</Beauty>
+            </statBases>
+            <techLevel>Medieval</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>0.25</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Medieval</li>
+                    <li>IndustrialBasic</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Sniper Rifle-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_SniperRifleCard</defName>
+            <label>Sniper Rifle - Rare</label>
+            <description>Weapons, Rare</description>
+            <thingCategories>
+                <li>Weapons_SubSet</li>
+                <li>RareTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>150</marketValue>
+                <Beauty>1</Beauty>
+            </statBases>
+            <techLevel>Medieval</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>0.25</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Medieval</li>
+                    <li>IndustrialBasic</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Doomsday Rocket Launcher-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_DoomsdayRocketLauncherCard</defName>
+            <label>Doomsday Rocket Launcher - unheard</label>
+            <description>Weapons, Unheard</description>
+            <thingCategories>
+                <li>Weapons_SubSet</li>
+                <li>UnheardTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>500</marketValue>
+                <Beauty>10</Beauty>
+            </statBases>
+            <techLevel>IndustrialAdvanced</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>0.05</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>IndustrialBasic</li>
+                    <li>IndustrialAdvanced</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Triple Rocket Launcher-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_TripleRocketLauncherCard</defName>
+            <label>Triple Rocket Launcher - unheard</label>
+            <description>Weapons, Unheard</description>
+            <thingCategories>
+                <li>Weapons_SubSet</li>
+                <li>UnheardTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>500</marketValue>
+                <Beauty>10</Beauty>
+            </statBases>
+            <techLevel>IndustrialAdvanced</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>0.05</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>IndustrialBasic</li>
+                    <li>IndustrialAdvanced</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Weapons Collection-->
+    <ThingDef ParentName="RTCG_Base">
+        <defName>RTCG_WeaponsCollection</defName>
+        <label>Weapons Collection</label>
+        <description>Weapons, Collection</description>
+        <thingCategories>
+            <li>Weapons_SubSet</li>
+            <li>Full_Collection</li>
+        </thingCategories>
+        <equippedStatOffsets>
+            <li></li>
+        </equippedStatOffsets>
+        <statBases>
+            <marketValue>10000</marketValue>
+            <Beauty>50</Beauty>
+        </statBases>
+        <techLevel>Spacer</techLevel>
+        <graphicData>
+            <texPath>TEXTUREHERE</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <generateCommonality>0.01</generateCommonality>
+        <apparel>
+            <tags>
+                <li>Spacer</li>
+            </tags>
+        </apparel>
+    </ThingDef>
 
 <!-- Apparel +++++++++++++++++++++++++++++++++++++ -->
-<!--Bowler Hat-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Cowboy Hat-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Pants-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Jacket-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--TribalWear-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Tribal Headdress-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--T-Shirt-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Parka-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--War mask-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Duster-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Plate Armor-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Flak Vest-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Flak Pants-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Flak Helmet-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Simple Helmet-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Recon Helmet-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Recon Armor-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Marine Helmet-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Marine armor-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!-- Apparel Collection-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
+    <!--Bowler Hat-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_BowlerHatCard</defName>
+            <label>Bowler Hat - Common</label>
+            <description>Apparel, Common</description>
+            <thingCategories>
+                <li>Gear_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Cowboy Hat-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_CowboyHatCard</defName>
+            <label>Cowboy Hat - Common</label>
+            <description>Apparel, Common</description>
+            <thingCategories>
+                <li>Gear_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Pants-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_PantsCard</defName>
+            <label>Pants - Common</label>
+            <description>Apparel, Common</description>
+            <thingCategories>
+                <li>Gear_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Jacket-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_JacketCard</defName>
+            <label>Jacket - Common</label>
+            <description>Apparel, Common</description>
+            <thingCategories>
+                <li>Gear_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--TribalWear-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_TribalWearCard</defName>
+            <label>TribalWear - Common</label>
+            <description>Apparel, Common</description>
+            <thingCategories>
+                <li>Gear_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Tribal Headdress-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_TribalHeaddressCard</defName>
+            <label>Tribal Headdress - Common</label>
+            <description>Apparel, Common</description>
+            <thingCategories>
+                <li>Gear_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--T-Shirt-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_TShirtCard</defName>
+            <label>T-Shirt - Common</label>
+            <description>Apparel, Common</description>
+            <thingCategories>
+                <li>Gear_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Parka-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_ParkaCard</defName>
+            <label>Parka - Common</label>
+            <description>Apparel, Common</description>
+            <thingCategories>
+                <li>Gear_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--War mask-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_WarMaskCard</defName>
+            <label>War mask - Common</label>
+            <description>Apparel, Common</description>
+            <thingCategories>
+                <li>Gear_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Duster-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_DusterCard</defName>
+            <label>Duster - Common</label>
+            <description>Apparel, Common</description>
+            <thingCategories>
+                <li>Gear_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Plate Armor-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_PlateArmorCard</defName>
+            <label>Plate Armor - Uncommon</label>
+            <description>Apparel, Uncommon</description>
+            <thingCategories>
+                <li>Gear_SubSet</li>
+                <li>UncommonTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>50</marketValue>
+                <Beauty>0</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>1</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Flak Vest-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_FlakVestCard</defName>
+            <label>Flak Vest - Uncommon</label>
+            <description>Apparel, Uncommon</description>
+            <thingCategories>
+                <li>Gear_SubSet</li>
+                <li>UncommonTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>50</marketValue>
+                <Beauty>0</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>1</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Flak Pants-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_FlakPantsCard</defName>
+            <label>Flak Pants - Uncommon</label>
+            <description>Apparel, Uncommon</description>
+            <thingCategories>
+                <li>Gear_SubSet</li>
+                <li>UncommonTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>50</marketValue>
+                <Beauty>0</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>1</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Flak Helmet-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_FlakHelmetCard</defName>
+            <label>Flak Helmet - Uncommon</label>
+            <description>Apparel, Uncommon</description>
+            <thingCategories>
+                <li>Gear_SubSet</li>
+                <li>UncommonTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>50</marketValue>
+                <Beauty>0</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>1</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Simple Helmet-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_SimpleHelmetCard</defName>
+            <label>Simple Helmet - Uncommon</label>
+            <description>Apparel, Uncommon</description>
+            <thingCategories>
+                <li>Gear_SubSet</li>
+                <li>UncommonTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>50</marketValue>
+                <Beauty>0</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>1</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Recon Helmet-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_ReconHelmetCard</defName>
+            <label>Recon Helmet - Rare</label>
+            <description>Apparel, Rare</description>
+            <thingCategories>
+                <li>Gear_SubSet</li>
+                <li>RareTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>150</marketValue>
+                <Beauty>1</Beauty>
+            </statBases>
+            <techLevel>Medieval</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>0.25</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Medieval</li>
+                    <li>IndustrialBasic</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Recon Armor-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_ReconArmorCard</defName>
+            <label>Recon Armor - Rare</label>
+            <description>Apparel, Rare</description>
+            <thingCategories>
+                <li>Gear_SubSet</li>
+                <li>RareTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>150</marketValue>
+                <Beauty>1</Beauty>
+            </statBases>
+            <techLevel>Medieval</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>0.25</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Medieval</li>
+                    <li>IndustrialBasic</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Marine Helmet-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_MarineHelmetCard</defName>
+            <label>Marine Helmet - unheard</label>
+            <description>Apparel, Unheard</description>
+            <thingCategories>
+                <li>Gear_SubSet</li>
+                <li>UnheardTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>500</marketValue>
+                <Beauty>10</Beauty>
+            </statBases>
+            <techLevel>IndustrialAdvanced</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>0.05</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>IndustrialBasic</li>
+                    <li>IndustrialAdvanced</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Marine armor-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_MarineArmorCard</defName>
+            <label>Marine armor - unheard</label>
+            <description>Apparel, Unheard</description>
+            <thingCategories>
+                <li>Gear_SubSet</li>
+                <li>UnheardTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>500</marketValue>
+                <Beauty>10</Beauty>
+            </statBases>
+            <techLevel>IndustrialAdvanced</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>0.05</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>IndustrialBasic</li>
+                    <li>IndustrialAdvanced</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!-- Apparel Collection-->
+    <ThingDef ParentName="RTCG_Base">
+        <defName>RTCG_ApparelCollection</defName>
+        <label>Apparel Collection</label>
+        <description>Apparel, Collection</description>
+        <thingCategories>
+            <li>Gear_SubSet</li>
+            <li>Full_Collection</li>
+        </thingCategories>
+        <equippedStatOffsets>
+            <li></li>
+        </equippedStatOffsets>
+        <statBases>
+            <marketValue>10000</marketValue>
+            <Beauty>50</Beauty>
+        </statBases>
+        <techLevel>Spacer</techLevel>
+        <graphicData>
+            <texPath>TEXTUREHERE</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <generateCommonality>0.01</generateCommonality>
+        <apparel>
+            <tags>
+                <li>Spacer</li>
+            </tags>
+        </apparel>
+    </ThingDef>
 
 <!-- Animals +++++++++++++++++++++++++++++++++++++ -->
-<!--Alphabeaver-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Arctic fox-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Capybara-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Cat-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Chicken-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Cassowary-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Chinchilla-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--cobra-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Cow-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Deer-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Donkey-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Hare-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Duck-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Goat-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Goose-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Alpaca-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--arctic wolf-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Bison-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Boomrat-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Caribou-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Cougar-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Monkey-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Rhinoceros-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Grizzly bear-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Polar Bear-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Boomalope-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Muffalo-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--MegaSloth-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!--Thrumbo-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-<!-- Animals Collection-->
-<ThingDef ParentName="RTCG_Base">
-<defName></defName>
-<label></label>
-<description></description>
-<thingCategories>
-<li></li>
-<li><li>
-</thingCategories>
-<statBases>
-    <marketValue></marketValue>
-    <Beauty></Beauty>
-</statBases>
-<techLevel></techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 2 </generateCommonality>
-<apparel>
-    <tags>
-    <li></li>
-    <li></li>
-    </tags>
-</apparel>
-</ThingDef>
-
-</Defs>
+    <!--Alphabeaver-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_AlphabeaverCard</defName>
+            <label>Alphabeaver - Common</label>
+            <description>Animals, Common</description>
+            <thingCategories>
+                <li>Animals_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Arctic fox-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_ArcticFoxCard</defName>
+            <label>Arctic fox - Common</label>
+            <description>Animals, Common</description>
+            <thingCategories>
+                <li>Animals_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Capybara-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_CapybaraCard</defName>
+            <label>Capybara - Common</label>
+            <description>Animals, Common</description>
+            <thingCategories>
+                <li>Animals_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Cat-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_CatCard</defName>
+            <label>Cat - Common</label>
+            <description>Animals, Common</description>
+            <thingCategories>
+                <li>Animals_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Chicken-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_ChickenCard</defName>
+            <label>Chicken - Common</label>
+            <description>Animals, Common</description>
+            <thingCategories>
+                <li>Animals_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Cassowary-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_CassowaryCard</defName>
+            <label>Cassowary - Common</label>
+            <description>Animals, Common</description>
+            <thingCategories>
+                <li>Animals_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Chinchilla-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_ChinchillaCard</defName>
+            <label>Chinchilla - Common</label>
+            <description>Animals, Common</description>
+            <thingCategories>
+                <li>Animals_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--cobra-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_CobraCard</defName>
+            <label>cobra - Common</label>
+            <description>Animals, Common</description>
+            <thingCategories>
+                <li>Animals_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Cow-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_CowCard</defName>
+            <label>Cow - Common</label>
+            <description>Animals, Common</description>
+            <thingCategories>
+                <li>Animals_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Deer-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_DeerCard</defName>
+            <label>Deer - Common</label>
+            <description>Animals, Common</description>
+            <thingCategories>
+                <li>Animals_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Donkey-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_DonkeyCard</defName>
+            <label>Donkey - Common</label>
+            <description>Animals, Common</description>
+            <thingCategories>
+                <li>Animals_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Hare-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_HareCard</defName>
+            <label>Hare - Common</label>
+            <description>Animals, Common</description>
+            <thingCategories>
+                <li>Animals_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Duck-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_DuckCard</defName>
+            <label>Duck - Common</label>
+            <description>Animals, Common</description>
+            <thingCategories>
+                <li>Animals_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Goat-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_GoatCard</defName>
+            <label>Goat - Common</label>
+            <description>Animals, Common</description>
+            <thingCategories>
+                <li>Animals_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Goose-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_GooseCard</defName>
+            <label>Goose - Common</label>
+            <description>Animals, Common</description>
+            <thingCategories>
+                <li>Animals_SubSet</li>
+                <li>CommonTC</li>
+            </thingCategories>
+            <statBases>
+                <marketValue>15</marketValue>
+                <Beauty>-0.1</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>2</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Alpaca-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_AlpacaCard</defName>
+            <label>Alpaca - Uncommon</label>
+            <description>Animals, Uncommon</description>
+            <thingCategories>
+                <li>Animals_SubSet</li>
+                <li>UncommonTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>50</marketValue>
+                <Beauty>0</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>1</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--arctic wolf-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_ArcticWolfCard</defName>
+            <label>arctic wolf - Uncommon</label>
+            <description>Animals, Uncommon</description>
+            <thingCategories>
+                <li>Animals_SubSet</li>
+                <li>UncommonTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>50</marketValue>
+                <Beauty>0</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>1</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Bison-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_BisonCard</defName>
+            <label>Bison - Uncommon</label>
+            <description>Animals, Uncommon</description>
+            <thingCategories>
+                <li>Animals_SubSet</li>
+                <li>UncommonTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>50</marketValue>
+                <Beauty>0</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>1</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Boomrat-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_BoomratCard</defName>
+            <label>Boomrat - Uncommon</label>
+            <description>Animals, Uncommon</description>
+            <thingCategories>
+                <li>Animals_SubSet</li>
+                <li>UncommonTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>50</marketValue>
+                <Beauty>0</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>1</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Caribou-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_CaribouCard</defName>
+            <label>Caribou - Uncommon</label>
+            <description>Animals, Uncommon</description>
+            <thingCategories>
+                <li>Animals_SubSet</li>
+                <li>UncommonTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>50</marketValue>
+                <Beauty>0</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>1</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Cougar-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_CougarCard</defName>
+            <label>Cougar - Uncommon</label>
+            <description>Animals, Uncommon</description>
+            <thingCategories>
+                <li>Animals_SubSet</li>
+                <li>UncommonTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>50</marketValue>
+                <Beauty>0</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>1</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Monkey-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_MonkeyCard</defName>
+            <label>Monkey - Uncommon</label>
+            <description>Animals, Uncommon</description>
+            <thingCategories>
+                <li>Animals_SubSet</li>
+                <li>UncommonTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>50</marketValue>
+                <Beauty>0</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>1</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Rhinoceros-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_RhinocerosCard</defName>
+            <label>Rhinoceros - Uncommon</label>
+            <description>Animals, Uncommon</description>
+            <thingCategories>
+                <li>Animals_SubSet</li>
+                <li>UncommonTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>50</marketValue>
+                <Beauty>0</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>1</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Grizzly bear-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_GrizzlyBearCard</defName>
+            <label>Grizzly bear - Uncommon</label>
+            <description>Animals, Uncommon</description>
+            <thingCategories>
+                <li>Animals_SubSet</li>
+                <li>UncommonTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>50</marketValue>
+                <Beauty>0</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>1</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Polar Bear-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_PolarBearCard</defName>
+            <label>Polar Bear - Uncommon</label>
+            <description>Animals, Uncommon</description>
+            <thingCategories>
+                <li>Animals_SubSet</li>
+                <li>UncommonTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>50</marketValue>
+                <Beauty>0</Beauty>
+            </statBases>
+            <techLevel>Neolithic</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>1</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Neolithic</li>
+                    <li>Medieval</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Boomalope-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_BoomalopeCard</defName>
+            <label>Boomalope - Rare</label>
+            <description>Animals, Rare</description>
+            <thingCategories>
+                <li>Animals_SubSet</li>
+                <li>RareTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>150</marketValue>
+                <Beauty>1</Beauty>
+            </statBases>
+            <techLevel>Medieval</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>0.25</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Medieval</li>
+                    <li>IndustrialBasic</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Muffalo-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_MuffaloCard</defName>
+            <label>Muffalo - Rare</label>
+            <description>Animals, Rare</description>
+            <thingCategories>
+                <li>Animals_SubSet</li>
+                <li>RareTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>150</marketValue>
+                <Beauty>1</Beauty>
+            </statBases>
+            <techLevel>Medieval</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>0.25</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Medieval</li>
+                    <li>IndustrialBasic</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--MegaSloth-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_MegaSlothCard</defName>
+            <label>MegaSloth - Rare</label>
+            <description>Animals, Rare</description>
+            <thingCategories>
+                <li>Animals_SubSet</li>
+                <li>RareTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>150</marketValue>
+                <Beauty>1</Beauty>
+            </statBases>
+            <techLevel>Medieval</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>0.25</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Medieval</li>
+                    <li>IndustrialBasic</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!--Thrumbo-->
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_ThrumboCard</defName>
+            <label>Thrumbo - unheard</label>
+            <description>Animals, Unheard</description>
+            <thingCategories>
+                <li>Animals_SubSet</li>
+                <li>UnheardTC</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>500</marketValue>
+                <Beauty>10</Beauty>
+            </statBases>
+            <techLevel>IndustrialAdvanced</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>0.05</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>IndustrialBasic</li>
+                    <li>IndustrialAdvanced</li>
+                </tags>
+            </apparel>
+        </ThingDef>
+    <!-- Animals Collection-->
+    <ThingDef ParentName="RTCG_Base">
+        <defName>RTCG_AnimalsCollection</defName>
+        <label>Animals Collection</label>
+        <description>Animals, Collection</description>
+        <thingCategories>
+            <li>Animals_SubSet</li>
+            <li>Full_Collection</li>
+        </thingCategories>
+        <equippedStatOffsets>
+            <li></li>
+        </equippedStatOffsets>
+        <statBases>
+            <marketValue>10000</marketValue>
+            <Beauty>50</Beauty>
+        </statBases>
+        <techLevel>Spacer</techLevel>
+        <graphicData>
+            <texPath>TEXTUREHERE</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <generateCommonality>0.01</generateCommonality>
+        <apparel>
+            <tags>
+                <li>Spacer</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+</defs>
