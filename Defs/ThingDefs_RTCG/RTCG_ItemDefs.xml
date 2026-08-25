@@ -2,58 +2,58 @@
 <Defs>
 
 <!-- Base -->
-<ThingDef Name="RTCG_Base" Abstract="True">
-    <thingClass>Apparel</thingClass> 
-    <category>Item</category>
-    <altitudeLayer>Item</altitudeLayer>
-    <thingCategories>
-        <li>RTCG</li> 
-        <li> RTCGBaseSet </li>
-    </thingCategories>
-    <!--<equippedStatOffsets> -->
-    <statBases>
-        <MaxHitPoints>20</MaxHitPoints>
-        <Flammability>1.0</Flammability>
-        <DeteriorationRate>1</DeteriorationRate>
-        <SellPriceFactor>0.5</SellPriceFactor>
-        <Mass>0.1</Mass> 
-        <!--
-        <marketValue>10</marketValue>
-        <Beauty>8</Beauty>
+    <ThingDef Name="RTCG_Base" Abstract="True">
+        <thingClass>Apparel</thingClass> 
+        <category>Item</category>
+        <altitudeLayer>Item</altitudeLayer>
+        <thingCategories>
+            <li>RTCG</li> 
+            <li> RTCGBaseSet </li>
+        </thingCategories>
+        <!--<equippedStatOffsets> -->
+        <statBases>
+            <MaxHitPoints>20</MaxHitPoints>
+            <Flammability>1.0</Flammability>
+            <DeteriorationRate>1</DeteriorationRate>
+            <SellPriceFactor>0.5</SellPriceFactor>
+            <Mass>0.1</Mass> 
+            <!--
+            <marketValue>10</marketValue>
+            <Beauty>8</Beauty>
+            -->
+        </statBases>
+        <useHitPoints>True</useHitPoints>
+        <selectable>True</selectable>
+        <alwaysHaulable>True</alwaysHaulable>
+        <neverMultiSelect>True</neverMultiSelect>
+        <!-- <techLevel>Midworld</techLevel> -->
+        <drawGUIOverlay>true</drawGUIOverlay>
+        <stackLimit>1</stackLimit>
+        <tradeNeverStack>true</tradeNeverStack>
+        <!-- <generateCommonality> </generateCommonality> -->
+        <tradeTags> <li> BulkGoods </li> <li> ExoticMisc </li> </tradeTags>
+        <!-- <graphicData>
+            <texPath>TEXTUREHERE</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
         -->
-    </statBases>
-    <useHitPoints>True</useHitPoints>
-    <selectable>True</selectable>
-    <alwaysHaulable>True</alwaysHaulable>
-    <neverMultiSelect>True</neverMultiSelect>
-    <!-- <techLevel>Midworld</techLevel> -->
-    <drawGUIOverlay>true</drawGUIOverlay>
-    <stackLimit>1</stackLimit>
-    <tradeNeverStack>true</tradeNeverStack>
-    <!-- <generateCommonality> </generateCommonality> -->
-    <tradeTags> <li> BulkGoods </li> <li> ExoticMisc </li> </tradeTags>
-    <!-- <graphicData>
-        <texPath>TEXTUREHERE</texPath>
-        <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    -->
 
-    <soundInteract>Standard_Drop</soundInteract>
-    <soundDrop>Standard_Drop</soundDrop>
-    <apparel>
-        <careIfWornByCorpse>false</careIfWornByCorpse>
-        <careIfDamageResult>false</careIfDamageResult>
-        <bodyPartGroups>
-            <li>Waist</li>
-        </bodyPartGroups>
-        <layers>
-            <li>Belt</li>
-        </layers>
-        <!--<tags> ADD TAGS FOR RAIDER APPAREL BUDGET </tags> -->
-    </apparel>
-</ThingDef>
+        <soundInteract>Standard_Drop</soundInteract>
+        <soundDrop>Standard_Drop</soundDrop>
+        <apparel>
+            <careIfWornByCorpse>false</careIfWornByCorpse>
+            <careIfDamageResult>false</careIfDamageResult>
+            <bodyPartGroups>
+                <li>Waist</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Belt</li>
+            </layers>
+            <!--<tags> ADD TAGS FOR RAIDER APPAREL BUDGET </tags> -->
+        </apparel>
+    </ThingDef>
 
-<!-- Weather+++++++++++++++++++++++++++++++++++++ -->
+<!-- Weather+++++++++++++++++++++++++++++++++++++ V -->
     <!-- Clear -->
         <ThingDef ParentName="RTCG_Base">
         <defName>RTCG_ClearCard</defName>
@@ -343,7 +343,7 @@
     </apparel>
     </ThingDef>
 
-<!-- Skills +++++++++++++++++++++++++++++++++++++ -->
+<!-- Skills +++++++++++++++++++++++++++++++++++++ V -->
     <!-- Crafting  -->
         <ThingDef ParentName="RTCG_Base">
         <defName>RTCG_CraftingCard</defName>
@@ -714,7 +714,7 @@
     </apparel>
     </ThingDef>
 
-<!-- Mental Breaks +++++++++++++++++++++++++++++++++++++ -->
+<!-- Mental Breaks +++++++++++++++++++++++++++++++++++++ V -->
     <!-- Tantrum -->
         <ThingDef ParentName="RTCG_Base">
         <defName>RTCG_TantrumCard</defName>
@@ -1230,7 +1230,7 @@
     </apparel>
     </ThingDef>
 
-<!-- Foods +++++++++++++++++++++++++++++++++++++ -->
+<!-- Foods +++++++++++++++++++++++++++++++++++++ V -->
     <!-- Insect Jelly -->
         <ThingDef ParentName="RTCG_Base">
         <defName>RTCG_InsectJellyCard</defName>
@@ -1524,11 +1524,13 @@
             <li>Full_Collection</li>
         </thingCategories>
         <equippedStatOffsets>
-            <li></li>
+            <li><MentalBreakThreshold>-0.1</MentalBreakThreshold></li>
+            <li><EatingSpeed>0.2</EatingSpeed></li>
+            <li> <HungerRateMultiplier>-0.2</HungerRateMultiplier></li>
         </equippedStatOffsets>
         <statBases>
-            <marketValue>10000</marketValue>
-            <Beauty>50</Beauty>
+            <marketValue>7000</marketValue>
+            <Beauty>30</Beauty>
         </statBases>
         <techLevel>Spacer</techLevel>
         <graphicData>
@@ -1543,7 +1545,7 @@
         </apparel>
     </ThingDef>
 
-<!-- Insectoids +++++++++++++++++++++++++++++++++++++ -->
+<!-- Insectoids +++++++++++++++++++++++++++++++++++++ V -->
     <!-- Hive -->
         <ThingDef ParentName="RTCG_Base">
             <defName>RTCG_HiveCard</defName>
@@ -1606,7 +1608,8 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                <li><FilthRate>1</FilthRate></li>
+                <li><GeneralLaborSpeed>0.1</GeneralLaborSpeed></li>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>50</marketValue>
@@ -1635,7 +1638,8 @@
                 <li>RareTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                <li><PainShockThreshold>1.5</PainShockThreshold></li>
+                <li><FilthRate>0.3</FilthRate></li>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>150</marketValue>
@@ -1664,7 +1668,8 @@
                 <li>UnheardTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                <li><li><PainShockThreshold>0.3</PainShockThreshold></li></li>
+                <li><PainShockThreshold>0.3</PainShockThreshold></li>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>500</marketValue>
@@ -1693,10 +1698,12 @@
             <li>Full_Collection</li>
         </thingCategories>
         <equippedStatOffsets>
-            <li></li>
+            <li><li><PainShockThreshold>0.3</PainShockThreshold></li></li>
+            <li><GeneralLaborSpeed>0.3</GeneralLaborSpeed></li>
+            <li><FilthRate>3</FilthRate></li>
         </equippedStatOffsets>
         <statBases>
-            <marketValue>10000</marketValue>
+            <marketValue>11000</marketValue>
             <Beauty>50</Beauty>
         </statBases>
         <techLevel>Spacer</techLevel>
@@ -1712,7 +1719,7 @@
         </apparel>
     </ThingDef>
 
-<!-- Mechanoids +++++++++++++++++++++++++++++++++++++ -->
+<!-- Mechanoids +++++++++++++++++++++++++++++++++++++ V -->
     <!--Lancer-->
         <ThingDef ParentName="RTCG_Base">
             <defName>RTCG_LancerCard</defName>
@@ -1827,7 +1834,7 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                <li><MiningSpeed>0.1</MiningSpeed> </li>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>50</marketValue>
@@ -1856,7 +1863,7 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                <li><AimingDelayFactor>-0.1</AimingDelayFactor></li>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>50</marketValue>
@@ -1885,11 +1892,13 @@
                 <li>RareTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                <li><SmeltingSpeed>0.2</SmeltingSpeed></li>
+                <li><CookSpeed>0.2</CookSpeed></li>
+                <li><ComfyTemperatureMax>5</ComfyTemperatureMax></li>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>150</marketValue>
-                <Beauty>1</Beauty>
+                <marketValue>300</marketValue>
+                <Beauty>3</Beauty>
             </statBases>
             <techLevel>Medieval</techLevel>
             <graphicData>
@@ -1914,10 +1923,11 @@
                 <li>RareTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                <ShootingAccuracyPawn>-0.1</ShootingAccuracyPawn>
+                <RangedCooldownFactor>-0.2</RangedCooldownFactor>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>150</marketValue>
+                <marketValue>175</marketValue>
                 <Beauty>1</Beauty>
             </statBases>
             <techLevel>Medieval</techLevel>
@@ -1943,11 +1953,13 @@
                 <li>UnheardTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                <li><ShootingAccuracyPawn>0.75</ShootingAccuracyPawn></li>
+                <li><AimingDelayFactor>0.5</AimingDelayFactor></li>
+                <li><RangedCooldownFactor>0.5</RangedCooldownFactor></li>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>500</marketValue>
-                <Beauty>10</Beauty>
+                <marketValue>800</marketValue>
+                <Beauty>15</Beauty>
             </statBases>
             <techLevel>IndustrialAdvanced</techLevel>
             <graphicData>
@@ -1963,35 +1975,38 @@
             </apparel>
         </ThingDef>
     <!--Mechanoid Collection-->
-    <ThingDef ParentName="RTCG_Base">
-        <defName>RTCG_MechanoidCollection</defName>
-        <label>Mechanoid Collection</label>
-        <description>Mechanoids, Collection</description>
-        <thingCategories>
-            <li>Mechanoids_SubSet</li>
-            <li>Full_Collection</li>
-        </thingCategories>
-        <equippedStatOffsets>
-            <li></li>
-        </equippedStatOffsets>
-        <statBases>
-            <marketValue>10000</marketValue>
-            <Beauty>50</Beauty>
-        </statBases>
-        <techLevel>Spacer</techLevel>
-        <graphicData>
-            <texPath>TEXTUREHERE</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <generateCommonality>0.01</generateCommonality>
-        <apparel>
-            <tags>
-                <li>Spacer</li>
-            </tags>
-        </apparel>
-    </ThingDef>
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_MechanoidCollection</defName>
+            <label>Mechanoid Collection</label>
+            <description>Mechanoids, Collection</description>
+            <thingCategories>
+                <li>Mechanoids_SubSet</li>
+                <li>Full_Collection</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                    <li><ShootingAccuracyPawn>0.2</ShootingAccuracyPawn></li>
+                    <li><AimingDelayFactor>-0.2</AimingDelayFactor></li>
+                    <li><RangedCooldownFactor>-0.2</RangedCooldownFactor></li>
+                <li><PainShockThreshold>0.3</PainShockThreshold></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>10000</marketValue>
+                <Beauty>50</Beauty>
+            </statBases>
+            <techLevel>Spacer</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>0.01</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Spacer</li>
+                </tags>
+            </apparel>
+        </ThingDef>
 
-<!-- Ores +++++++++++++++++++++++++++++++++++++ -->
+<!-- Ores +++++++++++++++++++++++++++++++++++++ V -->
     <!--Marble-->
         <ThingDef ParentName="RTCG_Base">
             <defName>RTCG_MarbleCard</defName>
@@ -2132,11 +2147,11 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                <li><GlobalLearningFactor>0.05</GlobalLearningFactor></li>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>50</marketValue>
-                <Beauty>0</Beauty>
+                <marketValue>100</marketValue>
+                <Beauty>2</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
@@ -2161,10 +2176,10 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                <li><InjuryHealingFactor>0.1</InjuryHealingFactor></li>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>50</marketValue>
+                <marketValue>60</marketValue>
                 <Beauty>0</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -2190,7 +2205,7 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                <li><ArmorRating_Sharp>0.1</ArmorRating_Sharp></li>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>50</marketValue>
@@ -2219,10 +2234,10 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                <li><TradePriceImprovement>0.1</TradePriceImprovement></li>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>50</marketValue>
+                <marketValue>150</marketValue>
                 <Beauty>0</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -2248,11 +2263,11 @@
                 <li>RareTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                <li><TradePriceImprovement>0.2</TradePriceImprovement></li>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>150</marketValue>
-                <Beauty>1</Beauty>
+                <marketValue>300</marketValue>
+                <Beauty>5</Beauty>
             </statBases>
             <techLevel>Medieval</techLevel>
             <graphicData>
@@ -2276,12 +2291,9 @@
                 <li>Ores_SubSet</li>
                 <li>RareTC</li>
             </thingCategories>
-            <equippedStatOffsets>
-                <li></li>
-            </equippedStatOffsets>
             <statBases>
-                <marketValue>150</marketValue>
-                <Beauty>1</Beauty>
+                <marketValue>800</marketValue>
+                <Beauty>80</Beauty>
             </statBases>
             <techLevel>Medieval</techLevel>
             <graphicData>
@@ -2306,10 +2318,10 @@
                 <li>UnheardTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                <li><IncomingDamageFactor>-0.3</IncomingDamageFactor></li>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>500</marketValue>
+                <marketValue>800</marketValue>
                 <Beauty>10</Beauty>
             </statBases>
             <techLevel>IndustrialAdvanced</techLevel>
@@ -2326,33 +2338,36 @@
             </apparel>
         </ThingDef>
     <!--Ores Collection-->
-    <ThingDef ParentName="RTCG_Base">
-        <defName>RTCG_OresCollection</defName>
-        <label>Ores Collection</label>
-        <description>Ores, Collection</description>
-        <thingCategories>
-            <li>Ores_SubSet</li>
-            <li>Full_Collection</li>
-        </thingCategories>
-        <equippedStatOffsets>
-            <li></li>
-        </equippedStatOffsets>
-        <statBases>
-            <marketValue>10000</marketValue>
-            <Beauty>50</Beauty>
-        </statBases>
-        <techLevel>Spacer</techLevel>
-        <graphicData>
-            <texPath>TEXTUREHERE</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <generateCommonality>0.01</generateCommonality>
-        <apparel>
-            <tags>
-                <li>Spacer</li>
-            </tags>
-        </apparel>
-    </ThingDef>
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_OresCollection</defName>
+            <label>Ores Collection</label>
+            <description>Ores, Collection</description>
+            <thingCategories>
+                <li>Ores_SubSet</li>
+                <li>Full_Collection</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <li><IncomingDamageFactor>-0.5</IncomingDamageFactor></li>
+                <li><ConstructionSpeed>0.3</ConstructionSpeed></li>
+                <li><ConstructSuccessChance>0.3</ConstructSuccessChance></li>
+                <li><TradePriceImprovement>0.2</TradePriceImprovement></li>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>10000</marketValue>
+                <Beauty>100</Beauty>
+            </statBases>
+            <techLevel>Spacer</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>0.01</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Spacer</li>
+                </tags>
+            </apparel>
+        </ThingDef>
 
 <!-- Weapons +++++++++++++++++++++++++++++++++++++ -->
     <!--Frag grenades-->
