@@ -54,7 +54,6 @@
 </ThingDef>
 
 <!-- Weather+++++++++++++++++++++++++++++++++++++ -->
-
     <!-- Clear -->
         <ThingDef ParentName="RTCG_Base">
         <defName>RTCG_ClearCard</defName>
@@ -716,519 +715,520 @@
     </ThingDef>
 
 <!-- Mental Breaks +++++++++++++++++++++++++++++++++++++ -->
-<!-- Tantrum -->
-    <ThingDef ParentName="RTCG_Base">
-    <defName>RTCG_TantrumCard</defName>
-    <label>Tantrum - Common</label>
-    <description>Mental Breaks - Common</description>
-    <thingCategories>
+    <!-- Tantrum -->
+        <ThingDef ParentName="RTCG_Base">
+        <defName>RTCG_TantrumCard</defName>
+        <label>Tantrum - Common</label>
+        <description>Mental Breaks - Common</description>
+        <thingCategories>
+            <li>Mental_SubSet</li>
+            <li>CommonTC</li>
+        </thingCategories>
+        <statBases>
+            <marketValue>15</marketValue>
+            <Beauty>-0.1</Beauty>
+        </statBases>
+        <techLevel>Neolithic</techLevel>
+        <graphicData>
+            <texPath>TEXTUREHERE</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <generateCommonality> 2 </generateCommonality>
+        <apparel>
+            <tags>
+            <li>Neolithic</li>
+            <li>Medieval</li>
+            </tags>
+        </apparel>
+        </ThingDef>
+    <!-- Sad Wander -->
+        <ThingDef ParentName="RTCG_Base">
+        <defName>RTCG_SadWanderCard</defName>
+        <label>Sad Wander - Common</label>
+        <description>Mental Breaks - Common</description>
+        <thingCategories>
+            <li>Mental_SubSet</li>
+            <li>CommonTC</li>
+        </thingCategories>
+        <statBases>
+            <marketValue>15</marketValue>
+            <Beauty>-0.1</Beauty>
+        </statBases>
+        <techLevel>Neolithic</techLevel>
+        <graphicData>
+            <texPath>TEXTUREHERE</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <generateCommonality> 2 </generateCommonality>
+        <apparel>
+            <tags>
+            <li>Neolithic</li>
+            <li>Medieval</li>
+            </tags>
+        </apparel>
+        </ThingDef>
+    <!-- Food Binge -->
+        <ThingDef ParentName="RTCG_Base">
+        <defName>RTCG_FoodBingeCard</defName>
+        <label>Food Binge - Common</label>
+        <description>Mental Breaks - Common</description>
+        <thingCategories>
+            <li>Mental_SubSet</li>
+            <li>CommonTC</li>
+        </thingCategories>
+        <statBases>
+            <marketValue>15</marketValue>
+            <Beauty>-0.1</Beauty>
+        </statBases>
+        <techLevel>Neolithic</techLevel>
+        <graphicData>
+            <texPath>TEXTUREHERE</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <generateCommonality> 2 </generateCommonality>
+        <apparel>
+            <tags>
+            <li>Neolithic</li>
+            <li>Medieval</li>
+            </tags>
+        </apparel>
+        </ThingDef>
+    <!-- Hide In Room -->
+        <ThingDef ParentName="RTCG_Base">
+        <defName>RTCG_HideInRoomCard</defName>
+        <label>Hide In Room - Common</label>
+        <description>Mental Breaks - Common</description>
+        <thingCategories>
+            <li>Mental_SubSet</li>
+            <li>CommonTC</li>
+        </thingCategories>
+        <statBases>
+            <marketValue>15</marketValue>
+            <Beauty>-0.1</Beauty>
+        </statBases>
+        <techLevel>Neolithic</techLevel>
+        <graphicData>
+            <texPath>TEXTUREHERE</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <generateCommonality> 2 </generateCommonality>
+        <apparel>
+            <tags>
+            <li>Neolithic</li>
+            <li>Medieval</li>
+            </tags>
+        </apparel>
+        </ThingDef>
+    <!-- Insulting Spree -->
+        <ThingDef ParentName="RTCG_Base">
+        <defName>RTCG_InsultingSpreeCard</defName>
+        <label>Insulting Spree - Common</label>
+        <description>Mental Breaks - Common</description>
+        <thingCategories>
+            <li>Mental_SubSet</li>
+            <li>CommonTC</li>
+        </thingCategories>
+        <statBases>
+            <marketValue>15</marketValue>
+            <Beauty>-0.1</Beauty>
+        </statBases>
+        <techLevel>Neolithic</techLevel>
+        <graphicData>
+            <texPath>TEXTUREHERE</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <generateCommonality> 2 </generateCommonality>
+        <apparel>
+            <tags>
+            <li>Neolithic</li>
+            <li>Medieval</li>
+            </tags>
+        </apparel>
+        </ThingDef>
+    <!-- Social Drug Binge -->
+        <ThingDef ParentName="RTCG_Base">
+        <defName>RTCG_SocialDrugBingeCard</defName>
+        <label>Social Drug Binge - Common</label>
+        <description>Mental Breaks - Common</description>
+        <thingCategories>
+            <li>Mental_SubSet</li>
+            <li>CommonTC</li>
+        </thingCategories>
+        <statBases>
+            <marketValue>15</marketValue>
+            <Beauty>-0.1</Beauty>
+        </statBases>
+        <techLevel>Neolithic</techLevel>
+        <graphicData>
+            <texPath>TEXTUREHERE</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <generateCommonality> 2 </generateCommonality>
+        <apparel>
+            <tags>
+            <li>Neolithic</li>
+            <li>Medieval</li>
+            </tags>
+        </apparel>
+        </ThingDef>
+    <!-- Corpse Obsession -->
+        <ThingDef ParentName="RTCG_Base">
+        <defName>RTCG_CorpseObsessionCard</defName>
+        <label>Corpse Obsession - Uncommon</label>
+        <description> Mental Breaks, Uncommon</description>
+        <thingCategories>
+            <li>Mental_SubSet</li>
+            <li>UncommonTC</li>
+        </thingCategories>
+        <equippedStatOffsets>
+            <li><LifespanFactor>0.1</LifespanFactor></li>
+        </equippedStatOffsets>
+        <statBases>
+            <marketValue>50</marketValue>
+            <Beauty>0</Beauty>
+        </statBases>
+        <techLevel>Neolithic</techLevel>
+        <graphicData>
+            <texPath>TEXTUREHERE</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <generateCommonality> 1 </generateCommonality>
+        <apparel>
+            <tags>
+            <li>Neolithic</li>
+            <li>Medieval</li>
+            </tags>
+        </apparel>
+        </ThingDef>
+    <!-- Berserk -->
+        <ThingDef ParentName="RTCG_Base">
+        <defName>RTCG_BerserkCard</defName>
+        <label>Berserk - Uncommon</label>
+        <description> Mental Breaks, Uncommon</description>
+        <thingCategories>
+            <li>Mental_SubSet</li>
+            <li>UncommonTC</li>
+        </thingCategories>
+        <equippedStatOffsets>
+            <li><MeleeDamageFactor>0.5</MeleeDamageFactor></li>
+            <li><MentalBreakThreshold>0.05</MentalBreakThreshold></li>
+        </equippedStatOffsets>
+        <statBases>
+            <marketValue>75</marketValue>
+            <Beauty>0</Beauty>
+        </statBases>
+        <techLevel>Neolithic</techLevel>
+        <graphicData>
+            <texPath>TEXTUREHERE</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <generateCommonality> 1 </generateCommonality>
+        <apparel>
+            <tags>
+            <li>Neolithic</li>
+            <li>Medieval</li>
+            </tags>
+        </apparel>
+        </ThingDef>
+    <!-- Fire Spree -->
+        <ThingDef ParentName="RTCG_Base">
+        <defName>RTCG_FireSpreeCard</defName>
+        <label>Fire Spree - Uncommon</label>
+        <description> Mental Breaks, Uncommon</description>
+        <thingCategories>
+            <li>Mental_SubSet</li>
+            <li>UncommonTC</li>
+        </thingCategories>
+        <equippedStatOffsets>
+            <li><MoveSpeed>1</MoveSpeed></li>
+            <li><MentalBreakThreshold>0.05</MentalBreakThreshold></li>
+        </equippedStatOffsets>
+        <statBases>
+            <marketValue>50</marketValue>
+            <Beauty>0</Beauty>
+        </statBases>
+        <techLevel>Neolithic</techLevel>
+        <graphicData>
+            <texPath>TEXTUREHERE</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <generateCommonality> 1 </generateCommonality>
+        <apparel>
+            <tags>
+            <li>Neolithic</li>
+            <li>Medieval</li>
+            </tags>
+        </apparel>
+        </ThingDef>
+    <!-- Daze Wander -->
+        <ThingDef ParentName="RTCG_Base">
+        <defName>RTCG_DazeWanderCard</defName>
+        <label>DazeWander - Uncommon</label>
+        <description> Mental Breaks, Uncommon</description>
+        <thingCategories>
+            <li>Mental_SubSet</li>
+            <li>UncommonTC</li>
+        </thingCategories>
+        <equippedStatOffsets>
+            <li><MoveSpeed>-0.5</MoveSpeed></li>
+            <li><MentalBreakThreshold>-0.1</MentalBreakThreshold></li>
+        </equippedStatOffsets>
+        <statBases>
+            <marketValue>50</marketValue>
+            <Beauty>0</Beauty>
+        </statBases>
+        <techLevel>Neolithic</techLevel>
+        <graphicData>
+            <texPath>TEXTUREHERE</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <generateCommonality> 1 </generateCommonality>
+        <apparel>
+            <tags>
+            <li>Neolithic</li>
+            <li>Medieval</li>
+            </tags>
+        </apparel>
+        </ThingDef>
+    <!-- Sadistic Rage -->
+        <ThingDef ParentName="RTCG_Base">
+        <defName>RTCG_SadisticRageCard</defName>
+        <label>Sadistic Rage - Uncommon</label>
+        <description> Mental Breaks, Uncommon</description>
+        <thingCategories>
+            <li>Mental_SubSet</li>
+            <li>UncommonTC</li>
+        </thingCategories>
+        <equippedStatOffsets>
+            <li><IncomingDamageFactor>0.15</IncomingDamageFactor></li>
+            <li><MentalBreakThreshold>-0.2</MentalBreakThreshold></li>
+        </equippedStatOffsets>
+        <statBases>
+            <marketValue>50</marketValue>
+            <Beauty>0</Beauty>
+        </statBases>
+        <techLevel>Neolithic</techLevel>
+        <graphicData>
+            <texPath>TEXTUREHERE</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <generateCommonality> 1 </generateCommonality>
+        <apparel>
+            <tags>
+            <li>Neolithic</li>
+            <li>Medieval</li>
+            </tags>
+        </apparel>
+        </ThingDef>
+    <!-- Hard Drug Binge -->
+        <ThingDef ParentName="RTCG_Base">
+        <defName>RTCG_HardDrugBingeCard</defName>
+        <label>Hard Drug Binge - Rare</label>
+        <description> Mental Breaks, Rare</description>
+        <thingCategories>
+            <li>Mental_SubSet</li>
+            <li>RareTC</li>
+        </thingCategories>
+        <equippedStatOffsets>
+            <li><MentalBreakThreshold>-0.35</MentalBreakThreshold></li>
+            <li><LifespanFactor>-0.35</LifespanFactor></li>
+        </equippedStatOffsets>
+        <statBases>
+            <marketValue>300</marketValue>
+            <Beauty>1</Beauty>
+        </statBases>
+        <techLevel>Medieval</techLevel>
+        <graphicData>
+            <texPath>TEXTUREHERE</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <generateCommonality> 0.20 </generateCommonality>
+        <apparel>
+            <tags>
+            <li>Medieval</li>
+            <li>IndustrialBasic</li>
+            </tags>
+        </apparel>
+        </ThingDef>
+    <!-- Slaughter -->
+        <ThingDef ParentName="RTCG_Base">
+        <defName>RTCG_SlaughterCard</defName>
+        <label>Slaughter - Rare</label>
+        <description> Mental Breaks, Rare</description>
+        <thingCategories>
+            <li>Mental_SubSet</li>
+            <li>RareTC</li>
+        </thingCategories>
+        <equippedStatOffsets>
+            <li><ButcheryFleshSpeed>0.2</ButcheryFleshSpeed></li>
+            <li><ButcheryFleshEfficiency>0.2</ButcheryFleshEfficiency></li>
+            <li><MentalBreakThreshold>0.05</MentalBreakThreshold></li>
+        </equippedStatOffsets>
+        <statBases>
+            <marketValue>125</marketValue>
+            <Beauty>1</Beauty>
+        </statBases>
+        <techLevel>Medieval</techLevel>
+        <graphicData>
+            <texPath>TEXTUREHERE</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <generateCommonality> 0.20 </generateCommonality>
+        <apparel>
+            <tags>
+            <li>Medieval</li>
+            <li>IndustrialBasic</li>
+            </tags>
+        </apparel>
+        </ThingDef>
+    <!-- Jailbreak -->
+        <ThingDef ParentName="RTCG_Base">
+        <defName>RTCG_JailbreakCard</defName>
+        <label>Jailbreak - Rare</label>
+        <description> Mental Breaks, Rare</description>
+        <thingCategories>
+            <li>Mental_SubSet</li>
+            <li>RareTC</li>
+        </thingCategories>
+        <equippedStatOffsets>
+        <li><SuppressionPower>0.3</SuppressionPower></li>
+        </equippedStatOffsets>
+        <statBases>
+            <marketValue>125</marketValue>
+            <Beauty>1</Beauty>
+        </statBases>
+        <techLevel>Medieval</techLevel>
+        <graphicData>
+            <texPath>TEXTUREHERE</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <generateCommonality> 0.20 </generateCommonality>
+        <apparel>
+            <tags>
+            <li>Medieval</li>
+            <li>IndustrialBasic</li>
+            </tags>
+        </apparel>
+        </ThingDef>
+    <!-- Run wild -->
+        <ThingDef ParentName="RTCG_Base">
+        <defName>RTCG_RunWildCard</defName>
+        <label>Run Wild - Rare</label>
+        <description> Mental Breaks, Rare</description>
+        <thingCategories>
+            <li>Mental_SubSet</li>
+            <li>RareTC</li>
+        </thingCategories>
+        <equippedStatOffsets>
+        <li><PlantWorkSpeed>0.25</PlantWorkSpeed></li>
+        <li><PlantHarvestYield>0.25</PlantHarvestYield></li>
+        </equippedStatOffsets>
+        <statBases>
+            <marketValue>125</marketValue>
+            <Beauty>1</Beauty>
+        </statBases>
+        <techLevel>Medieval</techLevel>
+        <graphicData>
+            <texPath>TEXTUREHERE</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <generateCommonality> 0.20 </generateCommonality>
+        <apparel>
+            <tags>
+            <li>Medieval</li>
+            <li>IndustrialBasic</li>
+            </tags>
+        </apparel>
+        </ThingDef>
+    <!-- Catatonic Breakdown -->
+        <ThingDef ParentName="RTCG_Base">
+        <defName>RTCG_CatatonicBreakdownCard</defName>
+        <label>CatatonicBreakdown - unheard</label>
+        <description>Mental Breaks, Unheard</description>
+        <thingCategories>
         <li>Mental_SubSet</li>
-        <li>CommonTC</li>
-    </thingCategories>
-    <statBases>
-        <marketValue>15</marketValue>
-        <Beauty>-0.1</Beauty>
-    </statBases>
-    <techLevel>Neolithic</techLevel>
-    <graphicData>
-        <texPath>TEXTUREHERE</texPath>
-        <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <generateCommonality> 2 </generateCommonality>
-    <apparel>
-        <tags>
-        <li>Neolithic</li>
-        <li>Medieval</li>
-        </tags>
-    </apparel>
-    </ThingDef>
-<!-- Sad Wander -->
-    <ThingDef ParentName="RTCG_Base">
-    <defName>RTCG_SadWanderCard</defName>
-    <label>Sad Wander - Common</label>
-    <description>Mental Breaks - Common</description>
-    <thingCategories>
+        <li>UnheardTC</li>
+        </thingCategories>
+        <equippedStatOffsets>
+        <li><MentalBreakThreshold>-0.5</MentalBreakThreshold></li>
+        </equippedStatOffsets>
+        <statBases>
+            <marketValue>1000</marketValue>
+            <Beauty>10</Beauty>
+        </statBases>
+        <techLevel>IndustrialAdvanced</techLevel>
+        <graphicData>
+            <texPath>TEXTUREHERE</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <generateCommonality> 0.05 </generateCommonality>
+        <apparel>
+            <tags>
+            <li>IndustrialBasic</li>
+            <li>IndustrialAdvanced</li>
+            </tags>
+        </apparel>
+        </ThingDef>
+    <!-- Murderous Rage -->
+        <ThingDef ParentName="RTCG_Base">
+        <defName>RTCG_MurderousRageCard</defName>
+        <label>Murderous Rage - unheard</label>
+        <description>Mental Breaks, Unheard</description>
+        <thingCategories>
         <li>Mental_SubSet</li>
-        <li>CommonTC</li>
-    </thingCategories>
-    <statBases>
-        <marketValue>15</marketValue>
-        <Beauty>-0.1</Beauty>
-    </statBases>
-    <techLevel>Neolithic</techLevel>
-    <graphicData>
-        <texPath>TEXTUREHERE</texPath>
-        <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <generateCommonality> 2 </generateCommonality>
-    <apparel>
-        <tags>
-        <li>Neolithic</li>
-        <li>Medieval</li>
-        </tags>
-    </apparel>
-    </ThingDef>
-<!-- Food Binge -->
+        <li>UnheardTC</li>
+        </thingCategories>
+        <equippedStatOffsets>
+            <li><MeleeDamageFactor>0.75</MeleeDamageFactor></li>
+            <li><MentalBreakThreshold>0.5</MentalBreakThreshold></li>
+            <li><IncomingDamageFactor>0.15</IncomingDamageFactor></li>
+        </equippedStatOffsets>
+        <statBases>
+            <marketValue>500</marketValue>
+            <Beauty>10</Beauty>
+        </statBases>
+        <techLevel>IndustrialAdvanced</techLevel>
+        <graphicData>
+            <texPath>TEXTUREHERE</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <generateCommonality> 0.05 </generateCommonality>
+        <apparel>
+            <tags>
+            <li>IndustrialBasic</li>
+            <li>IndustrialAdvanced</li>
+            </tags>
+        </apparel>
+        </ThingDef>
+    <!-- Mental Breaks Collection-->
     <ThingDef ParentName="RTCG_Base">
-    <defName>RTCG_FoodBingeCard</defName>
-    <label>Food Binge - Common</label>
-    <description>Mental Breaks - Common</description>
+    <defName>RTCG_MentalBreaksCollection</defName>
+    <label>Mental Breaks Collection</label>
+    <description>Mental Breaks, Collection</description>
     <thingCategories>
-        <li>Mental_SubSet</li>
-        <li>CommonTC</li>
-    </thingCategories>
-    <statBases>
-        <marketValue>15</marketValue>
-        <Beauty>-0.1</Beauty>
-    </statBases>
-    <techLevel>Neolithic</techLevel>
-    <graphicData>
-        <texPath>TEXTUREHERE</texPath>
-        <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <generateCommonality> 2 </generateCommonality>
-    <apparel>
-        <tags>
-        <li>Neolithic</li>
-        <li>Medieval</li>
-        </tags>
-    </apparel>
-    </ThingDef>
-<!-- Hide In Room -->
-    <ThingDef ParentName="RTCG_Base">
-    <defName>RTCG_HideInRoomCard</defName>
-    <label>Hide In Room - Common</label>
-    <description>Mental Breaks - Common</description>
-    <thingCategories>
-        <li>Mental_SubSet</li>
-        <li>CommonTC</li>
-    </thingCategories>
-    <statBases>
-        <marketValue>15</marketValue>
-        <Beauty>-0.1</Beauty>
-    </statBases>
-    <techLevel>Neolithic</techLevel>
-    <graphicData>
-        <texPath>TEXTUREHERE</texPath>
-        <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <generateCommonality> 2 </generateCommonality>
-    <apparel>
-        <tags>
-        <li>Neolithic</li>
-        <li>Medieval</li>
-        </tags>
-    </apparel>
-    </ThingDef>
-<!-- Insulting Spree -->
-    <ThingDef ParentName="RTCG_Base">
-    <defName>RTCG_InsultingSpreeCard</defName>
-    <label>Insulting Spree - Common</label>
-    <description>Mental Breaks - Common</description>
-    <thingCategories>
-        <li>Mental_SubSet</li>
-        <li>CommonTC</li>
-    </thingCategories>
-    <statBases>
-        <marketValue>15</marketValue>
-        <Beauty>-0.1</Beauty>
-    </statBases>
-    <techLevel>Neolithic</techLevel>
-    <graphicData>
-        <texPath>TEXTUREHERE</texPath>
-        <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <generateCommonality> 2 </generateCommonality>
-    <apparel>
-        <tags>
-        <li>Neolithic</li>
-        <li>Medieval</li>
-        </tags>
-    </apparel>
-    </ThingDef>
-<!-- Social Drug Binge -->
-    <ThingDef ParentName="RTCG_Base">
-    <defName>RTCG_SocialDrugBingeCard</defName>
-    <label>Social Drug Binge - Common</label>
-    <description>Mental Breaks - Common</description>
-    <thingCategories>
-        <li>Mental_SubSet</li>
-        <li>CommonTC</li>
-    </thingCategories>
-    <statBases>
-        <marketValue>15</marketValue>
-        <Beauty>-0.1</Beauty>
-    </statBases>
-    <techLevel>Neolithic</techLevel>
-    <graphicData>
-        <texPath>TEXTUREHERE</texPath>
-        <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <generateCommonality> 2 </generateCommonality>
-    <apparel>
-        <tags>
-        <li>Neolithic</li>
-        <li>Medieval</li>
-        </tags>
-    </apparel>
-    </ThingDef>
-<!-- Corpse Obsession -->
-    <ThingDef ParentName="RTCG_Base">
-    <defName>RTCG_CorpseObsessionCard</defName>
-    <label>Corpse Obsession - Uncommon</label>
-    <description> Mental Breaks, Uncommon</description>
-    <thingCategories>
-        <li>Mental_SubSet</li>
-        <li>UncommonTC</li>
+    <li>Men_SubtalSet</li>
+    <li>Full_Collection</li>
     </thingCategories>
     <equippedStatOffsets>
-        <li><LifespanFactor>0.1</LifespanFactor></li>
+    <li><MentalBreakThreshold>-1</MentalBreakThreshold></li>
+    <li><LifespanFactor>-0.5</LifespanFactor></li>
     </equippedStatOffsets>
     <statBases>
-        <marketValue>50</marketValue>
-        <Beauty>0</Beauty>
+        <marketValue>10000</marketValue>
+        <Beauty>50</Beauty>
     </statBases>
-    <techLevel>Neolithic</techLevel>
+    <techLevel>Spacer</techLevel>
     <graphicData>
         <texPath>TEXTUREHERE</texPath>
         <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <generateCommonality> 1 </generateCommonality>
+    <generateCommonality> 0.01 </generateCommonality>
     <apparel>
         <tags>
-        <li>Neolithic</li>
-        <li>Medieval</li>
+        <li>Spacer</li>
         </tags>
     </apparel>
     </ThingDef>
-<!-- Berserk -->
-    <ThingDef ParentName="RTCG_Base">
-    <defName>RTCG_BerserkCard</defName>
-    <label>Berserk - Uncommon</label>
-    <description> Mental Breaks, Uncommon</description>
-    <thingCategories>
-        <li>Mental_SubSet</li>
-        <li>UncommonTC</li>
-    </thingCategories>
-    <equippedStatOffsets>
-        <li><MeleeDamageFactor>0.5</MeleeDamageFactor></li>
-        <li><MentalBreakThreshold>0.05</MentalBreakThreshold></li>
-    </equippedStatOffsets>
-    <statBases>
-        <marketValue>75</marketValue>
-        <Beauty>0</Beauty>
-    </statBases>
-    <techLevel>Neolithic</techLevel>
-    <graphicData>
-        <texPath>TEXTUREHERE</texPath>
-        <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <generateCommonality> 1 </generateCommonality>
-    <apparel>
-        <tags>
-        <li>Neolithic</li>
-        <li>Medieval</li>
-        </tags>
-    </apparel>
-    </ThingDef>
-<!-- Fire Spree -->
-    <ThingDef ParentName="RTCG_Base">
-    <defName>RTCG_FireSpreeCard</defName>
-    <label>Fire Spree - Uncommon</label>
-    <description> Mental Breaks, Uncommon</description>
-    <thingCategories>
-        <li>Mental_SubSet</li>
-        <li>UncommonTC</li>
-    </thingCategories>
-    <equippedStatOffsets>
-        <li><MoveSpeed>1</MoveSpeed></li>
-        <li><MentalBreakThreshold>0.05</MentalBreakThreshold></li>
-    </equippedStatOffsets>
-    <statBases>
-        <marketValue>50</marketValue>
-        <Beauty>0</Beauty>
-    </statBases>
-    <techLevel>Neolithic</techLevel>
-    <graphicData>
-        <texPath>TEXTUREHERE</texPath>
-        <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <generateCommonality> 1 </generateCommonality>
-    <apparel>
-        <tags>
-        <li>Neolithic</li>
-        <li>Medieval</li>
-        </tags>
-    </apparel>
-    </ThingDef>
-<!-- Daze Wander -->
-    <ThingDef ParentName="RTCG_Base">
-    <defName>RTCG_DazeWanderCard</defName>
-    <label>DazeWander - Uncommon</label>
-    <description> Mental Breaks, Uncommon</description>
-    <thingCategories>
-        <li>Mental_SubSet</li>
-        <li>UncommonTC</li>
-    </thingCategories>
-    <equippedStatOffsets>
-        <li><MoveSpeed>-0.5</MoveSpeed></li>
-        <li><MentalBreakThreshold>-0.1</MentalBreakThreshold></li>
-    </equippedStatOffsets>
-    <statBases>
-        <marketValue>50</marketValue>
-        <Beauty>0</Beauty>
-    </statBases>
-    <techLevel>Neolithic</techLevel>
-    <graphicData>
-        <texPath>TEXTUREHERE</texPath>
-        <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <generateCommonality> 1 </generateCommonality>
-    <apparel>
-        <tags>
-        <li>Neolithic</li>
-        <li>Medieval</li>
-        </tags>
-    </apparel>
-    </ThingDef>
-<!-- Sadistic Rage -->
-    <ThingDef ParentName="RTCG_Base">
-    <defName>RTCG_SadisticRageCard</defName>
-    <label>Sadistic Rage - Uncommon</label>
-    <description> Mental Breaks, Uncommon</description>
-    <thingCategories>
-        <li>Mental_SubSet</li>
-        <li>UncommonTC</li>
-    </thingCategories>
-    <equippedStatOffsets>
-        <li><IncomingDamageFactor>0.15</IncomingDamageFactor></li>
-        <li><MentalBreakThreshold>-0.2</MentalBreakThreshold></li>
-    </equippedStatOffsets>
-    <statBases>
-        <marketValue>50</marketValue>
-        <Beauty>0</Beauty>
-    </statBases>
-    <techLevel>Neolithic</techLevel>
-    <graphicData>
-        <texPath>TEXTUREHERE</texPath>
-        <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <generateCommonality> 1 </generateCommonality>
-    <apparel>
-        <tags>
-        <li>Neolithic</li>
-        <li>Medieval</li>
-        </tags>
-    </apparel>
-    </ThingDef>
-<!-- Hard Drug Binge -->
-    <ThingDef ParentName="RTCG_Base">
-    <defName>RTCG_HardDrugBingeCard</defName>
-    <label>Hard Drug Binge - Rare</label>
-    <description> Mental Breaks, Rare</description>
-    <thingCategories>
-        <li>Mental_SubSet</li>
-        <li>RareTC</li>
-    </thingCategories>
-    <equippedStatOffsets>
-        <li><MentalBreakThreshold>-0.35</MentalBreakThreshold></li>
-        <li><LifespanFactor>-0.35</LifespanFactor></li>
-    </equippedStatOffsets>
-    <statBases>
-        <marketValue>300</marketValue>
-        <Beauty>1</Beauty>
-    </statBases>
-    <techLevel>Medieval</techLevel>
-    <graphicData>
-        <texPath>TEXTUREHERE</texPath>
-        <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <generateCommonality> 0.20 </generateCommonality>
-    <apparel>
-        <tags>
-        <li>Medieval</li>
-        <li>IndustrialBasic</li>
-        </tags>
-    </apparel>
-    </ThingDef>
-<!-- Slaughter -->
-    <ThingDef ParentName="RTCG_Base">
-    <defName>RTCG_SlaughterCard</defName>
-    <label>Slaughter - Rare</label>
-    <description> Mental Breaks, Rare</description>
-    <thingCategories>
-        <li>Mental_SubSet</li>
-        <li>RareTC</li>
-    </thingCategories>
-    <equippedStatOffsets>
-        <li><ButcheryFleshSpeed>0.2</ButcheryFleshSpeed></li>
-        <li><ButcheryFleshEfficiency>0.2</ButcheryFleshEfficiency></li>
-        <li><MentalBreakThreshold>0.05</MentalBreakThreshold></li>
-    </equippedStatOffsets>
-    <statBases>
-        <marketValue>125</marketValue>
-        <Beauty>1</Beauty>
-    </statBases>
-    <techLevel>Medieval</techLevel>
-    <graphicData>
-        <texPath>TEXTUREHERE</texPath>
-        <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <generateCommonality> 0.20 </generateCommonality>
-    <apparel>
-        <tags>
-        <li>Medieval</li>
-        <li>IndustrialBasic</li>
-        </tags>
-    </apparel>
-    </ThingDef>
-<!-- Jailbreak -->
-    <ThingDef ParentName="RTCG_Base">
-    <defName>RTCG_JailbreakCard</defName>
-    <label>Jailbreak - Rare</label>
-    <description> Mental Breaks, Rare</description>
-    <thingCategories>
-        <li>Mental_SubSet</li>
-        <li>RareTC</li>
-    </thingCategories>
-    <equippedStatOffsets>
-    <li><SuppressionPower>0.3</SuppressionPower></li>
-    </equippedStatOffsets>
-    <statBases>
-        <marketValue>125</marketValue>
-        <Beauty>1</Beauty>
-    </statBases>
-    <techLevel>Medieval</techLevel>
-    <graphicData>
-        <texPath>TEXTUREHERE</texPath>
-        <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <generateCommonality> 0.20 </generateCommonality>
-    <apparel>
-        <tags>
-        <li>Medieval</li>
-        <li>IndustrialBasic</li>
-        </tags>
-    </apparel>
-    </ThingDef>
-<!-- Run wild -->
-    <ThingDef ParentName="RTCG_Base">
-    <defName>RTCG_RunWildCard</defName>
-    <label>Run Wild - Rare</label>
-    <description> Mental Breaks, Rare</description>
-    <thingCategories>
-        <li>Mental_SubSet</li>
-        <li>RareTC</li>
-    </thingCategories>
-    <equippedStatOffsets>
-    <li><PlantWorkSpeed>0.25</PlantWorkSpeed></li>
-    <li><PlantHarvestYield>0.25</PlantHarvestYield></li>
-    </equippedStatOffsets>
-    <statBases>
-        <marketValue>125</marketValue>
-        <Beauty>1</Beauty>
-    </statBases>
-    <techLevel>Medieval</techLevel>
-    <graphicData>
-        <texPath>TEXTUREHERE</texPath>
-        <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <generateCommonality> 0.20 </generateCommonality>
-    <apparel>
-        <tags>
-        <li>Medieval</li>
-        <li>IndustrialBasic</li>
-        </tags>
-    </apparel>
-    </ThingDef>
-<!-- Catatonic Breakdown -->
-    <ThingDef ParentName="RTCG_Base">
-    <defName>RTCG_CatatonicBreakdownCard</defName>
-    <label>CatatonicBreakdown - unheard</label>
-    <description>Mental Breaks, Unheard</description>
-    <thingCategories>
-    <li>Mental_SubSet</li>
-    <li>UnheardTC</li>
-    </thingCategories>
-    <equippedStatOffsets>
-     <li><MentalBreakThreshold>-0.5</MentalBreakThreshold></li>
-    </equippedStatOffsets>
-    <statBases>
-        <marketValue>1000</marketValue>
-        <Beauty>10</Beauty>
-    </statBases>
-    <techLevel>IndustrialAdvanced</techLevel>
-    <graphicData>
-        <texPath>TEXTUREHERE</texPath>
-        <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <generateCommonality> 0.05 </generateCommonality>
-    <apparel>
-        <tags>
-        <li>IndustrialBasic</li>
-        <li>IndustrialAdvanced</li>
-        </tags>
-    </apparel>
-    </ThingDef>
-<!-- Murderous Rage -->
-    <ThingDef ParentName="RTCG_Base">
-    <defName>RTCG_MurderousRageCard</defName>
-    <label>Murderous Rage - unheard</label>
-    <description>Mental Breaks, Unheard</description>
-    <thingCategories>
-    <li>Mental_SubSet</li>
-    <li>UnheardTC</li>
-    </thingCategories>
-    <equippedStatOffsets>
-        <li><MeleeDamageFactor>0.75</MeleeDamageFactor></li>
-        <li><MentalBreakThreshold>0.5</MentalBreakThreshold></li>
-        <li><IncomingDamageFactor>0.15</IncomingDamageFactor></li>
-    </equippedStatOffsets>
-    <statBases>
-        <marketValue>500</marketValue>
-        <Beauty>10</Beauty>
-    </statBases>
-    <techLevel>IndustrialAdvanced</techLevel>
-    <graphicData>
-        <texPath>TEXTUREHERE</texPath>
-        <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <generateCommonality> 0.05 </generateCommonality>
-    <apparel>
-        <tags>
-        <li>IndustrialBasic</li>
-        <li>IndustrialAdvanced</li>
-        </tags>
-    </apparel>
-    </ThingDef>
-<!-- Mental Breaks Collection-->
-<ThingDef ParentName="RTCG_Base">
-<defName>RTCG_MentalBreaksCollection</defName>
-<label>Mental Breaks Collection</label>
-<description>Mental Breaks, Collection</description>
-<thingCategories>
-<li>Men_SubtalSet</li>
-<li>Full_Collection</li>
-</thingCategories>
-<equippedStatOffsets>
-
-</equippedStatOffsets>
-<statBases>
-    <marketValue>10000</marketValue>
-    <Beauty>50</Beauty>
-</statBases>
-<techLevel>Spacer</techLevel>
-<graphicData>
-    <texPath>TEXTUREHERE</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<generateCommonality> 0.01 </generateCommonality>
-<apparel>
-    <tags>
-    <li>Spacer</li>
-    </tags>
-</apparel>
-</ThingDef>
 
 <!-- Foods +++++++++++++++++++++++++++++++++++++ -->
 <!-- Insect Jelly -->
