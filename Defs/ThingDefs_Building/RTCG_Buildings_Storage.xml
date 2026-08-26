@@ -2,6 +2,7 @@
 <Defs>
  
  <!-- Infinite Storage -->
+ <!--
   <ThingDef ParentName="FurnitureWithQualityBase">
     <defName>RTCG_Storage</defName>
     <label>RimworldTCG Storage</label>
@@ -52,5 +53,6 @@
     <surfaceType>Item</surfaceType>
     <canOverlapZones>false</canOverlapZones>
   </ThingDef>
+  -->
 
 </Defs>

@@ -33,7 +33,7 @@
         <!-- <generateCommonality> </generateCommonality> -->
         <tradeTags> <li> BulkGoods </li> <li> ExoticMisc </li> </tradeTags>
         <!-- <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/TEXTUREHERE</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         -->
@@ -69,7 +69,7 @@
         </statBases>
         <techLevel>Neolithic</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_WeatherlBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 2 </generateCommonality>
@@ -88,7 +88,7 @@
         <description>Weather, Common</description>
         <thingCategories>
         <li>Weather_SubSet</li>
-        <li>CommonTC<l/i>
+        <li>CommonTC</li>
         </thingCategories>
         <statBases>
             <marketValue>15</marketValue>
@@ -96,7 +96,7 @@
         </statBases>
         <techLevel>Neolithic</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_WeatherlBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 2 </generateCommonality>
@@ -115,7 +115,7 @@
         <description>Weather, Common</description>
         <thingCategories>
         <li>Weather_SubSet</li>
-        <li>CommonTC<li>
+        <li>CommonTC</li>
         </thingCategories>
         <statBases>
             <marketValue>15</marketValue>
@@ -123,7 +123,7 @@
         </statBases>
         <techLevel>Neolithic</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_WeatherlBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 2 </generateCommonality>
@@ -150,7 +150,7 @@
         </statBases>
         <techLevel>Neolithic</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_WeatherlBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 2 </generateCommonality>
@@ -172,7 +172,7 @@
         <li>UncommonTC</li>
         </thingCategories>
         <equippedStatOffsets>
-        <li> <ComfyTemperatureMin> -5 </ComfyTemperatureMin></li>
+            <ComfyTemperatureMin> -5 </ComfyTemperatureMin>
         </equippedStatOffsets>
         <statBases>
             <marketValue>50</marketValue>
@@ -180,7 +180,7 @@
         </statBases>
         <techLevel>Neolithic</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_WeatherlBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 1 </generateCommonality>
@@ -202,7 +202,7 @@
         <li>UncommonTC</li>
         </thingCategories>
         <equippedStatOffsets>
-        <li><RestRateMultiplier> 1.2 <RestRateMultiplier></li>
+            <RestRateMultiplier> 1.2 </RestRateMultiplier>
         </equippedStatOffsets>
         <statBases>
             <marketValue>50</marketValue>
@@ -210,7 +210,7 @@
         </statBases>
         <techLevel>Neolithic</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_WeatherlBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 1 </generateCommonality>
@@ -232,7 +232,7 @@
         <li>UncommonTC</li>
         </thingCategories>
         <equippedStatOffsets>
-        <li><RestRateMultiplier> 1.3 <RestRateMultiplier></li>
+            <RestRateMultiplier> 1.3 </RestRateMultiplier>
         </equippedStatOffsets>
         <statBases>
             <marketValue>50</marketValue>
@@ -240,7 +240,7 @@
         </statBases>
         <techLevel>Neolithic</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_WeatherlBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 1 </generateCommonality>
@@ -262,7 +262,7 @@
         <li>RareTC</li>
         </thingCategories>
         <equippedStatOffsets>
-        <li><MoveSpeed> 0.5 </MoveSpeed></li>
+            <MoveSpeed> 0.5 </MoveSpeed>
         </equippedStatOffsets>
         <statBases>
             <marketValue>150</marketValue>
@@ -270,7 +270,7 @@
         </statBases>
         <techLevel>Medieval</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_WeatherlBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 0.25 </generateCommonality>
@@ -292,7 +292,7 @@
         <li>UnheardTC</li>
         </thingCategories>
         <equippedStatOffsets>
-        <li><MoveSpeed> 1 </MoveSpeed></li>
+            <MoveSpeed> 1 </MoveSpeed>
         </equippedStatOffsets>
         <statBases>
             <marketValue>500</marketValue>
@@ -300,7 +300,7 @@
         </statBases>
         <techLevel>IndustrialAdvanced</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_WeatherlBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 0.05 </generateCommonality>
@@ -322,9 +322,9 @@
     <li>Full_Collection</li>
     </thingCategories>
     <equippedStatOffsets>
-    <li><MoveSpeed> 2 </MoveSpeed></li>
-    <li><RestRateMultiplier> 3 <RestRateMultiplier></li>
-    <li> <ComfyTemperatureMin> -20 </ComfyTemperatureMin></li>
+        <MoveSpeed> 2 </MoveSpeed>
+        <RestRateMultiplier> 3 </RestRateMultiplier>
+        <ComfyTemperatureMin> -20 </ComfyTemperatureMin>
     </equippedStatOffsets>
     <statBases>
         <marketValue>10000</marketValue>
@@ -332,7 +332,7 @@
     </statBases>
     <techLevel>Spacer</techLevel>
     <graphicData>
-        <texPath>TEXTUREHERE</texPath>
+        <texPath>Cards_Textures/RTCG_WeatherlBase</texPath>
         <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <generateCommonality> 0.01 </generateCommonality>
@@ -359,7 +359,7 @@
         </statBases>
         <techLevel>Neolithic</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_SkillsBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 2 </generateCommonality>
@@ -385,7 +385,7 @@
         </statBases>
         <techLevel>Neolithic</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_SkillsBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 2 </generateCommonality>
@@ -411,7 +411,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_SkillsBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality> 2 </generateCommonality>
@@ -437,7 +437,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_SkillsBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality> 2 </generateCommonality>
@@ -463,7 +463,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_SkillsBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality> 2 </generateCommonality>
@@ -484,8 +484,8 @@
             <li>UncommonTC</li>
         </thingCategories>
         <equippedStatOffsets>
-            <li><ForagedNutritionPerDay> 0.75 </ForagedNutritionPerDay></li>
-            <li><PlantWorkSpeed>0.1</PlantWorkSpeed></li>
+            <ForagedNutritionPerDay> 0.75 </ForagedNutritionPerDay>
+            <PlantWorkSpeed>0.1</PlantWorkSpeed>
         </equippedStatOffsets>
         <statBases>
             <marketValue>50</marketValue>
@@ -493,7 +493,7 @@
         </statBases>
         <techLevel>Neolithic</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_SkillsBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 1 </generateCommonality>
@@ -514,7 +514,7 @@
             <li>UncommonTC</li>
         </thingCategories>
         <equippedStatOffsets>
-            <li><TameAnimalChance>0.1</TameAnimalChance></li>
+            <TameAnimalChance>0.1</TameAnimalChance>
         </equippedStatOffsets>
         <statBases>
             <marketValue>50</marketValue>
@@ -522,7 +522,7 @@
         </statBases>
         <techLevel>Neolithic</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_SkillsBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 1 </generateCommonality>
@@ -543,7 +543,7 @@
             <li>UncommonTC</li>
         </thingCategories>
         <equippedStatOffsets>
-        <li><MiningSpeed>0.20</MiningSpeed></li>
+            <MiningSpeed>0.20</MiningSpeed>
         </equippedStatOffsets>
         <statBases>
             <marketValue>50</marketValue>
@@ -551,7 +551,7 @@
         </statBases>
         <techLevel>Neolithic</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_SkillsBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 1 </generateCommonality>
@@ -569,10 +569,10 @@
         <description>Skills, Rare</description>
         <thingCategories>
         <li>Skills_SubSet</li>
-        <li>RareTC<li>
+        <li>RareTC</li>
         </thingCategories>
         <equippedStatOffsets>
-            <li><MeleeHitChance>1</MeleeHitChance></li>
+            <MeleeHitChance>1</MeleeHitChance>
         </equippedStatOffsets>
         <statBases>
             <marketValue>150</marketValue>
@@ -580,7 +580,7 @@
         </statBases>
         <techLevel>Medieval</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_SkillsBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 0.25 </generateCommonality>
@@ -598,9 +598,10 @@
         <description>Skills, Rare</description>
         <thingCategories>
         <li>Skills_SubSet</li>
-        <li>RareTC<li>
+        <li>RareTC</li>
+        </thingCategories>
         <equippedStatOffsets>
-            <li><ShootingAccuracyPawn>1</ShootingAccuracyPawn></li>
+            <ShootingAccuracyPawn>1</ShootingAccuracyPawn>
         </equippedStatOffsets>
         <statBases>
             <marketValue>150</marketValue>
@@ -608,7 +609,7 @@
         </statBases>
         <techLevel>Medieval</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_SkillsBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 0.25 </generateCommonality>
@@ -626,9 +627,10 @@
         <description>Skills, Rare</description>
         <thingCategories>
         <li>Skills_SubSet</li>
-        <li>RareTC<li>
+        <li>RareTC</li>
+        </thingCategories>
         <equippedStatOffsets>
-            <li><ResearchSpeed>0.1</ResearchSpeed></li>
+            <ResearchSpeed>0.1</ResearchSpeed>
         </equippedStatOffsets>
         <statBases>
             <marketValue>150</marketValue>
@@ -636,7 +638,7 @@
         </statBases>
         <techLevel>Medieval</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_SkillsBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 0.25 </generateCommonality>
@@ -657,8 +659,8 @@
             <li>UnheardTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li><MedicalTendSpeed>0.3</MedicalTendSpeed></li>
-                <li><MedicalOperationSpeed>0.3</MedicalOperationSpeed></li>
+                <MedicalTendSpeed>0.3</MedicalTendSpeed>
+                <MedicalOperationSpeed>0.3</MedicalOperationSpeed>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>500</marketValue>
@@ -666,7 +668,7 @@
             </statBases>
             <techLevel>IndustrialAdvanced</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_SkillsBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality> 0.05 </generateCommonality>
@@ -687,15 +689,15 @@
     <li>Full_Collection</li>
     </thingCategories>
     <equippedStatOffsets>
-        <li><MedicalTendSpeed>0.3</MedicalTendSpeed></li>
-        <li><MedicalOperationSpeed>0.3</MedicalOperationSpeed></li>
-        <li><ResearchSpeed>0.1</ResearchSpeed></li>
-        <li><ShootingAccuracyPawn>1</ShootingAccuracyPawn></li>
-        <li><AimingDelayFactor>-0.25</AimingDelayFactor></li>
-        <li><MeleeHitChance>1</MeleeHitChance></li>
-        <li><MeleeDamageFactor>0.25</MeleeDamageFactor></li>
-        <li><MiningSpeed>0.20</MiningSpeed></li>
-        <li><TameAnimalChance>0.1</TameAnimalChance></li>
+        <MedicalTendSpeed>0.3</MedicalTendSpeed>
+        <MedicalOperationSpeed>0.3</MedicalOperationSpeed>
+        <ResearchSpeed>0.1</ResearchSpeed>
+        <ShootingAccuracyPawn>1</ShootingAccuracyPawn>
+        <AimingDelayFactor>-0.25</AimingDelayFactor>
+        <MeleeHitChance>1</MeleeHitChance>
+        <MeleeDamageFactor>0.25</MeleeDamageFactor>
+        <MiningSpeed>0.20</MiningSpeed>
+        <TameAnimalChance>0.1</TameAnimalChance>
     </equippedStatOffsets>
     <statBases>
         <marketValue>15000</marketValue>
@@ -703,7 +705,7 @@
     </statBases>
     <techLevel>Spacer</techLevel>
     <graphicData>
-        <texPath>TEXTUREHERE</texPath>
+        <texPath>Cards_Textures/RTCG_SkillsBase</texPath>
         <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <generateCommonality> 0.01 </generateCommonality>
@@ -730,7 +732,7 @@
         </statBases>
         <techLevel>Neolithic</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_MentalBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 2 </generateCommonality>
@@ -756,7 +758,7 @@
         </statBases>
         <techLevel>Neolithic</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_MentalBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 2 </generateCommonality>
@@ -782,7 +784,7 @@
         </statBases>
         <techLevel>Neolithic</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_MentalBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 2 </generateCommonality>
@@ -808,7 +810,7 @@
         </statBases>
         <techLevel>Neolithic</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_MentalBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 2 </generateCommonality>
@@ -834,7 +836,7 @@
         </statBases>
         <techLevel>Neolithic</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_MentalBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 2 </generateCommonality>
@@ -860,7 +862,7 @@
         </statBases>
         <techLevel>Neolithic</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_MentalBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 2 </generateCommonality>
@@ -881,7 +883,7 @@
             <li>UncommonTC</li>
         </thingCategories>
         <equippedStatOffsets>
-            <li><LifespanFactor>0.1</LifespanFactor></li>
+            <LifespanFactor>0.1</LifespanFactor>
         </equippedStatOffsets>
         <statBases>
             <marketValue>50</marketValue>
@@ -889,7 +891,7 @@
         </statBases>
         <techLevel>Neolithic</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_MentalBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 1 </generateCommonality>
@@ -910,8 +912,8 @@
             <li>UncommonTC</li>
         </thingCategories>
         <equippedStatOffsets>
-            <li><MeleeDamageFactor>0.5</MeleeDamageFactor></li>
-            <li><MentalBreakThreshold>0.05</MentalBreakThreshold></li>
+            <MeleeDamageFactor>0.5</MeleeDamageFactor>
+            <MentalBreakThreshold>0.05</MentalBreakThreshold>
         </equippedStatOffsets>
         <statBases>
             <marketValue>75</marketValue>
@@ -919,7 +921,7 @@
         </statBases>
         <techLevel>Neolithic</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_MentalBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 1 </generateCommonality>
@@ -940,8 +942,8 @@
             <li>UncommonTC</li>
         </thingCategories>
         <equippedStatOffsets>
-            <li><MoveSpeed>1</MoveSpeed></li>
-            <li><MentalBreakThreshold>0.05</MentalBreakThreshold></li>
+            <MoveSpeed>1</MoveSpeed>
+            <MentalBreakThreshold>0.05</MentalBreakThreshold>
         </equippedStatOffsets>
         <statBases>
             <marketValue>50</marketValue>
@@ -949,7 +951,7 @@
         </statBases>
         <techLevel>Neolithic</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_MentalBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 1 </generateCommonality>
@@ -970,8 +972,8 @@
             <li>UncommonTC</li>
         </thingCategories>
         <equippedStatOffsets>
-            <li><MoveSpeed>-0.5</MoveSpeed></li>
-            <li><MentalBreakThreshold>-0.1</MentalBreakThreshold></li>
+            <MoveSpeed>-0.5</MoveSpeed>
+            <MentalBreakThreshold>-0.1</MentalBreakThreshold>
         </equippedStatOffsets>
         <statBases>
             <marketValue>50</marketValue>
@@ -979,7 +981,7 @@
         </statBases>
         <techLevel>Neolithic</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_MentalBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 1 </generateCommonality>
@@ -1000,8 +1002,8 @@
             <li>UncommonTC</li>
         </thingCategories>
         <equippedStatOffsets>
-            <li><IncomingDamageFactor>0.15</IncomingDamageFactor></li>
-            <li><MentalBreakThreshold>-0.2</MentalBreakThreshold></li>
+            <IncomingDamageFactor>0.15</IncomingDamageFactor>
+            <MentalBreakThreshold>-0.2</MentalBreakThreshold>
         </equippedStatOffsets>
         <statBases>
             <marketValue>50</marketValue>
@@ -1009,7 +1011,7 @@
         </statBases>
         <techLevel>Neolithic</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_MentalBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 1 </generateCommonality>
@@ -1030,8 +1032,8 @@
             <li>RareTC</li>
         </thingCategories>
         <equippedStatOffsets>
-            <li><MentalBreakThreshold>-0.35</MentalBreakThreshold></li>
-            <li><LifespanFactor>-0.35</LifespanFactor></li>
+            <MentalBreakThreshold>-0.35</MentalBreakThreshold>
+            <LifespanFactor>-0.35</LifespanFactor>
         </equippedStatOffsets>
         <statBases>
             <marketValue>300</marketValue>
@@ -1039,7 +1041,7 @@
         </statBases>
         <techLevel>Medieval</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_MentalBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 0.20 </generateCommonality>
@@ -1060,9 +1062,9 @@
             <li>RareTC</li>
         </thingCategories>
         <equippedStatOffsets>
-            <li><ButcheryFleshSpeed>0.2</ButcheryFleshSpeed></li>
-            <li><ButcheryFleshEfficiency>0.2</ButcheryFleshEfficiency></li>
-            <li><MentalBreakThreshold>0.05</MentalBreakThreshold></li>
+            <ButcheryFleshSpeed>0.2</ButcheryFleshSpeed>
+            <ButcheryFleshEfficiency>0.2</ButcheryFleshEfficiency>
+            <MentalBreakThreshold>0.05</MentalBreakThreshold>
         </equippedStatOffsets>
         <statBases>
             <marketValue>125</marketValue>
@@ -1070,7 +1072,7 @@
         </statBases>
         <techLevel>Medieval</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_MentalBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 0.20 </generateCommonality>
@@ -1091,7 +1093,7 @@
             <li>RareTC</li>
         </thingCategories>
         <equippedStatOffsets>
-        <li><SuppressionPower>0.3</SuppressionPower></li>
+        <SuppressionPower>0.3</SuppressionPower>
         </equippedStatOffsets>
         <statBases>
             <marketValue>125</marketValue>
@@ -1099,7 +1101,7 @@
         </statBases>
         <techLevel>Medieval</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_MentalBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 0.20 </generateCommonality>
@@ -1120,8 +1122,8 @@
             <li>RareTC</li>
         </thingCategories>
         <equippedStatOffsets>
-        <li><PlantWorkSpeed>0.25</PlantWorkSpeed></li>
-        <li><PlantHarvestYield>0.25</PlantHarvestYield></li>
+        <PlantWorkSpeed>0.25</PlantWorkSpeed>
+        <PlantHarvestYield>0.25</PlantHarvestYield>
         </equippedStatOffsets>
         <statBases>
             <marketValue>125</marketValue>
@@ -1129,7 +1131,7 @@
         </statBases>
         <techLevel>Medieval</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_MentalBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 0.20 </generateCommonality>
@@ -1150,7 +1152,7 @@
         <li>UnheardTC</li>
         </thingCategories>
         <equippedStatOffsets>
-        <li><MentalBreakThreshold>-0.5</MentalBreakThreshold></li>
+        <MentalBreakThreshold>-0.5</MentalBreakThreshold>
         </equippedStatOffsets>
         <statBases>
             <marketValue>1000</marketValue>
@@ -1158,7 +1160,7 @@
         </statBases>
         <techLevel>IndustrialAdvanced</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_MentalBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 0.05 </generateCommonality>
@@ -1179,9 +1181,9 @@
         <li>UnheardTC</li>
         </thingCategories>
         <equippedStatOffsets>
-            <li><MeleeDamageFactor>0.75</MeleeDamageFactor></li>
-            <li><MentalBreakThreshold>0.5</MentalBreakThreshold></li>
-            <li><IncomingDamageFactor>0.15</IncomingDamageFactor></li>
+            <MeleeDamageFactor>0.75</MeleeDamageFactor>
+            <MentalBreakThreshold>0.5</MentalBreakThreshold>
+            <IncomingDamageFactor>0.15</IncomingDamageFactor>
         </equippedStatOffsets>
         <statBases>
             <marketValue>500</marketValue>
@@ -1189,7 +1191,7 @@
         </statBases>
         <techLevel>IndustrialAdvanced</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_MentalBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 0.05 </generateCommonality>
@@ -1210,8 +1212,8 @@
     <li>Full_Collection</li>
     </thingCategories>
     <equippedStatOffsets>
-    <li><MentalBreakThreshold>-1</MentalBreakThreshold></li>
-    <li><LifespanFactor>-0.5</LifespanFactor></li>
+    <MentalBreakThreshold>-1</MentalBreakThreshold>
+    <LifespanFactor>-0.5</LifespanFactor>
     </equippedStatOffsets>
     <statBases>
         <marketValue>10000</marketValue>
@@ -1219,7 +1221,7 @@
     </statBases>
     <techLevel>Spacer</techLevel>
     <graphicData>
-        <texPath>TEXTUREHERE</texPath>
+        <texPath>Cards_Textures/RTCG_MentalBase</texPath>
         <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <generateCommonality> 0.01 </generateCommonality>
@@ -1238,7 +1240,7 @@
         <description>Foods, Common</description>
         <thingCategories>
         <li>Foods_SubSet</li>
-        <li>CommonTC<li>
+        <li>CommonTC</li>
         </thingCategories>
         <statBases>
             <marketValue>15</marketValue>
@@ -1246,7 +1248,7 @@
         </statBases>
         <techLevel>Neolithic</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_FoodBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 2 </generateCommonality>
@@ -1264,7 +1266,7 @@
         <description>Foods, Common</description>
         <thingCategories>
         <li>Foods_SubSet</li>
-        <li>CommonTC<li>
+        <li>CommonTC</li>
         </thingCategories>
         <statBases>
             <marketValue>15</marketValue>
@@ -1272,7 +1274,7 @@
         </statBases>
         <techLevel>Neolithic</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_FoodBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 2 </generateCommonality>
@@ -1290,7 +1292,7 @@
         <description>Foods, Common</description>
         <thingCategories>
         <li>Foods_SubSet</li>
-        <li>CommonTC<li>
+        <li>CommonTC</li>
         </thingCategories>
         <statBases>
             <marketValue>15</marketValue>
@@ -1298,7 +1300,7 @@
         </statBases>
         <techLevel>Neolithic</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_FoodBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 2 </generateCommonality>
@@ -1316,7 +1318,7 @@
         <description>Foods, Common</description>
         <thingCategories>
         <li>Foods_SubSet</li>
-        <li>CommonTC<li>
+        <li>CommonTC</li>
         </thingCategories>
         <statBases>
             <marketValue>15</marketValue>
@@ -1324,7 +1326,7 @@
         </statBases>
         <techLevel>Neolithic</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_FoodBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 2 </generateCommonality>
@@ -1345,7 +1347,7 @@
             <li>UncommonTC</li>
         </thingCategories>
         <equippedStatOffsets>
-        <li> <HungerRateMultiplier>-0.1</HungerRateMultiplier></li>
+        <HungerRateMultiplier>-0.1</HungerRateMultiplier>
         </equippedStatOffsets>
         <statBases>
             <marketValue>50</marketValue>
@@ -1353,7 +1355,7 @@
         </statBases>
         <techLevel>Neolithic</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_FoodBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 1 </generateCommonality>
@@ -1374,8 +1376,8 @@
             <li>UncommonTC</li>
         </thingCategories>
         <equippedStatOffsets>
-        <li> <HungerRateMultiplier>0.2</HungerRateMultiplier></li>
-        <li> <EatingSpeed>0.2</EatingSpeed></li>
+        <HungerRateMultiplier>0.2</HungerRateMultiplier>
+        <EatingSpeed>0.2</EatingSpeed>
         </equippedStatOffsets>
         <statBases>
             <marketValue>50</marketValue>
@@ -1383,7 +1385,7 @@
         </statBases>
         <techLevel>Neolithic</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_FoodBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 1 </generateCommonality>
@@ -1404,8 +1406,8 @@
             <li>UncommonTC</li>
         </thingCategories>
         <equippedStatOffsets>
-        <li> <HungerRateMultiplier>-0.2</HungerRateMultiplier></li>
-        <li> <EatingSpeed>-0.4</EatingSpeed></li>
+        <HungerRateMultiplier>-0.2</HungerRateMultiplier>
+        <EatingSpeed>-0.4</EatingSpeed>
         </equippedStatOffsets>
         <statBases>
             <marketValue>50</marketValue>
@@ -1413,7 +1415,7 @@
         </statBases>
         <techLevel>Neolithic</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_FoodBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 1 </generateCommonality>
@@ -1434,7 +1436,7 @@
             <li>RareTC</li>
         </thingCategories>
         <equippedStatOffsets>
-            <li><MentalBreakThreshold>-0.02</MentalBreakThreshold></li>
+            <MentalBreakThreshold>-0.02</MentalBreakThreshold>
         </equippedStatOffsets>
         <statBases>
             <marketValue>125</marketValue>
@@ -1442,7 +1444,7 @@
         </statBases>
         <techLevel>Medieval</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_FoodBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 0.20 </generateCommonality>
@@ -1463,8 +1465,8 @@
             <li>RareTC</li>
         </thingCategories>
         <equippedStatOffsets>
-            <li><MentalBreakThreshold>-0.01</MentalBreakThreshold></li>
-            <li><EatingSpeed>0.1</EatingSpeed></li>
+            <MentalBreakThreshold>-0.01</MentalBreakThreshold>
+            <EatingSpeed>0.1</EatingSpeed>
         </equippedStatOffsets>
         <statBases>
             <marketValue>150</marketValue>
@@ -1472,7 +1474,7 @@
         </statBases>
         <techLevel>Medieval</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_FoodBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 0.20 </generateCommonality>
@@ -1493,9 +1495,9 @@
         <li>UnheardTC</li>
         </thingCategories>
         <equippedStatOffsets>
-                <li><MentalBreakThreshold>-0.1</MentalBreakThreshold></li>
-                <li><EatingSpeed>0.3</EatingSpeed></li>
-                <li> <HungerRateMultiplier>-0.3</HungerRateMultiplier></li>
+                <MentalBreakThreshold>-0.1</MentalBreakThreshold>
+                <EatingSpeed>0.3</EatingSpeed>
+                <HungerRateMultiplier>-0.3</HungerRateMultiplier>
         </equippedStatOffsets>
         <statBases>
             <marketValue>500</marketValue>
@@ -1503,7 +1505,7 @@
         </statBases>
         <techLevel>IndustrialAdvanced</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_FoodBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality> 0.05 </generateCommonality>
@@ -1524,9 +1526,9 @@
             <li>Full_Collection</li>
         </thingCategories>
         <equippedStatOffsets>
-            <li><MentalBreakThreshold>-0.1</MentalBreakThreshold></li>
-            <li><EatingSpeed>0.2</EatingSpeed></li>
-            <li> <HungerRateMultiplier>-0.2</HungerRateMultiplier></li>
+            <MentalBreakThreshold>-0.1</MentalBreakThreshold>
+            <EatingSpeed>0.2</EatingSpeed>
+            <HungerRateMultiplier>-0.2</HungerRateMultiplier>
         </equippedStatOffsets>
         <statBases>
             <marketValue>7000</marketValue>
@@ -1534,7 +1536,7 @@
         </statBases>
         <techLevel>Spacer</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_FoodBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality>0.01</generateCommonality>
@@ -1561,7 +1563,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_InsectoidBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -1587,7 +1589,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_InsectoidBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -1608,8 +1610,8 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li><FilthRate>1</FilthRate></li>
-                <li><GeneralLaborSpeed>0.1</GeneralLaborSpeed></li>
+                <FilthRate>1</FilthRate>
+                <GeneralLaborSpeed>0.1</GeneralLaborSpeed>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>50</marketValue>
@@ -1617,7 +1619,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_InsectoidBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>1</generateCommonality>
@@ -1638,8 +1640,8 @@
                 <li>RareTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li><PainShockThreshold>1.5</PainShockThreshold></li>
-                <li><FilthRate>0.3</FilthRate></li>
+                <PainShockThreshold>1.5</PainShockThreshold>
+                <FilthRate>0.3</FilthRate>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>150</marketValue>
@@ -1647,7 +1649,7 @@
             </statBases>
             <techLevel>Medieval</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_InsectoidBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>0.25</generateCommonality>
@@ -1668,8 +1670,8 @@
                 <li>UnheardTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li><li><PainShockThreshold>0.3</PainShockThreshold></li></li>
-                <li><PainShockThreshold>0.3</PainShockThreshold></li>
+                <PainShockThreshold>0.3</PainShockThreshold>
+                <PainShockThreshold>0.3</PainShockThreshold>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>500</marketValue>
@@ -1677,7 +1679,7 @@
             </statBases>
             <techLevel>IndustrialAdvanced</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_InsectoidBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>0.05</generateCommonality>
@@ -1698,9 +1700,9 @@
             <li>Full_Collection</li>
         </thingCategories>
         <equippedStatOffsets>
-            <li><li><PainShockThreshold>0.3</PainShockThreshold></li></li>
-            <li><GeneralLaborSpeed>0.3</GeneralLaborSpeed></li>
-            <li><FilthRate>3</FilthRate></li>
+            <PainShockThreshold>0.3</PainShockThreshold>
+            <GeneralLaborSpeed>0.3</GeneralLaborSpeed>
+            <FilthRate>3</FilthRate>
         </equippedStatOffsets>
         <statBases>
             <marketValue>11000</marketValue>
@@ -1708,7 +1710,7 @@
         </statBases>
         <techLevel>Spacer</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_InsectoidBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality>0.01</generateCommonality>
@@ -1735,7 +1737,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_MechanoidBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -1761,7 +1763,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_MechanoidBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -1787,7 +1789,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_MechanoidBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -1813,7 +1815,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_MechanoidBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -1834,7 +1836,7 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li><MiningSpeed>0.1</MiningSpeed> </li>
+                <MiningSpeed>0.1</MiningSpeed> 
             </equippedStatOffsets>
             <statBases>
                 <marketValue>50</marketValue>
@@ -1842,7 +1844,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_MechanoidBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>1</generateCommonality>
@@ -1863,7 +1865,7 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li><AimingDelayFactor>-0.1</AimingDelayFactor></li>
+                <AimingDelayFactor>-0.1</AimingDelayFactor>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>50</marketValue>
@@ -1871,7 +1873,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_MechanoidBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>1</generateCommonality>
@@ -1892,9 +1894,9 @@
                 <li>RareTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li><SmeltingSpeed>0.2</SmeltingSpeed></li>
-                <li><CookSpeed>0.2</CookSpeed></li>
-                <li><ComfyTemperatureMax>5</ComfyTemperatureMax></li>
+                <SmeltingSpeed>0.2</SmeltingSpeed>
+                <CookSpeed>0.2</CookSpeed>
+                <ComfyTemperatureMax>5</ComfyTemperatureMax>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>300</marketValue>
@@ -1902,7 +1904,7 @@
             </statBases>
             <techLevel>Medieval</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_MechanoidBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>0.25</generateCommonality>
@@ -1932,7 +1934,7 @@
             </statBases>
             <techLevel>Medieval</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_MechanoidBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>0.25</generateCommonality>
@@ -1953,9 +1955,9 @@
                 <li>UnheardTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li><ShootingAccuracyPawn>0.75</ShootingAccuracyPawn></li>
-                <li><AimingDelayFactor>0.5</AimingDelayFactor></li>
-                <li><RangedCooldownFactor>0.5</RangedCooldownFactor></li>
+                <ShootingAccuracyPawn>0.75</ShootingAccuracyPawn>
+                <AimingDelayFactor>0.5</AimingDelayFactor>
+                <RangedCooldownFactor>0.5</RangedCooldownFactor>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>800</marketValue>
@@ -1963,7 +1965,7 @@
             </statBases>
             <techLevel>IndustrialAdvanced</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_MechanoidBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>0.05</generateCommonality>
@@ -1984,10 +1986,10 @@
                 <li>Full_Collection</li>
             </thingCategories>
             <equippedStatOffsets>
-                    <li><ShootingAccuracyPawn>0.2</ShootingAccuracyPawn></li>
-                    <li><AimingDelayFactor>-0.2</AimingDelayFactor></li>
-                    <li><RangedCooldownFactor>-0.2</RangedCooldownFactor></li>
-                <li><PainShockThreshold>0.3</PainShockThreshold></li>
+                    <ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
+                    <AimingDelayFactor>-0.2</AimingDelayFactor>
+                    <RangedCooldownFactor>-0.2</RangedCooldownFactor>
+                <PainShockThreshold>0.3</PainShockThreshold>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>10000</marketValue>
@@ -1995,7 +1997,7 @@
             </statBases>
             <techLevel>Spacer</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_MechanoidBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>0.01</generateCommonality>
@@ -2022,7 +2024,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_OreBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -2048,7 +2050,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_OreBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -2074,7 +2076,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_OreBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -2100,7 +2102,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_OreBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -2126,7 +2128,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_OreBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -2147,7 +2149,7 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li><GlobalLearningFactor>0.05</GlobalLearningFactor></li>
+                <GlobalLearningFactor>0.05</GlobalLearningFactor>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>100</marketValue>
@@ -2155,7 +2157,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_OreBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>1</generateCommonality>
@@ -2176,7 +2178,7 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li><InjuryHealingFactor>0.1</InjuryHealingFactor></li>
+                <InjuryHealingFactor>0.1</InjuryHealingFactor>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>60</marketValue>
@@ -2184,7 +2186,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_OreBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>1</generateCommonality>
@@ -2205,7 +2207,7 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li><ArmorRating_Sharp>0.1</ArmorRating_Sharp></li>
+                <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>50</marketValue>
@@ -2213,7 +2215,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_OreBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>1</generateCommonality>
@@ -2234,7 +2236,7 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li><TradePriceImprovement>0.1</TradePriceImprovement></li>
+                <TradePriceImprovement>0.1</TradePriceImprovement>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>150</marketValue>
@@ -2242,7 +2244,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_OreBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>1</generateCommonality>
@@ -2263,7 +2265,7 @@
                 <li>RareTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li><TradePriceImprovement>0.2</TradePriceImprovement></li>
+                <TradePriceImprovement>0.2</TradePriceImprovement>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>300</marketValue>
@@ -2271,7 +2273,7 @@
             </statBases>
             <techLevel>Medieval</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_OreBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>0.25</generateCommonality>
@@ -2297,7 +2299,7 @@
             </statBases>
             <techLevel>Medieval</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_OreBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>0.25</generateCommonality>
@@ -2318,7 +2320,7 @@
                 <li>UnheardTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li><IncomingDamageFactor>-0.3</IncomingDamageFactor></li>
+                <IncomingDamageFactor>-0.3</IncomingDamageFactor>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>800</marketValue>
@@ -2326,7 +2328,7 @@
             </statBases>
             <techLevel>IndustrialAdvanced</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_OreBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>0.05</generateCommonality>
@@ -2347,10 +2349,10 @@
                 <li>Full_Collection</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li><IncomingDamageFactor>-0.5</IncomingDamageFactor></li>
-                <li><ConstructionSpeed>0.3</ConstructionSpeed></li>
-                <li><ConstructSuccessChance>0.3</ConstructSuccessChance></li>
-                <li><TradePriceImprovement>0.2</TradePriceImprovement></li>
+                <IncomingDamageFactor>-0.5</IncomingDamageFactor>
+                <ConstructionSpeed>0.3</ConstructionSpeed>
+                <ConstructSuccessChance>0.3</ConstructSuccessChance>
+                <TradePriceImprovement>0.2</TradePriceImprovement>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>10000</marketValue>
@@ -2358,7 +2360,7 @@
             </statBases>
             <techLevel>Spacer</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_OreBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>0.01</generateCommonality>
@@ -2385,7 +2387,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_WeaponBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -2411,7 +2413,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_WeaponBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -2437,7 +2439,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_WeaponBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -2463,7 +2465,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_WeaponBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -2489,7 +2491,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_WeaponBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -2515,7 +2517,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_WeaponBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -2541,7 +2543,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_WeaponBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -2567,7 +2569,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_WeaponBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -2593,7 +2595,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_WeaponBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -2614,7 +2616,7 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li><RangedCooldownFactor>-0.05</RangedCooldownFactor></li>
+                <RangedCooldownFactor>-0.05</RangedCooldownFactor>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>50</marketValue>
@@ -2622,7 +2624,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_WeaponBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>1</generateCommonality>
@@ -2643,7 +2645,7 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li><MeleeDodgeChance>0.10</MeleeDodgeChance></li>
+                <MeleeDodgeChance>0.10</MeleeDodgeChance>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>50</marketValue>
@@ -2651,7 +2653,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_WeaponBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>1</generateCommonality>
@@ -2672,8 +2674,8 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li><RangedCooldownFactor>-0.05</RangedCooldownFactor></li>
-                <li><ShootingAccuracyPawn>-0.05</ShootingAccuracyPawn></li>
+                <RangedCooldownFactor>-0.05</RangedCooldownFactor>
+                <ShootingAccuracyPawn>-0.05</ShootingAccuracyPawn>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>50</marketValue>
@@ -2681,7 +2683,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_WeaponBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>1</generateCommonality>
@@ -2702,7 +2704,7 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li><ArmorRating_Heat>1</ArmorRating_Heat></li>
+                <ArmorRating_Heat>1</ArmorRating_Heat>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>50</marketValue>
@@ -2710,7 +2712,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_WeaponBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>1</generateCommonality>
@@ -2731,7 +2733,7 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li><RangedCooldownFactor>0.1</RangedCooldownFactor></li>
+                <RangedCooldownFactor>0.1</RangedCooldownFactor>
                 <ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
             </equippedStatOffsets>
             <statBases>
@@ -2740,7 +2742,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_WeaponBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>1</generateCommonality>
@@ -2761,7 +2763,7 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li><ArmorRating_Heat>1</ArmorRating_Heat></li>
+                <ArmorRating_Heat>1</ArmorRating_Heat>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>50</marketValue>
@@ -2769,7 +2771,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_WeaponBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>1</generateCommonality>
@@ -2798,7 +2800,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_WeaponBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>1</generateCommonality>
@@ -2819,8 +2821,8 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li><RangedCooldownFactor>-0.1</RangedCooldownFactor></li>
-                <li><ShootingAccuracyPawn>-0.1</ShootingAccuracyPawn></li>
+                <RangedCooldownFactor>-0.1</RangedCooldownFactor>
+                <ShootingAccuracyPawn>-0.1</ShootingAccuracyPawn>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>50</marketValue>
@@ -2828,7 +2830,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_WeaponBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>1</generateCommonality>
@@ -2849,7 +2851,7 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li><MeleeDodgeChance>0.12</MeleeDodgeChance></li>
+                <MeleeDodgeChance>0.12</MeleeDodgeChance>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>75</marketValue>
@@ -2857,7 +2859,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_WeaponBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>1</generateCommonality>
@@ -2887,7 +2889,7 @@
             </statBases>
             <techLevel>Medieval</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_WeaponBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>0.25</generateCommonality>
@@ -2917,7 +2919,7 @@
             </statBases>
             <techLevel>Medieval</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_WeaponBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>0.25</generateCommonality>
@@ -2947,7 +2949,7 @@
             </statBases>
             <techLevel>Medieval</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_WeaponBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>0.25</generateCommonality>
@@ -2977,7 +2979,7 @@
             </statBases>
             <techLevel>Medieval</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_WeaponBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>0.25</generateCommonality>
@@ -3006,7 +3008,7 @@
             </statBases>
             <techLevel>Medieval</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_WeaponBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>0.25</generateCommonality>
@@ -3037,7 +3039,7 @@
             </statBases>
             <techLevel>IndustrialAdvanced</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_WeaponBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>0.05</generateCommonality>
@@ -3067,7 +3069,7 @@
             </statBases>
             <techLevel>IndustrialAdvanced</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_WeaponBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>0.05</generateCommonality>
@@ -3100,7 +3102,7 @@
             </statBases>
             <techLevel>Spacer</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_WeaponBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>0.01</generateCommonality>
@@ -3111,7 +3113,7 @@
             </apparel>
         </ThingDef>
 
-<!-- Apparel +++++++++++++++++++++++++++++++++++++ -->
+<!-- Apparel +++++++++++++++++++++++++++++++++++++ V -->
     <!--Bowler Hat-->
         <ThingDef ParentName="RTCG_Base">
             <defName>RTCG_BowlerHatCard</defName>
@@ -3127,7 +3129,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_ApparelBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -3153,7 +3155,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_ApparelBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -3179,7 +3181,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_ApparelBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -3205,7 +3207,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_ApparelBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -3231,7 +3233,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_ApparelBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -3257,7 +3259,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_ApparelBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -3283,7 +3285,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_ApparelBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -3309,7 +3311,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_ApparelBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -3335,7 +3337,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_ApparelBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -3361,7 +3363,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_ApparelBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -3382,7 +3384,8 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                <MoveSpeed>-2</MoveSpeed>
+                <IncomingDamageFactor>-0.05</IncomingDamageFactor>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>50</marketValue>
@@ -3390,7 +3393,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_ApparelBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>1</generateCommonality>
@@ -3411,7 +3414,8 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                <MoveSpeed>-0.5</MoveSpeed>
+                <IncomingDamageFactor>-0.01<IncomingDamageFactor>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>50</marketValue>
@@ -3419,7 +3423,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_ApparelBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>1</generateCommonality>
@@ -3440,7 +3444,8 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                <MoveSpeed>-0.5</MoveSpeed>
+                <IncomingDamageFactor>-0.01</IncomingDamageFactor>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>50</marketValue>
@@ -3448,7 +3453,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_ApparelBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>1</generateCommonality>
@@ -3469,7 +3474,8 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                <ShootingAccuracyPawn>-0.1</ShootingAccuracyPawn>
+                <IncomingDamageFactor>-0.02</IncomingDamageFactor>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>50</marketValue>
@@ -3477,7 +3483,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_ApparelBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>1</generateCommonality>
@@ -3498,7 +3504,8 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                <ShootingAccuracyPawn>-0.2</ShootingAccuracyPawn>
+                <IncomingDamageFactor>-0.01<IncomingDamageFactor>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>50</marketValue>
@@ -3506,7 +3513,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_ApparelBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>1</generateCommonality>
@@ -3527,15 +3534,16 @@
                 <li>RareTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                 <ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
+                <IncomingDamageFactor>-0.01</IncomingDamageFactor>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>150</marketValue>
-                <Beauty>1</Beauty>
+                <marketValue>300</marketValue>
+                <Beauty>3</Beauty>
             </statBases>
             <techLevel>Medieval</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_ApparelBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>0.25</generateCommonality>
@@ -3556,7 +3564,8 @@
                 <li>RareTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                 <ShootingAccuracyPawn>-0.2</ShootingAccuracyPawn>
+                <IncomingDamageFactor>-0.03</IncomingDamageFactor>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>150</marketValue>
@@ -3564,7 +3573,7 @@
             </statBases>
             <techLevel>Medieval</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_ApparelBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>0.25</generateCommonality>
@@ -3585,7 +3594,8 @@
                 <li>UnheardTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                <ShootingAccuracyPawn>-0.2</ShootingAccuracyPawn>
+                <IncomingDamageFactor>-0.1</IncomingDamageFactor>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>500</marketValue>
@@ -3593,7 +3603,7 @@
             </statBases>
             <techLevel>IndustrialAdvanced</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_ApparelBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>0.05</generateCommonality>
@@ -3614,7 +3624,8 @@
                 <li>UnheardTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+            <MoveSpeed>-2</MoveSpeed>
+                <IncomingDamageFactor>-0.2</IncomingDamageFactor>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>500</marketValue>
@@ -3622,7 +3633,7 @@
             </statBases>
             <techLevel>IndustrialAdvanced</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_ApparelBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>0.05</generateCommonality>
@@ -3634,33 +3645,34 @@
             </apparel>
         </ThingDef>
     <!-- Apparel Collection-->
-    <ThingDef ParentName="RTCG_Base">
-        <defName>RTCG_ApparelCollection</defName>
-        <label>Apparel Collection</label>
-        <description>Apparel, Collection</description>
-        <thingCategories>
-            <li>Gear_SubSet</li>
-            <li>Full_Collection</li>
-        </thingCategories>
-        <equippedStatOffsets>
-            <li></li>
-        </equippedStatOffsets>
-        <statBases>
-            <marketValue>10000</marketValue>
-            <Beauty>50</Beauty>
-        </statBases>
-        <techLevel>Spacer</techLevel>
-        <graphicData>
-            <texPath>TEXTUREHERE</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <generateCommonality>0.01</generateCommonality>
-        <apparel>
-            <tags>
-                <li>Spacer</li>
-            </tags>
-        </apparel>
-    </ThingDef>
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_ApparelCollection</defName>
+            <label>Apparel Collection</label>
+            <description>Apparel, Collection</description>
+            <thingCategories>
+                <li>Gear_SubSet</li>
+                <li>Full_Collection</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <IncomingDamageFactor>-0.4</IncomingDamageFactor>
+                <MoveSpeed>-2</MoveSpeed>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>15000</marketValue>
+                <Beauty>50</Beauty>
+            </statBases>
+            <techLevel>Spacer</techLevel>
+            <graphicData>
+                <texPath>Cards_Textures/RTCG_ApparelBase</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>0.01</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Spacer</li>
+                </tags>
+            </apparel>
+        </ThingDef>
 
 <!-- Animals +++++++++++++++++++++++++++++++++++++ -->
     <!--Alphabeaver-->
@@ -3678,7 +3690,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_AnimalBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -3704,7 +3716,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_AnimalBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -3730,7 +3742,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_AnimalBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -3756,7 +3768,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_AnimalBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -3782,7 +3794,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_AnimalBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -3808,7 +3820,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_AnimalBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -3834,7 +3846,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_AnimalBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -3860,7 +3872,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_AnimalBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -3886,7 +3898,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_AnimalBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -3912,7 +3924,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_AnimalBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -3938,7 +3950,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_AnimalBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -3964,7 +3976,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_AnimalBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -3990,7 +4002,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_AnimalBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -4016,7 +4028,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_AnimalBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -4042,7 +4054,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_AnimalBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>2</generateCommonality>
@@ -4063,7 +4075,7 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                
             </equippedStatOffsets>
             <statBases>
                 <marketValue>50</marketValue>
@@ -4071,7 +4083,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_AnimalBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>1</generateCommonality>
@@ -4092,7 +4104,7 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                
             </equippedStatOffsets>
             <statBases>
                 <marketValue>50</marketValue>
@@ -4100,7 +4112,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_AnimalBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>1</generateCommonality>
@@ -4121,7 +4133,7 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                
             </equippedStatOffsets>
             <statBases>
                 <marketValue>50</marketValue>
@@ -4129,7 +4141,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_AnimalBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>1</generateCommonality>
@@ -4150,7 +4162,7 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                
             </equippedStatOffsets>
             <statBases>
                 <marketValue>50</marketValue>
@@ -4158,7 +4170,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_AnimalBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>1</generateCommonality>
@@ -4179,7 +4191,7 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                
             </equippedStatOffsets>
             <statBases>
                 <marketValue>50</marketValue>
@@ -4187,7 +4199,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_AnimalBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>1</generateCommonality>
@@ -4208,7 +4220,7 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                
             </equippedStatOffsets>
             <statBases>
                 <marketValue>50</marketValue>
@@ -4216,7 +4228,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_AnimalBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>1</generateCommonality>
@@ -4237,7 +4249,7 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                
             </equippedStatOffsets>
             <statBases>
                 <marketValue>50</marketValue>
@@ -4245,7 +4257,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_AnimalBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>1</generateCommonality>
@@ -4266,7 +4278,7 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                
             </equippedStatOffsets>
             <statBases>
                 <marketValue>50</marketValue>
@@ -4274,7 +4286,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_AnimalBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>1</generateCommonality>
@@ -4295,7 +4307,7 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                
             </equippedStatOffsets>
             <statBases>
                 <marketValue>50</marketValue>
@@ -4303,7 +4315,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_AnimalBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>1</generateCommonality>
@@ -4324,7 +4336,7 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                
             </equippedStatOffsets>
             <statBases>
                 <marketValue>50</marketValue>
@@ -4332,7 +4344,7 @@
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_AnimalBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>1</generateCommonality>
@@ -4353,7 +4365,7 @@
                 <li>RareTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                
             </equippedStatOffsets>
             <statBases>
                 <marketValue>150</marketValue>
@@ -4361,7 +4373,7 @@
             </statBases>
             <techLevel>Medieval</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_AnimalBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>0.25</generateCommonality>
@@ -4382,7 +4394,7 @@
                 <li>RareTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                
             </equippedStatOffsets>
             <statBases>
                 <marketValue>150</marketValue>
@@ -4390,7 +4402,7 @@
             </statBases>
             <techLevel>Medieval</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_AnimalBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>0.25</generateCommonality>
@@ -4411,7 +4423,7 @@
                 <li>RareTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                
             </equippedStatOffsets>
             <statBases>
                 <marketValue>150</marketValue>
@@ -4419,7 +4431,7 @@
             </statBases>
             <techLevel>Medieval</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_AnimalBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>0.25</generateCommonality>
@@ -4440,7 +4452,7 @@
                 <li>UnheardTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                
             </equippedStatOffsets>
             <statBases>
                 <marketValue>500</marketValue>
@@ -4448,7 +4460,7 @@
             </statBases>
             <techLevel>IndustrialAdvanced</techLevel>
             <graphicData>
-                <texPath>TEXTUREHERE</texPath>
+                <texPath>Cards_Textures/RTCG_AnimalBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
             </graphicData>
             <generateCommonality>0.05</generateCommonality>
@@ -4469,7 +4481,7 @@
             <li>Full_Collection</li>
         </thingCategories>
         <equippedStatOffsets>
-            <li></li>
+            
         </equippedStatOffsets>
         <statBases>
             <marketValue>10000</marketValue>
@@ -4477,7 +4489,7 @@
         </statBases>
         <techLevel>Spacer</techLevel>
         <graphicData>
-            <texPath>TEXTUREHERE</texPath>
+            <texPath>Cards_Textures/RTCG_AnimalBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality>0.01</generateCommonality>
@@ -4487,4 +4499,4 @@
             </tags>
         </apparel>
     </ThingDef>
-</defs>
+</Defs>
