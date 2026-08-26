@@ -47,6 +47,7 @@
 	</ThingCategoryDef>
 	
 	<!-- Stars -->
+	<!--
 	<ThingCategoryDef>
 		<defName>Star RWCards</defName>
 		<label>Starred Cards</label>
@@ -125,6 +126,7 @@
 		<label>Gold Star Unheard Rimworld Cards</label>
 		<parent>Star RWCards</parent>
 	</ThingCategoryDef>
+	-->
 	
 	<!-- Expansion categorys -->
 

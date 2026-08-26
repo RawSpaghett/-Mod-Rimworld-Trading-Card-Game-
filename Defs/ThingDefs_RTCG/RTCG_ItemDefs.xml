@@ -2369,7 +2369,7 @@
             </apparel>
         </ThingDef>
 
-<!-- Weapons +++++++++++++++++++++++++++++++++++++ -->
+<!-- Weapons +++++++++++++++++++++++++++++++++++++ V -->
     <!--Frag grenades-->
         <ThingDef ParentName="RTCG_Base">
             <defName>RTCG_FragGrenadesCard</defName>
@@ -2614,7 +2614,7 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                <li><RangedCooldownFactor>-0.05</RangedCooldownFactor></li>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>50</marketValue>
@@ -2643,7 +2643,7 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                <li><MeleeDodgeChance>0.10</MeleeDodgeChance></li>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>50</marketValue>
@@ -2672,7 +2672,8 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                <li><RangedCooldownFactor>-0.05</RangedCooldownFactor></li>
+                <li><ShootingAccuracyPawn>-0.05</ShootingAccuracyPawn></li>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>50</marketValue>
@@ -2701,7 +2702,7 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                <li><ArmorRating_Heat>1</ArmorRating_Heat></li>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>50</marketValue>
@@ -2730,7 +2731,8 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                <li><RangedCooldownFactor>0.1</RangedCooldownFactor></li>
+                <ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>50</marketValue>
@@ -2759,7 +2761,7 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                <li><ArmorRating_Heat>1</ArmorRating_Heat></li>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>50</marketValue>
@@ -2788,11 +2790,11 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                <MoveSpeed>1.1</MoveSpeed>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>50</marketValue>
-                <Beauty>0</Beauty>
+                <marketValue>80</marketValue>
+                <Beauty>1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
@@ -2817,7 +2819,8 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                <li><RangedCooldownFactor>-0.1</RangedCooldownFactor></li>
+                <li><ShootingAccuracyPawn>-0.1</ShootingAccuracyPawn></li>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>50</marketValue>
@@ -2846,11 +2849,11 @@
                 <li>UncommonTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                <li><MeleeDodgeChance>0.12</MeleeDodgeChance></li>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>50</marketValue>
-                <Beauty>0</Beauty>
+                <marketValue>75</marketValue>
+                <Beauty>1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
             <graphicData>
@@ -2875,7 +2878,8 @@
                 <li>RareTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                <RangedCooldownFactor>-0.3</RangedCooldownFactor>
+                <ShootingAccuracyPawn>-0.3</ShootingAccuracyPawn>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>150</marketValue>
@@ -2904,11 +2908,12 @@
                 <li>RareTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                <RangedCooldownFactor>-0.8</RangedCooldownFactor>
+                <ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>150</marketValue>
-                <Beauty>1</Beauty>
+                <marketValue>400</marketValue>
+                <Beauty>3</Beauty>
             </statBases>
             <techLevel>Medieval</techLevel>
             <graphicData>
@@ -2933,10 +2938,11 @@
                 <li>RareTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                <MoveSpeed>-1</MoveSpeed>
+                <CarryingCapacity>25</CarryingCapacity>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>150</marketValue>
+                <marketValue>200</marketValue>
                 <Beauty>1</Beauty>
             </statBases>
             <techLevel>Medieval</techLevel>
@@ -2962,7 +2968,8 @@
                 <li>RareTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                <RangedCooldownFactor>0.3</RangedCooldownFactor>
+                <ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>150</marketValue>
@@ -2991,11 +2998,11 @@
                 <li>RareTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                <ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>150</marketValue>
-                <Beauty>1</Beauty>
+                <marketValue>350</marketValue>
+                <Beauty>3</Beauty>
             </statBases>
             <techLevel>Medieval</techLevel>
             <graphicData>
@@ -3020,7 +3027,9 @@
                 <li>UnheardTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                <MentalBreakThreshold>0.3</MentalBreakThreshold>
+                <ShootingAccuracyPawn>-0.2</ShootingAccuracyPawn>
+                <AimingDelayFactor>-0.4</AimingDelayFactor>
             </equippedStatOffsets>
             <statBases>
                 <marketValue>500</marketValue>
@@ -3049,10 +3058,11 @@
                 <li>UnheardTC</li>
             </thingCategories>
             <equippedStatOffsets>
-                <li></li>
+                <ShootingAccuracyPawn>-0.1</ShootingAccuracyPawn>
+                <AimingDelayFactor>-0.2</AimingDelayFactor>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>500</marketValue>
+                <marketValue>400</marketValue>
                 <Beauty>10</Beauty>
             </statBases>
             <techLevel>IndustrialAdvanced</techLevel>
@@ -3069,33 +3079,37 @@
             </apparel>
         </ThingDef>
     <!--Weapons Collection-->
-    <ThingDef ParentName="RTCG_Base">
-        <defName>RTCG_WeaponsCollection</defName>
-        <label>Weapons Collection</label>
-        <description>Weapons, Collection</description>
-        <thingCategories>
-            <li>Weapons_SubSet</li>
-            <li>Full_Collection</li>
-        </thingCategories>
-        <equippedStatOffsets>
-            <li></li>
-        </equippedStatOffsets>
-        <statBases>
-            <marketValue>10000</marketValue>
-            <Beauty>50</Beauty>
-        </statBases>
-        <techLevel>Spacer</techLevel>
-        <graphicData>
-            <texPath>TEXTUREHERE</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <generateCommonality>0.01</generateCommonality>
-        <apparel>
-            <tags>
-                <li>Spacer</li>
-            </tags>
-        </apparel>
-    </ThingDef>
+        <ThingDef ParentName="RTCG_Base">
+            <defName>RTCG_WeaponsCollection</defName>
+            <label>Weapons Collection</label>
+            <description>Weapons, Collection</description>
+            <thingCategories>
+                <li>Weapons_SubSet</li>
+                <li>Full_Collection</li>
+            </thingCategories>
+            <equippedStatOffsets>
+                <ShootingAccuracyPawn>0.3</ShootingAccuracyPawn>
+                <AimingDelayFactor>-0.3</AimingDelayFactor>
+                <RangedCooldownFactor>-0.3</RangedCooldownFactor>
+                <CarryingCapacity>45</CarryingCapacity>
+                <MoveSpeed>-1</MoveSpeed>
+            </equippedStatOffsets>
+            <statBases>
+                <marketValue>20000</marketValue>
+                <Beauty>50</Beauty>
+            </statBases>
+            <techLevel>Spacer</techLevel>
+            <graphicData>
+                <texPath>TEXTUREHERE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <generateCommonality>0.01</generateCommonality>
+            <apparel>
+                <tags>
+                    <li>Spacer</li>
+                </tags>
+            </apparel>
+        </ThingDef>
 
 <!-- Apparel +++++++++++++++++++++++++++++++++++++ -->
     <!--Bowler Hat-->
