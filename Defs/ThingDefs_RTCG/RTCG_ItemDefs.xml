@@ -8,7 +8,10 @@
         <altitudeLayer>Item</altitudeLayer>
         <thingCategories>
             <li>RTCG</li> 
-            <li> RTCGBaseSet </li>
+            <li>RTCGBaseSet</li>
+            <li>Manufactured</li>
+            <li>ItemsMisc</li>
+            <li>ApparelMisc</li>
         </thingCategories>
         <!--<equippedStatOffsets> -->
         <statBases>
@@ -18,7 +21,7 @@
             <SellPriceFactor>0.5</SellPriceFactor>
             <Mass>0.1</Mass> 
             <!--
-            <marketValue>10</marketValue>
+            <MarketValue>10</MarketValue>
             <Beauty>8</Beauty>
             -->
         </statBases>
@@ -30,6 +33,7 @@
         <drawGUIOverlay>true</drawGUIOverlay>
         <stackLimit>1</stackLimit>
         <tradeNeverStack>true</tradeNeverStack>
+        <tradeability>All</tradeability>
         <!-- <generateCommonality> </generateCommonality> -->
         <tradeTags> <li> BulkGoods </li> <li> ExoticMisc </li> </tradeTags>
         <!-- <graphicData>
@@ -37,19 +41,23 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         -->
-
         <soundInteract>Standard_Drop</soundInteract>
         <soundDrop>Standard_Drop</soundDrop>
         <apparel>
             <careIfWornByCorpse>false</careIfWornByCorpse>
-            <careIfDamageResult>false</careIfDamageResult>
             <bodyPartGroups>
                 <li>Waist</li>
             </bodyPartGroups>
             <layers>
                 <li>Belt</li>
             </layers>
-            <!--<tags> ADD TAGS FOR RAIDER APPAREL BUDGET </tags> -->
+            <tags>
+                <li>IndustrialBasic</li>
+                <li>IndustrialAdvanced</li>
+                <li>IndustrialMillitaryBasic</li>
+                <li>IndustrialMillitaryAdvanced</li>
+                <li>SpacerMillitary</li>
+             </tags> 
         </apparel>
     </ThingDef>
 
@@ -58,13 +66,13 @@
         <ThingDef ParentName="RTCG_Base">
         <defName>RTCG_ClearCard</defName>
         <label>Clear - Common</label>
-        <description> Weather, Common </description>
+        <description>Weather, Common</description>
         <thingCategories>
         <li>Weather_SubSet</li>
         <li>CommonTC</li>
         </thingCategories>
         <statBases>
-            <marketValue>15</marketValue>
+            <MarketValue>5</MarketValue>
             <Beauty>-0.1</Beauty>
         </statBases>
         <techLevel>Neolithic</techLevel>
@@ -91,7 +99,7 @@
         <li>CommonTC</li>
         </thingCategories>
         <statBases>
-            <marketValue>15</marketValue>
+            <MarketValue>5</MarketValue>
             <Beauty>-0.1</Beauty>
         </statBases>
         <techLevel>Neolithic</techLevel>
@@ -118,7 +126,7 @@
         <li>CommonTC</li>
         </thingCategories>
         <statBases>
-            <marketValue>15</marketValue>
+            <MarketValue>5</MarketValue>
             <Beauty>-0.1</Beauty>
         </statBases>
         <techLevel>Neolithic</techLevel>
@@ -145,7 +153,7 @@
         <li>CommonTC</li>
         </thingCategories>
         <statBases>
-            <marketValue>15</marketValue>
+            <MarketValue>5</MarketValue>
             <Beauty>-0.1</Beauty>
         </statBases>
         <techLevel>Neolithic</techLevel>
@@ -175,7 +183,7 @@
             <ComfyTemperatureMin> -5 </ComfyTemperatureMin>
         </equippedStatOffsets>
         <statBases>
-            <marketValue>50</marketValue>
+            <MarketValue>50</MarketValue>
             <Beauty>0</Beauty>
         </statBases>
         <techLevel>Neolithic</techLevel>
@@ -205,7 +213,7 @@
             <RestRateMultiplier> 1.2 </RestRateMultiplier>
         </equippedStatOffsets>
         <statBases>
-            <marketValue>50</marketValue>
+            <MarketValue>50</MarketValue>
             <Beauty>0</Beauty>
         </statBases>
         <techLevel>Neolithic</techLevel>
@@ -235,7 +243,7 @@
             <RestRateMultiplier> 1.3 </RestRateMultiplier>
         </equippedStatOffsets>
         <statBases>
-            <marketValue>50</marketValue>
+            <MarketValue>50</MarketValue>
             <Beauty>0</Beauty>
         </statBases>
         <techLevel>Neolithic</techLevel>
@@ -265,7 +273,7 @@
             <MoveSpeed> 0.5 </MoveSpeed>
         </equippedStatOffsets>
         <statBases>
-            <marketValue>150</marketValue>
+            <MarketValue>150</MarketValue>
             <Beauty>1</Beauty>
         </statBases>
         <techLevel>Medieval</techLevel>
@@ -277,7 +285,7 @@
         <apparel>
             <tags>
             <li>Medieval</li>
-            <li>IndustrialBasic</li>
+            <li>Industrial</li>
             </tags>
         </apparel>
         </ThingDef>
@@ -295,10 +303,10 @@
             <MoveSpeed> 1 </MoveSpeed>
         </equippedStatOffsets>
         <statBases>
-            <marketValue>500</marketValue>
+            <MarketValue>500</MarketValue>
             <Beauty>10</Beauty>
         </statBases>
-        <techLevel>IndustrialAdvanced</techLevel>
+        <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Cards_Textures/RTCG_WeatherlBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -306,8 +314,8 @@
         <generateCommonality> 0.05 </generateCommonality>
         <apparel>
             <tags>
-            <li>IndustrialBasic</li>
-            <li>IndustrialAdvanced</li>
+            <li>Industrial</li>
+            
             </tags>
         </apparel>
         </ThingDef>
@@ -327,7 +335,7 @@
         <ComfyTemperatureMin> -20 </ComfyTemperatureMin>
     </equippedStatOffsets>
     <statBases>
-        <marketValue>10000</marketValue>
+        <MarketValue>10000</MarketValue>
         <Beauty>50</Beauty>
     </statBases>
     <techLevel>Spacer</techLevel>
@@ -354,7 +362,7 @@
         <li>CommonTC</li>
         </thingCategories>
         <statBases>
-            <marketValue>15</marketValue>
+            <MarketValue>5</MarketValue>
             <Beauty>-0.1</Beauty>
         </statBases>
         <techLevel>Neolithic</techLevel>
@@ -380,7 +388,7 @@
             <li>CommonTC</li>
         </thingCategories>
         <statBases>
-            <marketValue>15</marketValue>
+            <MarketValue>5</MarketValue>
             <Beauty>-0.1</Beauty>
         </statBases>
         <techLevel>Neolithic</techLevel>
@@ -406,7 +414,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -432,7 +440,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -458,7 +466,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -488,7 +496,7 @@
             <PlantWorkSpeed>0.1</PlantWorkSpeed>
         </equippedStatOffsets>
         <statBases>
-            <marketValue>50</marketValue>
+            <MarketValue>50</MarketValue>
             <Beauty>0</Beauty>
         </statBases>
         <techLevel>Neolithic</techLevel>
@@ -517,7 +525,7 @@
             <TameAnimalChance>0.1</TameAnimalChance>
         </equippedStatOffsets>
         <statBases>
-            <marketValue>50</marketValue>
+            <MarketValue>50</MarketValue>
             <Beauty>0</Beauty>
         </statBases>
         <techLevel>Neolithic</techLevel>
@@ -546,7 +554,7 @@
             <MiningSpeed>0.20</MiningSpeed>
         </equippedStatOffsets>
         <statBases>
-            <marketValue>50</marketValue>
+            <MarketValue>50</MarketValue>
             <Beauty>0</Beauty>
         </statBases>
         <techLevel>Neolithic</techLevel>
@@ -575,7 +583,7 @@
             <MeleeHitChance>1</MeleeHitChance>
         </equippedStatOffsets>
         <statBases>
-            <marketValue>150</marketValue>
+            <MarketValue>150</MarketValue>
             <Beauty>1</Beauty>
         </statBases>
         <techLevel>Medieval</techLevel>
@@ -587,7 +595,7 @@
         <apparel>
             <tags>
             <li>Medieval</li>
-            <li>IndustrialBasic</li>
+            <li>Industrial</li>
             </tags>
         </apparel>
         </ThingDef>
@@ -604,7 +612,7 @@
             <ShootingAccuracyPawn>1</ShootingAccuracyPawn>
         </equippedStatOffsets>
         <statBases>
-            <marketValue>150</marketValue>
+            <MarketValue>150</MarketValue>
             <Beauty>1</Beauty>
         </statBases>
         <techLevel>Medieval</techLevel>
@@ -616,7 +624,7 @@
         <apparel>
             <tags>
             <li>Medieval</li>
-            <li>IndustrialBasic</li>
+            <li>Industrial</li>
             </tags>
         </apparel>
         </ThingDef>
@@ -633,7 +641,7 @@
             <ResearchSpeed>0.1</ResearchSpeed>
         </equippedStatOffsets>
         <statBases>
-            <marketValue>150</marketValue>
+            <MarketValue>150</MarketValue>
             <Beauty>1</Beauty>
         </statBases>
         <techLevel>Medieval</techLevel>
@@ -645,7 +653,7 @@
         <apparel>
             <tags>
             <li>Medieval</li>
-            <li>IndustrialBasic</li>
+            <li>Industrial</li>
             </tags>
         </apparel>
         </ThingDef>
@@ -663,10 +671,10 @@
                 <MedicalOperationSpeed>0.3</MedicalOperationSpeed>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>500</marketValue>
+                <MarketValue>500</MarketValue>
                 <Beauty>10</Beauty>
             </statBases>
-            <techLevel>IndustrialAdvanced</techLevel>
+            <techLevel>Industrial</techLevel>
             <graphicData>
                 <texPath>Cards_Textures/RTCG_SkillsBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
@@ -674,8 +682,8 @@
             <generateCommonality> 0.05 </generateCommonality>
             <apparel>
                 <tags>
-                <li>IndustrialBasic</li>
-                <li>IndustrialAdvanced</li>
+                <li>Industrial</li>
+                
                 </tags>
             </apparel>
             </ThingDef>
@@ -700,7 +708,7 @@
         <TameAnimalChance>0.1</TameAnimalChance>
     </equippedStatOffsets>
     <statBases>
-        <marketValue>15000</marketValue>
+        <MarketValue>15000</MarketValue>
         <Beauty>60</Beauty>
     </statBases>
     <techLevel>Spacer</techLevel>
@@ -727,7 +735,7 @@
             <li>CommonTC</li>
         </thingCategories>
         <statBases>
-            <marketValue>15</marketValue>
+            <MarketValue>5</MarketValue>
             <Beauty>-0.1</Beauty>
         </statBases>
         <techLevel>Neolithic</techLevel>
@@ -753,7 +761,7 @@
             <li>CommonTC</li>
         </thingCategories>
         <statBases>
-            <marketValue>15</marketValue>
+            <MarketValue>5</MarketValue>
             <Beauty>-0.1</Beauty>
         </statBases>
         <techLevel>Neolithic</techLevel>
@@ -779,7 +787,7 @@
             <li>CommonTC</li>
         </thingCategories>
         <statBases>
-            <marketValue>15</marketValue>
+            <MarketValue>5</MarketValue>
             <Beauty>-0.1</Beauty>
         </statBases>
         <techLevel>Neolithic</techLevel>
@@ -805,7 +813,7 @@
             <li>CommonTC</li>
         </thingCategories>
         <statBases>
-            <marketValue>15</marketValue>
+            <MarketValue>5</MarketValue>
             <Beauty>-0.1</Beauty>
         </statBases>
         <techLevel>Neolithic</techLevel>
@@ -831,7 +839,7 @@
             <li>CommonTC</li>
         </thingCategories>
         <statBases>
-            <marketValue>15</marketValue>
+            <MarketValue>5</MarketValue>
             <Beauty>-0.1</Beauty>
         </statBases>
         <techLevel>Neolithic</techLevel>
@@ -857,7 +865,7 @@
             <li>CommonTC</li>
         </thingCategories>
         <statBases>
-            <marketValue>15</marketValue>
+            <MarketValue>5</MarketValue>
             <Beauty>-0.1</Beauty>
         </statBases>
         <techLevel>Neolithic</techLevel>
@@ -877,7 +885,7 @@
         <ThingDef ParentName="RTCG_Base">
         <defName>RTCG_CorpseObsessionCard</defName>
         <label>Corpse Obsession - Uncommon</label>
-        <description> Mental Breaks, Uncommon</description>
+        <description>Mental Breaks, Uncommon</description>
         <thingCategories>
             <li>Mental_SubSet</li>
             <li>UncommonTC</li>
@@ -886,7 +894,7 @@
             <LifespanFactor>0.1</LifespanFactor>
         </equippedStatOffsets>
         <statBases>
-            <marketValue>50</marketValue>
+            <MarketValue>50</MarketValue>
             <Beauty>0</Beauty>
         </statBases>
         <techLevel>Neolithic</techLevel>
@@ -906,7 +914,7 @@
         <ThingDef ParentName="RTCG_Base">
         <defName>RTCG_BerserkCard</defName>
         <label>Berserk - Uncommon</label>
-        <description> Mental Breaks, Uncommon</description>
+        <description>Mental Breaks, Uncommon</description>
         <thingCategories>
             <li>Mental_SubSet</li>
             <li>UncommonTC</li>
@@ -916,7 +924,7 @@
             <MentalBreakThreshold>0.05</MentalBreakThreshold>
         </equippedStatOffsets>
         <statBases>
-            <marketValue>75</marketValue>
+            <MarketValue>75</MarketValue>
             <Beauty>0</Beauty>
         </statBases>
         <techLevel>Neolithic</techLevel>
@@ -936,7 +944,7 @@
         <ThingDef ParentName="RTCG_Base">
         <defName>RTCG_FireSpreeCard</defName>
         <label>Fire Spree - Uncommon</label>
-        <description> Mental Breaks, Uncommon</description>
+        <description>Mental Breaks, Uncommon</description>
         <thingCategories>
             <li>Mental_SubSet</li>
             <li>UncommonTC</li>
@@ -946,7 +954,7 @@
             <MentalBreakThreshold>0.05</MentalBreakThreshold>
         </equippedStatOffsets>
         <statBases>
-            <marketValue>50</marketValue>
+            <MarketValue>50</MarketValue>
             <Beauty>0</Beauty>
         </statBases>
         <techLevel>Neolithic</techLevel>
@@ -966,7 +974,7 @@
         <ThingDef ParentName="RTCG_Base">
         <defName>RTCG_DazeWanderCard</defName>
         <label>DazeWander - Uncommon</label>
-        <description> Mental Breaks, Uncommon</description>
+        <description>Mental Breaks, Uncommon</description>
         <thingCategories>
             <li>Mental_SubSet</li>
             <li>UncommonTC</li>
@@ -976,7 +984,7 @@
             <MentalBreakThreshold>-0.1</MentalBreakThreshold>
         </equippedStatOffsets>
         <statBases>
-            <marketValue>50</marketValue>
+            <MarketValue>50</MarketValue>
             <Beauty>0</Beauty>
         </statBases>
         <techLevel>Neolithic</techLevel>
@@ -996,7 +1004,7 @@
         <ThingDef ParentName="RTCG_Base">
         <defName>RTCG_SadisticRageCard</defName>
         <label>Sadistic Rage - Uncommon</label>
-        <description> Mental Breaks, Uncommon</description>
+        <description>Mental Breaks, Uncommon</description>
         <thingCategories>
             <li>Mental_SubSet</li>
             <li>UncommonTC</li>
@@ -1006,7 +1014,7 @@
             <MentalBreakThreshold>-0.2</MentalBreakThreshold>
         </equippedStatOffsets>
         <statBases>
-            <marketValue>50</marketValue>
+            <MarketValue>50</MarketValue>
             <Beauty>0</Beauty>
         </statBases>
         <techLevel>Neolithic</techLevel>
@@ -1026,7 +1034,7 @@
         <ThingDef ParentName="RTCG_Base">
         <defName>RTCG_HardDrugBingeCard</defName>
         <label>Hard Drug Binge - Rare</label>
-        <description> Mental Breaks, Rare</description>
+        <description>Mental Breaks, Rare</description>
         <thingCategories>
             <li>Mental_SubSet</li>
             <li>RareTC</li>
@@ -1036,7 +1044,7 @@
             <LifespanFactor>-0.35</LifespanFactor>
         </equippedStatOffsets>
         <statBases>
-            <marketValue>300</marketValue>
+            <MarketValue>300</MarketValue>
             <Beauty>1</Beauty>
         </statBases>
         <techLevel>Medieval</techLevel>
@@ -1048,7 +1056,7 @@
         <apparel>
             <tags>
             <li>Medieval</li>
-            <li>IndustrialBasic</li>
+            <li>Industrial</li>
             </tags>
         </apparel>
         </ThingDef>
@@ -1056,7 +1064,7 @@
         <ThingDef ParentName="RTCG_Base">
         <defName>RTCG_SlaughterCard</defName>
         <label>Slaughter - Rare</label>
-        <description> Mental Breaks, Rare</description>
+        <description>Mental Breaks, Rare</description>
         <thingCategories>
             <li>Mental_SubSet</li>
             <li>RareTC</li>
@@ -1067,7 +1075,7 @@
             <MentalBreakThreshold>0.05</MentalBreakThreshold>
         </equippedStatOffsets>
         <statBases>
-            <marketValue>125</marketValue>
+            <MarketValue>125</MarketValue>
             <Beauty>1</Beauty>
         </statBases>
         <techLevel>Medieval</techLevel>
@@ -1079,7 +1087,7 @@
         <apparel>
             <tags>
             <li>Medieval</li>
-            <li>IndustrialBasic</li>
+            <li>Industrial</li>
             </tags>
         </apparel>
         </ThingDef>
@@ -1087,16 +1095,16 @@
         <ThingDef ParentName="RTCG_Base">
         <defName>RTCG_JailbreakCard</defName>
         <label>Jailbreak - Rare</label>
-        <description> Mental Breaks, Rare</description>
+        <description>Mental Breaks, Rare</description>
         <thingCategories>
             <li>Mental_SubSet</li>
             <li>RareTC</li>
         </thingCategories>
         <equippedStatOffsets>
-        <SuppressionPower>0.3</SuppressionPower>
+
         </equippedStatOffsets>
         <statBases>
-            <marketValue>125</marketValue>
+            <MarketValue>125</MarketValue>
             <Beauty>1</Beauty>
         </statBases>
         <techLevel>Medieval</techLevel>
@@ -1108,7 +1116,7 @@
         <apparel>
             <tags>
             <li>Medieval</li>
-            <li>IndustrialBasic</li>
+            <li>Industrial</li>
             </tags>
         </apparel>
         </ThingDef>
@@ -1116,7 +1124,7 @@
         <ThingDef ParentName="RTCG_Base">
         <defName>RTCG_RunWildCard</defName>
         <label>Run Wild - Rare</label>
-        <description> Mental Breaks, Rare</description>
+        <description>Mental Breaks, Rare</description>
         <thingCategories>
             <li>Mental_SubSet</li>
             <li>RareTC</li>
@@ -1126,7 +1134,7 @@
         <PlantHarvestYield>0.25</PlantHarvestYield>
         </equippedStatOffsets>
         <statBases>
-            <marketValue>125</marketValue>
+            <MarketValue>125</MarketValue>
             <Beauty>1</Beauty>
         </statBases>
         <techLevel>Medieval</techLevel>
@@ -1138,7 +1146,7 @@
         <apparel>
             <tags>
             <li>Medieval</li>
-            <li>IndustrialBasic</li>
+            <li>Industrial</li>
             </tags>
         </apparel>
         </ThingDef>
@@ -1155,10 +1163,10 @@
         <MentalBreakThreshold>-0.5</MentalBreakThreshold>
         </equippedStatOffsets>
         <statBases>
-            <marketValue>1000</marketValue>
+            <MarketValue>1000</MarketValue>
             <Beauty>10</Beauty>
         </statBases>
-        <techLevel>IndustrialAdvanced</techLevel>
+        <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Cards_Textures/RTCG_MentalBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -1166,8 +1174,8 @@
         <generateCommonality> 0.05 </generateCommonality>
         <apparel>
             <tags>
-            <li>IndustrialBasic</li>
-            <li>IndustrialAdvanced</li>
+            <li>Industrial</li>
+            
             </tags>
         </apparel>
         </ThingDef>
@@ -1186,10 +1194,10 @@
             <IncomingDamageFactor>0.15</IncomingDamageFactor>
         </equippedStatOffsets>
         <statBases>
-            <marketValue>500</marketValue>
+            <MarketValue>500</MarketValue>
             <Beauty>10</Beauty>
         </statBases>
-        <techLevel>IndustrialAdvanced</techLevel>
+        <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Cards_Textures/RTCG_MentalBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -1197,8 +1205,8 @@
         <generateCommonality> 0.05 </generateCommonality>
         <apparel>
             <tags>
-            <li>IndustrialBasic</li>
-            <li>IndustrialAdvanced</li>
+            <li>Industrial</li>
+            
             </tags>
         </apparel>
         </ThingDef>
@@ -1208,7 +1216,7 @@
     <label>Mental Breaks Collection</label>
     <description>Mental Breaks, Collection</description>
     <thingCategories>
-    <li>Men_SubtalSet</li>
+    <li>Mental_SubSet</li>
     <li>Full_Collection</li>
     </thingCategories>
     <equippedStatOffsets>
@@ -1216,7 +1224,7 @@
     <LifespanFactor>-0.5</LifespanFactor>
     </equippedStatOffsets>
     <statBases>
-        <marketValue>10000</marketValue>
+        <MarketValue>10000</MarketValue>
         <Beauty>50</Beauty>
     </statBases>
     <techLevel>Spacer</techLevel>
@@ -1243,7 +1251,7 @@
         <li>CommonTC</li>
         </thingCategories>
         <statBases>
-            <marketValue>15</marketValue>
+            <MarketValue>5</MarketValue>
             <Beauty>-0.1</Beauty>
         </statBases>
         <techLevel>Neolithic</techLevel>
@@ -1269,7 +1277,7 @@
         <li>CommonTC</li>
         </thingCategories>
         <statBases>
-            <marketValue>15</marketValue>
+            <MarketValue>5</MarketValue>
             <Beauty>-0.1</Beauty>
         </statBases>
         <techLevel>Neolithic</techLevel>
@@ -1295,7 +1303,7 @@
         <li>CommonTC</li>
         </thingCategories>
         <statBases>
-            <marketValue>15</marketValue>
+            <MarketValue>5</MarketValue>
             <Beauty>-0.1</Beauty>
         </statBases>
         <techLevel>Neolithic</techLevel>
@@ -1321,7 +1329,7 @@
         <li>CommonTC</li>
         </thingCategories>
         <statBases>
-            <marketValue>15</marketValue>
+            <MarketValue>5</MarketValue>
             <Beauty>-0.1</Beauty>
         </statBases>
         <techLevel>Neolithic</techLevel>
@@ -1341,16 +1349,16 @@
         <ThingDef ParentName="RTCG_Base">
         <defName>RTCG_SimpleMealCard</defName>
         <label>Simple Meal - Uncommon</label>
-        <description> Foods, Uncommon</description>
+        <description>Foods, Uncommon</description>
         <thingCategories>
             <li>Foods_SubSet</li>
             <li>UncommonTC</li>
         </thingCategories>
         <equippedStatOffsets>
-        <HungerRateMultiplier>-0.1</HungerRateMultiplier>
+   
         </equippedStatOffsets>
         <statBases>
-            <marketValue>50</marketValue>
+            <MarketValue>50</MarketValue>
             <Beauty>0</Beauty>
         </statBases>
         <techLevel>Neolithic</techLevel>
@@ -1370,17 +1378,16 @@
         <ThingDef ParentName="RTCG_Base">
         <defName>RTCG_NutrientPasteCard</defName>
         <label>Nutrient Paste - Uncommon</label>
-        <description> Foods, Uncommon</description>
+        <description>Foods, Uncommon</description>
         <thingCategories>
             <li>Foods_SubSet</li>
             <li>UncommonTC</li>
         </thingCategories>
         <equippedStatOffsets>
-        <HungerRateMultiplier>0.2</HungerRateMultiplier>
         <EatingSpeed>0.2</EatingSpeed>
         </equippedStatOffsets>
         <statBases>
-            <marketValue>50</marketValue>
+            <MarketValue>50</MarketValue>
             <Beauty>0</Beauty>
         </statBases>
         <techLevel>Neolithic</techLevel>
@@ -1400,17 +1407,16 @@
         <ThingDef ParentName="RTCG_Base">
         <defName>RTCG_PemmicanCard</defName>
         <label>Pemmican - Uncommon</label>
-        <description> Foods, Uncommon</description>
+        <description>Foods, Uncommon</description>
         <thingCategories>
             <li>Foods_SubSet</li>
             <li>UncommonTC</li>
         </thingCategories>
         <equippedStatOffsets>
-        <HungerRateMultiplier>-0.2</HungerRateMultiplier>
         <EatingSpeed>-0.4</EatingSpeed>
         </equippedStatOffsets>
         <statBases>
-            <marketValue>50</marketValue>
+            <MarketValue>50</MarketValue>
             <Beauty>0</Beauty>
         </statBases>
         <techLevel>Neolithic</techLevel>
@@ -1430,7 +1436,7 @@
         <ThingDef ParentName="RTCG_Base">
         <defName>RTCG_ChocolateCard</defName>
         <label>Chocolate - Rare</label>
-        <description> Foods, Rare</description>
+        <description>Foods, Rare</description>
         <thingCategories>
             <li>Foods_SubSet</li>
             <li>RareTC</li>
@@ -1439,7 +1445,7 @@
             <MentalBreakThreshold>-0.02</MentalBreakThreshold>
         </equippedStatOffsets>
         <statBases>
-            <marketValue>125</marketValue>
+            <MarketValue>125</MarketValue>
             <Beauty>1</Beauty>
         </statBases>
         <techLevel>Medieval</techLevel>
@@ -1451,7 +1457,7 @@
         <apparel>
             <tags>
             <li>Medieval</li>
-            <li>IndustrialBasic</li>
+            <li>Industrial</li>
             </tags>
         </apparel>
         </ThingDef>
@@ -1459,7 +1465,7 @@
         <ThingDef ParentName="RTCG_Base">
         <defName>RTCG_FineMealCard</defName>
         <label>Fine Meal - Rare</label>
-        <description> Foods, Rare</description>
+        <description>Foods, Rare</description>
         <thingCategories>
             <li>Foods_SubSet</li>
             <li>RareTC</li>
@@ -1469,7 +1475,7 @@
             <EatingSpeed>0.1</EatingSpeed>
         </equippedStatOffsets>
         <statBases>
-            <marketValue>150</marketValue>
+            <MarketValue>150</MarketValue>
             <Beauty>1</Beauty>
         </statBases>
         <techLevel>Medieval</techLevel>
@@ -1481,7 +1487,7 @@
         <apparel>
             <tags>
             <li>Medieval</li>
-            <li>IndustrialBasic</li>
+            <li>Industrial</li>
             </tags>
         </apparel>
         </ThingDef>
@@ -1497,13 +1503,12 @@
         <equippedStatOffsets>
                 <MentalBreakThreshold>-0.1</MentalBreakThreshold>
                 <EatingSpeed>0.3</EatingSpeed>
-                <HungerRateMultiplier>-0.3</HungerRateMultiplier>
         </equippedStatOffsets>
         <statBases>
-            <marketValue>500</marketValue>
+            <MarketValue>500</MarketValue>
             <Beauty>10</Beauty>
         </statBases>
-        <techLevel>IndustrialAdvanced</techLevel>
+        <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Cards_Textures/RTCG_FoodBase</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -1511,8 +1516,8 @@
         <generateCommonality> 0.05 </generateCommonality>
         <apparel>
             <tags>
-            <li>IndustrialBasic</li>
-            <li>IndustrialAdvanced</li>
+            <li>Industrial</li>
+            
             </tags>
         </apparel>
         </ThingDef>
@@ -1528,10 +1533,9 @@
         <equippedStatOffsets>
             <MentalBreakThreshold>-0.1</MentalBreakThreshold>
             <EatingSpeed>0.2</EatingSpeed>
-            <HungerRateMultiplier>-0.2</HungerRateMultiplier>
         </equippedStatOffsets>
         <statBases>
-            <marketValue>7000</marketValue>
+            <MarketValue>7000</MarketValue>
             <Beauty>30</Beauty>
         </statBases>
         <techLevel>Spacer</techLevel>
@@ -1558,7 +1562,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -1584,7 +1588,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -1614,7 +1618,7 @@
                 <GeneralLaborSpeed>0.1</GeneralLaborSpeed>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>50</marketValue>
+                <MarketValue>50</MarketValue>
                 <Beauty>0</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -1644,7 +1648,7 @@
                 <FilthRate>0.3</FilthRate>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>150</marketValue>
+                <MarketValue>150</MarketValue>
                 <Beauty>1</Beauty>
             </statBases>
             <techLevel>Medieval</techLevel>
@@ -1656,7 +1660,7 @@
             <apparel>
                 <tags>
                     <li>Medieval</li>
-                    <li>IndustrialBasic</li>
+                    <li>Industrial</li>
                 </tags>
             </apparel>
         </ThingDef>
@@ -1674,10 +1678,10 @@
                 <PainShockThreshold>0.3</PainShockThreshold>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>500</marketValue>
+                <MarketValue>500</MarketValue>
                 <Beauty>10</Beauty>
             </statBases>
-            <techLevel>IndustrialAdvanced</techLevel>
+            <techLevel>Industrial</techLevel>
             <graphicData>
                 <texPath>Cards_Textures/RTCG_InsectoidBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
@@ -1685,8 +1689,8 @@
             <generateCommonality>0.05</generateCommonality>
             <apparel>
                 <tags>
-                    <li>IndustrialBasic</li>
-                    <li>IndustrialAdvanced</li>
+                    <li>Industrial</li>
+                    
                 </tags>
             </apparel>
         </ThingDef>
@@ -1705,7 +1709,7 @@
             <FilthRate>3</FilthRate>
         </equippedStatOffsets>
         <statBases>
-            <marketValue>11000</marketValue>
+            <MarketValue>11000</MarketValue>
             <Beauty>50</Beauty>
         </statBases>
         <techLevel>Spacer</techLevel>
@@ -1732,7 +1736,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -1758,7 +1762,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -1784,7 +1788,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -1810,7 +1814,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -1839,7 +1843,7 @@
                 <MiningSpeed>0.1</MiningSpeed> 
             </equippedStatOffsets>
             <statBases>
-                <marketValue>50</marketValue>
+                <MarketValue>50</MarketValue>
                 <Beauty>0</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -1868,7 +1872,7 @@
                 <AimingDelayFactor>-0.1</AimingDelayFactor>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>50</marketValue>
+                <MarketValue>50</MarketValue>
                 <Beauty>0</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -1899,7 +1903,7 @@
                 <ComfyTemperatureMax>5</ComfyTemperatureMax>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>300</marketValue>
+                <MarketValue>300</MarketValue>
                 <Beauty>3</Beauty>
             </statBases>
             <techLevel>Medieval</techLevel>
@@ -1911,7 +1915,7 @@
             <apparel>
                 <tags>
                     <li>Medieval</li>
-                    <li>IndustrialBasic</li>
+                    <li>Industrial</li>
                 </tags>
             </apparel>
         </ThingDef>
@@ -1929,7 +1933,7 @@
                 <RangedCooldownFactor>-0.2</RangedCooldownFactor>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>175</marketValue>
+                <MarketValue>175</MarketValue>
                 <Beauty>1</Beauty>
             </statBases>
             <techLevel>Medieval</techLevel>
@@ -1941,7 +1945,7 @@
             <apparel>
                 <tags>
                     <li>Medieval</li>
-                    <li>IndustrialBasic</li>
+                    <li>Industrial</li>
                 </tags>
             </apparel>
         </ThingDef>
@@ -1960,10 +1964,10 @@
                 <RangedCooldownFactor>0.5</RangedCooldownFactor>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>800</marketValue>
+                <MarketValue>800</MarketValue>
                 <Beauty>15</Beauty>
             </statBases>
-            <techLevel>IndustrialAdvanced</techLevel>
+            <techLevel>Industrial</techLevel>
             <graphicData>
                 <texPath>Cards_Textures/RTCG_MechanoidBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
@@ -1971,8 +1975,8 @@
             <generateCommonality>0.05</generateCommonality>
             <apparel>
                 <tags>
-                    <li>IndustrialBasic</li>
-                    <li>IndustrialAdvanced</li>
+                    <li>Industrial</li>
+                    
                 </tags>
             </apparel>
         </ThingDef>
@@ -1992,7 +1996,7 @@
                 <PainShockThreshold>0.3</PainShockThreshold>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>10000</marketValue>
+                <MarketValue>10000</MarketValue>
                 <Beauty>50</Beauty>
             </statBases>
             <techLevel>Spacer</techLevel>
@@ -2019,7 +2023,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -2045,7 +2049,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -2071,7 +2075,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -2097,7 +2101,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -2123,7 +2127,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -2152,7 +2156,7 @@
                 <GlobalLearningFactor>0.05</GlobalLearningFactor>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>100</marketValue>
+                <MarketValue>100</MarketValue>
                 <Beauty>2</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -2181,7 +2185,7 @@
                 <InjuryHealingFactor>0.1</InjuryHealingFactor>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>60</marketValue>
+                <MarketValue>60</MarketValue>
                 <Beauty>0</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -2210,7 +2214,7 @@
                 <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>50</marketValue>
+                <MarketValue>50</MarketValue>
                 <Beauty>0</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -2239,7 +2243,7 @@
                 <TradePriceImprovement>0.1</TradePriceImprovement>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>150</marketValue>
+                <MarketValue>150</MarketValue>
                 <Beauty>0</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -2268,7 +2272,7 @@
                 <TradePriceImprovement>0.2</TradePriceImprovement>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>300</marketValue>
+                <MarketValue>300</MarketValue>
                 <Beauty>5</Beauty>
             </statBases>
             <techLevel>Medieval</techLevel>
@@ -2280,7 +2284,7 @@
             <apparel>
                 <tags>
                     <li>Medieval</li>
-                    <li>IndustrialBasic</li>
+                    <li>Industrial</li>
                 </tags>
             </apparel>
         </ThingDef>
@@ -2294,7 +2298,7 @@
                 <li>RareTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>800</marketValue>
+                <MarketValue>800</MarketValue>
                 <Beauty>80</Beauty>
             </statBases>
             <techLevel>Medieval</techLevel>
@@ -2306,7 +2310,7 @@
             <apparel>
                 <tags>
                     <li>Medieval</li>
-                    <li>IndustrialBasic</li>
+                    <li>Industrial</li>
                 </tags>
             </apparel>
         </ThingDef>
@@ -2323,10 +2327,10 @@
                 <IncomingDamageFactor>-0.3</IncomingDamageFactor>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>800</marketValue>
+                <MarketValue>800</MarketValue>
                 <Beauty>10</Beauty>
             </statBases>
-            <techLevel>IndustrialAdvanced</techLevel>
+            <techLevel>Industrial</techLevel>
             <graphicData>
                 <texPath>Cards_Textures/RTCG_OreBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
@@ -2334,8 +2338,8 @@
             <generateCommonality>0.05</generateCommonality>
             <apparel>
                 <tags>
-                    <li>IndustrialBasic</li>
-                    <li>IndustrialAdvanced</li>
+                    <li>Industrial</li>
+                    
                 </tags>
             </apparel>
         </ThingDef>
@@ -2355,7 +2359,7 @@
                 <TradePriceImprovement>0.2</TradePriceImprovement>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>10000</marketValue>
+                <MarketValue>10000</MarketValue>
                 <Beauty>100</Beauty>
             </statBases>
             <techLevel>Spacer</techLevel>
@@ -2382,7 +2386,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -2408,7 +2412,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -2434,7 +2438,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -2460,7 +2464,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -2486,7 +2490,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -2512,7 +2516,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -2538,7 +2542,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -2564,7 +2568,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -2590,7 +2594,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -2619,7 +2623,7 @@
                 <RangedCooldownFactor>-0.05</RangedCooldownFactor>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>50</marketValue>
+                <MarketValue>50</MarketValue>
                 <Beauty>0</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -2648,7 +2652,7 @@
                 <MeleeDodgeChance>0.10</MeleeDodgeChance>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>50</marketValue>
+                <MarketValue>50</MarketValue>
                 <Beauty>0</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -2678,7 +2682,7 @@
                 <ShootingAccuracyPawn>-0.05</ShootingAccuracyPawn>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>50</marketValue>
+                <MarketValue>50</MarketValue>
                 <Beauty>0</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -2707,7 +2711,7 @@
                 <ArmorRating_Heat>1</ArmorRating_Heat>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>50</marketValue>
+                <MarketValue>50</MarketValue>
                 <Beauty>0</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -2737,7 +2741,7 @@
                 <ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>50</marketValue>
+                <MarketValue>50</MarketValue>
                 <Beauty>0</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -2766,7 +2770,7 @@
                 <ArmorRating_Heat>1</ArmorRating_Heat>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>50</marketValue>
+                <MarketValue>50</MarketValue>
                 <Beauty>0</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -2795,7 +2799,7 @@
                 <MoveSpeed>1.1</MoveSpeed>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>80</marketValue>
+                <MarketValue>80</MarketValue>
                 <Beauty>1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -2825,7 +2829,7 @@
                 <ShootingAccuracyPawn>-0.1</ShootingAccuracyPawn>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>50</marketValue>
+                <MarketValue>50</MarketValue>
                 <Beauty>0</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -2854,7 +2858,7 @@
                 <MeleeDodgeChance>0.12</MeleeDodgeChance>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>75</marketValue>
+                <MarketValue>75</MarketValue>
                 <Beauty>1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -2884,7 +2888,7 @@
                 <ShootingAccuracyPawn>-0.3</ShootingAccuracyPawn>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>150</marketValue>
+                <MarketValue>150</MarketValue>
                 <Beauty>1</Beauty>
             </statBases>
             <techLevel>Medieval</techLevel>
@@ -2896,7 +2900,7 @@
             <apparel>
                 <tags>
                     <li>Medieval</li>
-                    <li>IndustrialBasic</li>
+                    <li>Industrial</li>
                 </tags>
             </apparel>
         </ThingDef>
@@ -2914,7 +2918,7 @@
                 <ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>400</marketValue>
+                <MarketValue>400</MarketValue>
                 <Beauty>3</Beauty>
             </statBases>
             <techLevel>Medieval</techLevel>
@@ -2926,7 +2930,7 @@
             <apparel>
                 <tags>
                     <li>Medieval</li>
-                    <li>IndustrialBasic</li>
+                    <li>Industrial</li>
                 </tags>
             </apparel>
         </ThingDef>
@@ -2944,7 +2948,7 @@
                 <CarryingCapacity>25</CarryingCapacity>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>200</marketValue>
+                <MarketValue>200</MarketValue>
                 <Beauty>1</Beauty>
             </statBases>
             <techLevel>Medieval</techLevel>
@@ -2956,7 +2960,7 @@
             <apparel>
                 <tags>
                     <li>Medieval</li>
-                    <li>IndustrialBasic</li>
+                    <li>Industrial</li>
                 </tags>
             </apparel>
         </ThingDef>
@@ -2974,7 +2978,7 @@
                 <ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>150</marketValue>
+                <MarketValue>150</MarketValue>
                 <Beauty>1</Beauty>
             </statBases>
             <techLevel>Medieval</techLevel>
@@ -2986,7 +2990,7 @@
             <apparel>
                 <tags>
                     <li>Medieval</li>
-                    <li>IndustrialBasic</li>
+                    <li>Industrial</li>
                 </tags>
             </apparel>
         </ThingDef>
@@ -3003,7 +3007,7 @@
                 <ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>350</marketValue>
+                <MarketValue>350</MarketValue>
                 <Beauty>3</Beauty>
             </statBases>
             <techLevel>Medieval</techLevel>
@@ -3015,7 +3019,7 @@
             <apparel>
                 <tags>
                     <li>Medieval</li>
-                    <li>IndustrialBasic</li>
+                    <li>Industrial</li>
                 </tags>
             </apparel>
         </ThingDef>
@@ -3034,10 +3038,10 @@
                 <AimingDelayFactor>-0.4</AimingDelayFactor>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>500</marketValue>
+                <MarketValue>500</MarketValue>
                 <Beauty>10</Beauty>
             </statBases>
-            <techLevel>IndustrialAdvanced</techLevel>
+            <techLevel>Industrial</techLevel>
             <graphicData>
                 <texPath>Cards_Textures/RTCG_WeaponBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
@@ -3045,8 +3049,8 @@
             <generateCommonality>0.05</generateCommonality>
             <apparel>
                 <tags>
-                    <li>IndustrialBasic</li>
-                    <li>IndustrialAdvanced</li>
+                    <li>Industrial</li>
+                    
                 </tags>
             </apparel>
         </ThingDef>
@@ -3064,10 +3068,10 @@
                 <AimingDelayFactor>-0.2</AimingDelayFactor>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>400</marketValue>
+                <MarketValue>400</MarketValue>
                 <Beauty>10</Beauty>
             </statBases>
-            <techLevel>IndustrialAdvanced</techLevel>
+            <techLevel>Industrial</techLevel>
             <graphicData>
                 <texPath>Cards_Textures/RTCG_WeaponBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
@@ -3075,8 +3079,8 @@
             <generateCommonality>0.05</generateCommonality>
             <apparel>
                 <tags>
-                    <li>IndustrialBasic</li>
-                    <li>IndustrialAdvanced</li>
+                    <li>Industrial</li>
+                    
                 </tags>
             </apparel>
         </ThingDef>
@@ -3097,7 +3101,7 @@
                 <MoveSpeed>-1</MoveSpeed>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>20000</marketValue>
+                <MarketValue>20000</MarketValue>
                 <Beauty>50</Beauty>
             </statBases>
             <techLevel>Spacer</techLevel>
@@ -3124,7 +3128,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -3150,7 +3154,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -3176,7 +3180,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -3202,7 +3206,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -3228,7 +3232,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -3254,7 +3258,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -3280,7 +3284,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -3306,7 +3310,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -3332,7 +3336,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -3358,7 +3362,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -3388,7 +3392,7 @@
                 <IncomingDamageFactor>-0.05</IncomingDamageFactor>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>50</marketValue>
+                <MarketValue>50</MarketValue>
                 <Beauty>0</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -3415,10 +3419,10 @@
             </thingCategories>
             <equippedStatOffsets>
                 <MoveSpeed>-0.5</MoveSpeed>
-                <IncomingDamageFactor>-0.01<IncomingDamageFactor>
+                <IncomingDamageFactor>-0.01</IncomingDamageFactor>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>50</marketValue>
+                <MarketValue>50</MarketValue>
                 <Beauty>0</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -3448,7 +3452,7 @@
                 <IncomingDamageFactor>-0.01</IncomingDamageFactor>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>50</marketValue>
+                <MarketValue>50</MarketValue>
                 <Beauty>0</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -3478,7 +3482,7 @@
                 <IncomingDamageFactor>-0.02</IncomingDamageFactor>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>50</marketValue>
+                <MarketValue>50</MarketValue>
                 <Beauty>0</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -3505,10 +3509,10 @@
             </thingCategories>
             <equippedStatOffsets>
                 <ShootingAccuracyPawn>-0.2</ShootingAccuracyPawn>
-                <IncomingDamageFactor>-0.01<IncomingDamageFactor>
+                <IncomingDamageFactor>-0.01</IncomingDamageFactor>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>50</marketValue>
+                <MarketValue>50</MarketValue>
                 <Beauty>0</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -3538,7 +3542,7 @@
                 <IncomingDamageFactor>-0.01</IncomingDamageFactor>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>300</marketValue>
+                <MarketValue>300</MarketValue>
                 <Beauty>3</Beauty>
             </statBases>
             <techLevel>Medieval</techLevel>
@@ -3550,7 +3554,7 @@
             <apparel>
                 <tags>
                     <li>Medieval</li>
-                    <li>IndustrialBasic</li>
+                    <li>Industrial</li>
                 </tags>
             </apparel>
         </ThingDef>
@@ -3568,7 +3572,7 @@
                 <IncomingDamageFactor>-0.03</IncomingDamageFactor>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>150</marketValue>
+                <MarketValue>150</MarketValue>
                 <Beauty>1</Beauty>
             </statBases>
             <techLevel>Medieval</techLevel>
@@ -3580,7 +3584,7 @@
             <apparel>
                 <tags>
                     <li>Medieval</li>
-                    <li>IndustrialBasic</li>
+                    <li>Industrial</li>
                 </tags>
             </apparel>
         </ThingDef>
@@ -3598,10 +3602,10 @@
                 <IncomingDamageFactor>-0.1</IncomingDamageFactor>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>500</marketValue>
+                <MarketValue>500</MarketValue>
                 <Beauty>10</Beauty>
             </statBases>
-            <techLevel>IndustrialAdvanced</techLevel>
+            <techLevel>Industrial</techLevel>
             <graphicData>
                 <texPath>Cards_Textures/RTCG_ApparelBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
@@ -3609,8 +3613,8 @@
             <generateCommonality>0.05</generateCommonality>
             <apparel>
                 <tags>
-                    <li>IndustrialBasic</li>
-                    <li>IndustrialAdvanced</li>
+                    <li>Industrial</li>
+                    
                 </tags>
             </apparel>
         </ThingDef>
@@ -3628,10 +3632,10 @@
                 <IncomingDamageFactor>-0.2</IncomingDamageFactor>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>500</marketValue>
+                <MarketValue>500</MarketValue>
                 <Beauty>10</Beauty>
             </statBases>
-            <techLevel>IndustrialAdvanced</techLevel>
+            <techLevel>Industrial</techLevel>
             <graphicData>
                 <texPath>Cards_Textures/RTCG_ApparelBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
@@ -3639,8 +3643,8 @@
             <generateCommonality>0.05</generateCommonality>
             <apparel>
                 <tags>
-                    <li>IndustrialBasic</li>
-                    <li>IndustrialAdvanced</li>
+                    <li>Industrial</li>
+                    
                 </tags>
             </apparel>
         </ThingDef>
@@ -3658,7 +3662,7 @@
                 <MoveSpeed>-2</MoveSpeed>
             </equippedStatOffsets>
             <statBases>
-                <marketValue>15000</marketValue>
+                <MarketValue>15000</MarketValue>
                 <Beauty>50</Beauty>
             </statBases>
             <techLevel>Spacer</techLevel>
@@ -3685,7 +3689,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -3711,7 +3715,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -3737,7 +3741,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -3763,7 +3767,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -3789,7 +3793,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -3815,7 +3819,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -3841,7 +3845,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -3867,7 +3871,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -3893,7 +3897,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -3919,7 +3923,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -3945,7 +3949,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -3971,7 +3975,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -3997,7 +4001,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -4023,7 +4027,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -4049,7 +4053,7 @@
                 <li>CommonTC</li>
             </thingCategories>
             <statBases>
-                <marketValue>15</marketValue>
+                <MarketValue>5</MarketValue>
                 <Beauty>-0.1</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -4078,7 +4082,7 @@
                 
             </equippedStatOffsets>
             <statBases>
-                <marketValue>50</marketValue>
+                <MarketValue>50</MarketValue>
                 <Beauty>0</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -4107,7 +4111,7 @@
                 
             </equippedStatOffsets>
             <statBases>
-                <marketValue>50</marketValue>
+                <MarketValue>50</MarketValue>
                 <Beauty>0</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -4136,7 +4140,7 @@
                 
             </equippedStatOffsets>
             <statBases>
-                <marketValue>50</marketValue>
+                <MarketValue>50</MarketValue>
                 <Beauty>0</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -4165,7 +4169,7 @@
                 
             </equippedStatOffsets>
             <statBases>
-                <marketValue>50</marketValue>
+                <MarketValue>50</MarketValue>
                 <Beauty>0</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -4194,7 +4198,7 @@
                 
             </equippedStatOffsets>
             <statBases>
-                <marketValue>50</marketValue>
+                <MarketValue>50</MarketValue>
                 <Beauty>0</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -4223,7 +4227,7 @@
                 
             </equippedStatOffsets>
             <statBases>
-                <marketValue>50</marketValue>
+                <MarketValue>50</MarketValue>
                 <Beauty>0</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -4252,7 +4256,7 @@
                 
             </equippedStatOffsets>
             <statBases>
-                <marketValue>50</marketValue>
+                <MarketValue>50</MarketValue>
                 <Beauty>0</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -4281,7 +4285,7 @@
                 
             </equippedStatOffsets>
             <statBases>
-                <marketValue>50</marketValue>
+                <MarketValue>50</MarketValue>
                 <Beauty>0</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -4310,7 +4314,7 @@
                 
             </equippedStatOffsets>
             <statBases>
-                <marketValue>50</marketValue>
+                <MarketValue>50</MarketValue>
                 <Beauty>0</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -4339,7 +4343,7 @@
                 
             </equippedStatOffsets>
             <statBases>
-                <marketValue>50</marketValue>
+                <MarketValue>50</MarketValue>
                 <Beauty>0</Beauty>
             </statBases>
             <techLevel>Neolithic</techLevel>
@@ -4368,7 +4372,7 @@
                 
             </equippedStatOffsets>
             <statBases>
-                <marketValue>150</marketValue>
+                <MarketValue>150</MarketValue>
                 <Beauty>1</Beauty>
             </statBases>
             <techLevel>Medieval</techLevel>
@@ -4380,7 +4384,7 @@
             <apparel>
                 <tags>
                     <li>Medieval</li>
-                    <li>IndustrialBasic</li>
+                    <li>Industrial</li>
                 </tags>
             </apparel>
         </ThingDef>
@@ -4397,7 +4401,7 @@
                 
             </equippedStatOffsets>
             <statBases>
-                <marketValue>150</marketValue>
+                <MarketValue>150</MarketValue>
                 <Beauty>1</Beauty>
             </statBases>
             <techLevel>Medieval</techLevel>
@@ -4409,7 +4413,7 @@
             <apparel>
                 <tags>
                     <li>Medieval</li>
-                    <li>IndustrialBasic</li>
+                    <li>Industrial</li>
                 </tags>
             </apparel>
         </ThingDef>
@@ -4426,7 +4430,7 @@
                 
             </equippedStatOffsets>
             <statBases>
-                <marketValue>150</marketValue>
+                <MarketValue>150</MarketValue>
                 <Beauty>1</Beauty>
             </statBases>
             <techLevel>Medieval</techLevel>
@@ -4438,7 +4442,7 @@
             <apparel>
                 <tags>
                     <li>Medieval</li>
-                    <li>IndustrialBasic</li>
+                    <li>Industrial</li>
                 </tags>
             </apparel>
         </ThingDef>
@@ -4455,10 +4459,10 @@
                 
             </equippedStatOffsets>
             <statBases>
-                <marketValue>500</marketValue>
+                <MarketValue>500</MarketValue>
                 <Beauty>10</Beauty>
             </statBases>
-            <techLevel>IndustrialAdvanced</techLevel>
+            <techLevel>Industrial</techLevel>
             <graphicData>
                 <texPath>Cards_Textures/RTCG_AnimalBase</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
@@ -4466,8 +4470,8 @@
             <generateCommonality>0.05</generateCommonality>
             <apparel>
                 <tags>
-                    <li>IndustrialBasic</li>
-                    <li>IndustrialAdvanced</li>
+                    <li>Industrial</li>
+                    
                 </tags>
             </apparel>
         </ThingDef>
@@ -4484,7 +4488,7 @@
             
         </equippedStatOffsets>
         <statBases>
-            <marketValue>10000</marketValue>
+            <MarketValue>10000</MarketValue>
             <Beauty>50</Beauty>
         </statBases>
         <techLevel>Spacer</techLevel>
